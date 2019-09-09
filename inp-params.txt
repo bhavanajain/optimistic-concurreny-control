@@ -1,0 +1,501 @@
+4 500
+b d r1 r4 r7 r6 d w7 w0 c
+b d r5 r6 r6 r8 d w7 c
+b d r4 r7 r9 r9 d w0 c
+b d r4 r0 r0 r3 d w3 w9 c
+b d r0 r4 r6 r7 d w2 c
+b d r9 r1 r4 d w5 c
+b d r9 r9 r7 r1 d w0 c
+b d r2 r0 r4 r8 d w6 c
+b d r8 r8 r4 r7 d w4 c
+b d r4 r2 r3 d w1 c
+b d r7 r5 r0 d w9 c
+b d r2 r0 r5 r7 d w1 w8 c
+b d r9 r5 r3 r3 d w6 c
+b d r0 r7 r0 d w7 c
+b d r9 r3 r9 d w8 c
+b d r3 r6 r5 r7 d w0 w6 c
+b d r1 r4 r9 d w5 c
+b d r7 r8 r8 r2 d w6 w4 c
+b d r8 r7 r4 r3 d w9 c
+b d r5 r2 r4 d w7 c
+b d r8 r3 r9 d w1 c
+b d r4 r6 r5 r6 d w6 w8 c
+b d r8 r3 r7 d w9 c
+b d r2 r4 r0 d w2 c
+b d r5 r8 r9 r6 d w7 w5 c
+b d r8 r3 r4 r0 d w3 c
+b d r7 r3 r8 d w7 c
+b d r2 r9 r6 r8 d w8 w3 c
+b d r4 r6 r3 r9 d w0 w6 c
+b d r6 r6 r7 d w5 c
+b d r2 r4 r9 r7 d w3 w2 c
+b d r3 r4 r4 d w9 c
+b d r9 r6 r3 r0 d w4 w6 c
+b d r1 r6 r7 r5 d w7 w6 c
+b d r6 r8 r2 r7 d w6 c
+b d r4 r2 r5 d w1 c
+b d r8 r5 r3 r2 d w6 c
+b d r8 r7 r6 r3 d w8 c
+b d r7 r8 r6 r7 d w0 w3 c
+b d r3 r6 r9 d w0 c
+b d r9 r2 r1 r5 d w6 w1 c
+b d r3 r1 r9 r9 d w4 c
+b d r0 r6 r1 r2 d w9 w0 c
+b d r4 r6 r3 r3 d w6 w6 c
+b d r4 r7 r5 r9 d w2 w5 c
+b d r7 r9 r5 d w6 c
+b d r9 r7 r9 r2 d w5 c
+b d r8 r6 r1 d w7 c
+b d r0 r4 r4 d w6 c
+b d r8 r9 r8 d w7 c
+b d r6 r1 r6 r2 d w5 c
+b d r9 r2 r2 d w9 c
+b d r1 r9 r9 d w2 c
+b d r1 r0 r6 r2 d w8 w2 c
+b d r7 r0 r5 r8 d w9 c
+b d r8 r8 r7 r5 d w2 c
+b d r2 r5 r1 d w0 c
+b d r3 r5 r0 r1 d w1 w1 c
+b d r4 r9 r0 r8 d w4 w7 c
+b d r8 r6 r2 r4 d w2 w7 c
+b d r6 r4 r2 r5 d w8 c
+b d r4 r9 r6 r1 d w0 c
+b d r5 r2 r9 r4 d w5 w8 c
+b d r6 r9 r0 r7 d w9 w8 c
+b d r7 r2 r9 r7 d w3 w5 c
+b d r0 r6 r8 r4 d w0 c
+b d r4 r0 r3 r6 d w8 c
+b d r4 r0 r4 r3 d w9 w6 c
+b d r1 r6 r9 d w9 c
+b d r6 r0 r3 d w3 c
+b d r0 r7 r5 r3 d w4 w9 c
+b d r1 r0 r9 r9 d w6 c
+b d r0 r8 r4 r4 d w6 w2 c
+b d r5 r6 r2 r0 d w3 w9 c
+b d r5 r8 r4 d w1 c
+b d r9 r4 r5 r5 d w2 w6 c
+b d r4 r4 r7 r0 d w9 c
+b d r9 r9 r7 r0 d w8 w7 c
+b d r3 r2 r6 d w7 c
+b d r2 r2 r3 r8 d w0 w9 c
+b d r2 r9 r7 r4 d w1 w9 c
+b d r3 r1 r4 r4 d w3 w4 c
+b d r3 r2 r7 r0 d w8 c
+b d r8 r3 r5 r0 d w6 c
+b d r4 r2 r5 r3 d w2 c
+b d r3 r9 r7 r6 d w2 w3 c
+b d r2 r5 r6 r2 d w4 c
+b d r3 r2 r2 r5 d w8 c
+b d r6 r6 r5 d w3 c
+b d r3 r4 r4 r5 d w9 w7 c
+b d r1 r9 r3 r1 d w8 w3 c
+b d r5 r0 r2 d w4 c
+b d r3 r9 r5 d w6 c
+b d r1 r2 r2 d w0 c
+b d r7 r5 r0 r7 d w0 w0 c
+b d r2 r8 r1 d w2 c
+b d r8 r7 r8 d w4 c
+b d r6 r0 r9 r3 d w9 c
+b d r4 r2 r2 d w9 c
+b d r2 r0 r9 d w6 c
+b d r9 r7 r0 r2 d w7 c
+b d r6 r4 r5 d w9 c
+b d r4 r8 r4 r7 d w9 c
+b d r3 r6 r4 r1 d w8 w7 c
+b d r3 r6 r2 r1 d w1 w9 c
+b d r3 r2 r1 d w2 c
+b d r5 r7 r2 r9 d w6 c
+b d r5 r8 r0 r1 d w2 c
+b d r5 r5 r0 r7 d w2 w2 c
+b d r1 r0 r9 d w7 c
+b d r8 r8 r5 d w9 c
+b d r1 r4 r5 r1 d w4 c
+b d r2 r5 r3 r0 d w7 w4 c
+b d r5 r6 r6 r4 d w6 w0 c
+b d r5 r4 r8 d w8 c
+b d r5 r6 r7 r1 d w2 w3 c
+b d r9 r2 r5 d w1 c
+b d r3 r3 r9 d w3 c
+b d r0 r6 r9 r1 d w5 w7 c
+b d r3 r9 r7 r0 d w7 w0 c
+b d r6 r7 r7 d w1 c
+b d r5 r9 r4 r9 d w7 w8 c
+b d r9 r2 r6 r9 d w9 c
+b d r1 r1 r2 r8 d w6 c
+b d r7 r2 r3 r2 d w8 w6 c
+b d r9 r1 r8 r1 d w8 c
+b d r2 r9 r0 d w9 c
+b d r9 r2 r6 r3 d w9 w5 c
+b d r7 r6 r1 r9 d w4 c
+b d r8 r2 r5 r6 d w7 w7 c
+b d r0 r5 r0 r0 d w3 c
+b d r9 r5 r1 r0 d w2 c
+b d r2 r6 r6 d w5 c
+b d r0 r1 r8 r7 d w0 w3 c
+b d r5 r2 r1 r6 d w0 c
+b d r2 r7 r9 d w6 c
+b d r9 r4 r1 d w8 c
+b d r4 r4 r5 r8 d w5 w4 c
+b d r5 r2 r3 r6 d w9 c
+b d r4 r9 r1 d w7 c
+b d r3 r0 r1 r4 d w6 w8 c
+b d r2 r4 r0 d w8 c
+b d r7 r8 r0 r7 d w2 w2 c
+b d r0 r5 r8 d w5 c
+b d r2 r0 r7 d w9 c
+b d r1 r0 r1 r0 d w4 w3 c
+b d r4 r6 r4 r2 d w7 c
+b d r7 r6 r0 d w7 c
+b d r0 r4 r6 d w9 c
+b d r6 r8 r4 r7 d w6 w5 c
+b d r5 r5 r7 d w6 c
+b d r5 r9 r7 d w1 c
+b d r6 r2 r5 r4 d w3 w9 c
+b d r4 r4 r9 r0 d w0 w9 c
+b d r4 r9 r0 r2 d w4 c
+b d r0 r6 r7 d w6 c
+b d r3 r4 r6 r3 d w9 c
+b d r8 r0 r9 r5 d w6 w6 c
+b d r1 r2 r4 r7 d w5 c
+b d r7 r3 r1 r3 d w9 c
+b d r6 r0 r8 r8 d w2 w9 c
+b d r6 r4 r1 r9 d w9 w3 c
+b d r2 r1 r3 r5 d w0 w7 c
+b d r9 r2 r3 d w9 c
+b d r5 r1 r6 d w2 c
+b d r6 r7 r2 d w7 c
+b d r5 r5 r3 d w2 c
+b d r7 r8 r4 r3 d w3 w9 c
+b d r1 r1 r7 r3 d w0 w9 c
+b d r4 r1 r2 d w1 c
+b d r8 r9 r0 r4 d w1 w5 c
+b d r1 r9 r8 r5 d w6 w5 c
+b d r4 r2 r2 d w5 c
+b d r8 r9 r5 r3 d w2 c
+b d r6 r8 r5 r7 d w3 c
+b d r4 r7 r6 d w4 c
+b d r8 r1 r0 d w7 c
+b d r5 r4 r9 r6 d w8 c
+b d r9 r7 r4 d w8 c
+b d r4 r6 r1 d w7 c
+b d r4 r0 r0 r2 d w1 w8 c
+b d r9 r5 r7 r1 d w5 w5 c
+b d r5 r6 r1 d w6 c
+b d r8 r5 r9 r6 d w8 c
+b d r9 r6 r9 d w5 c
+b d r1 r6 r4 d w4 c
+b d r7 r7 r8 d w3 c
+b d r1 r2 r4 d w5 c
+b d r1 r2 r0 r1 d w9 w7 c
+b d r8 r8 r8 r4 d w2 w3 c
+b d r9 r6 r1 d w9 c
+b d r4 r3 r1 d w2 c
+b d r7 r8 r0 r6 d w5 w2 c
+b d r2 r5 r1 r1 d w8 w0 c
+b d r1 r3 r3 r6 d w1 w3 c
+b d r2 r1 r5 r7 d w5 w6 c
+b d r4 r6 r6 r1 d w9 c
+b d r2 r4 r1 r3 d w5 c
+b d r9 r5 r3 d w9 c
+b d r8 r3 r9 r5 d w8 w4 c
+b d r6 r7 r8 r7 d w0 w3 c
+b d r2 r1 r5 r0 d w6 w5 c
+b d r5 r9 r3 r9 d w1 c
+b d r8 r0 r7 r8 d w0 w2 c
+b d r7 r0 r0 d w8 c
+b d r3 r4 r3 d w1 c
+b d r7 r4 r0 r9 d w8 w2 c
+b d r2 r5 r2 r9 d w3 w1 c
+b d r8 r3 r1 r4 d w5 c
+b d r7 r5 r6 d w3 c
+b d r2 r4 r5 r3 d w8 w5 c
+b d r0 r9 r7 r3 d w2 w4 c
+b d r2 r2 r4 r0 d w5 c
+b d r5 r3 r3 r6 d w7 c
+b d r6 r7 r5 r1 d w1 w5 c
+b d r8 r4 r4 d w0 c
+b d r8 r9 r4 d w9 c
+b d r8 r0 r0 r1 d w4 c
+b d r9 r5 r9 d w9 c
+b d r9 r5 r0 r7 d w2 w4 c
+b d r9 r9 r2 r1 d w1 w5 c
+b d r1 r6 r8 d w6 c
+b d r3 r0 r9 r1 d w4 c
+b d r8 r9 r4 d w7 c
+b d r8 r7 r0 r0 d w8 c
+b d r4 r6 r5 d w3 c
+b d r8 r9 r9 d w6 c
+b d r6 r0 r2 d w8 c
+b d r1 r8 r6 r5 d w1 w2 c
+b d r0 r3 r3 r3 d w0 w7 c
+b d r1 r2 r8 r7 d w7 w0 c
+b d r3 r7 r9 r9 d w1 c
+b d r4 r8 r2 d w3 c
+b d r3 r3 r6 d w1 c
+b d r9 r9 r1 r4 d w1 w1 c
+b d r1 r6 r8 d w1 c
+b d r5 r5 r0 d w7 c
+b d r4 r0 r4 r4 d w7 w2 c
+b d r7 r6 r6 r3 d w7 c
+b d r5 r6 r1 r4 d w5 c
+b d r2 r7 r6 r0 d w8 w6 c
+b d r8 r5 r3 r9 d w6 c
+b d r7 r2 r2 d w2 c
+b d r6 r4 r7 r7 d w9 c
+b d r2 r7 r0 r2 d w4 c
+b d r7 r5 r5 r6 d w9 c
+b d r5 r6 r2 r7 d w0 c
+b d r3 r1 r3 r8 d w7 c
+b d r5 r7 r0 r4 d w4 w5 c
+b d r3 r3 r0 d w5 c
+b d r6 r4 r0 r0 d w7 c
+b d r2 r4 r0 d w0 c
+b d r8 r5 r8 r3 d w9 c
+b d r1 r7 r5 r0 d w7 c
+b d r1 r8 r9 r2 d w9 w2 c
+b d r5 r5 r3 r3 d w2 c
+b d r5 r3 r7 r2 d w9 w1 c
+b d r6 r4 r6 d w2 c
+b d r2 r1 r6 r3 d w4 c
+b d r2 r8 r8 r1 d w3 c
+b d r2 r6 r1 d w0 c
+b d r9 r4 r8 d w8 c
+b d r7 r9 r4 r0 d w4 w3 c
+b d r6 r5 r4 r1 d w9 w5 c
+b d r2 r2 r5 r3 d w1 w4 c
+b d r3 r6 r2 r1 d w3 c
+b d r7 r0 r1 d w5 c
+b d r1 r2 r1 r9 d w1 c
+b d r2 r8 r8 r6 d w4 w4 c
+b d r9 r5 r9 d w5 c
+b d r9 r1 r7 r7 d w4 w3 c
+b d r6 r9 r5 r3 d w6 w6 c
+b d r6 r6 r0 r3 d w2 c
+b d r2 r4 r1 r0 d w4 w5 c
+b d r5 r6 r2 r4 d w1 w3 c
+b d r4 r6 r0 r8 d w7 w1 c
+b d r6 r4 r8 r9 d w8 c
+b d r8 r4 r9 r0 d w1 c
+b d r6 r0 r6 r7 d w1 c
+b d r0 r3 r5 r8 d w1 w7 c
+b d r6 r5 r5 r1 d w3 w7 c
+b d r8 r8 r1 d w0 c
+b d r0 r7 r7 r2 d w2 w6 c
+b d r6 r9 r3 d w4 c
+b d r8 r9 r1 r8 d w0 w9 c
+b d r2 r0 r0 d w3 c
+b d r4 r7 r8 r0 d w0 c
+b d r3 r5 r2 d w1 c
+b d r6 r4 r1 d w9 c
+b d r1 r3 r2 d w0 c
+b d r8 r0 r1 r3 d w2 w8 c
+b d r2 r5 r1 d w7 c
+b d r4 r0 r6 r1 d w1 w3 c
+b d r5 r7 r2 r3 d w8 c
+b d r3 r2 r3 r0 d w8 c
+b d r7 r5 r0 r8 d w1 w4 c
+b d r3 r6 r2 r7 d w5 w0 c
+b d r8 r0 r2 r9 d w6 w8 c
+b d r8 r5 r0 r6 d w2 w7 c
+b d r0 r5 r3 r0 d w9 w2 c
+b d r3 r5 r0 r1 d w9 w7 c
+b d r3 r2 r8 r2 d w9 w1 c
+b d r2 r0 r2 r3 d w7 w0 c
+b d r6 r1 r7 r2 d w9 w7 c
+b d r5 r1 r5 r9 d w1 c
+b d r4 r0 r7 r5 d w9 c
+b d r6 r6 r2 r2 d w4 c
+b d r3 r3 r0 r7 d w7 c
+b d r5 r7 r8 r3 d w1 c
+b d r9 r3 r8 r0 d w6 c
+b d r6 r8 r1 r5 d w8 c
+b d r6 r8 r3 r0 d w8 c
+b d r2 r3 r6 d w4 c
+b d r8 r3 r8 r2 d w2 c
+b d r7 r0 r5 d w3 c
+b d r3 r8 r8 r6 d w5 c
+b d r2 r1 r9 r6 d w5 w7 c
+b d r9 r5 r6 r7 d w0 c
+b d r0 r0 r4 r0 d w8 w8 c
+b d r7 r1 r5 d w0 c
+b d r6 r0 r2 d w8 c
+b d r1 r1 r1 d w5 c
+b d r3 r9 r6 r7 d w1 w4 c
+b d r5 r4 r7 d w0 c
+b d r5 r0 r4 r8 d w0 w4 c
+b d r1 r6 r9 d w8 c
+b d r7 r5 r8 d w9 c
+b d r1 r4 r6 r6 d w2 c
+b d r4 r9 r2 r5 d w4 c
+b d r0 r5 r9 d w3 c
+b d r0 r6 r1 d w9 c
+b d r1 r1 r8 r9 d w9 w3 c
+b d r4 r1 r1 d w4 c
+b d r3 r0 r2 r2 d w1 w5 c
+b d r7 r9 r4 r7 d w1 w6 c
+b d r7 r3 r1 r1 d w1 w3 c
+b d r5 r8 r7 r5 d w7 w0 c
+b d r5 r9 r1 r0 d w9 c
+b d r1 r6 r2 r5 d w7 c
+b d r9 r8 r1 d w2 c
+b d r5 r0 r0 r9 d w0 c
+b d r8 r2 r4 r8 d w5 w1 c
+b d r8 r8 r1 r0 d w6 w5 c
+b d r6 r9 r3 r5 d w1 c
+b d r6 r1 r8 d w5 c
+b d r5 r6 r3 r4 d w9 w9 c
+b d r0 r8 r1 r7 d w0 w1 c
+b d r1 r1 r2 d w4 c
+b d r3 r1 r7 r4 d w3 c
+b d r3 r8 r2 r7 d w4 c
+b d r5 r5 r7 r2 d w5 w4 c
+b d r7 r1 r3 r3 d w2 w2 c
+b d r4 r4 r9 r7 d w0 w7 c
+b d r1 r5 r7 d w5 c
+b d r1 r7 r1 r9 d w3 c
+b d r4 r5 r2 d w5 c
+b d r1 r9 r7 r5 d w8 w4 c
+b d r6 r3 r1 r2 d w0 w5 c
+b d r4 r0 r5 r5 d w3 w9 c
+b d r2 r0 r9 r6 d w3 c
+b d r2 r7 r6 r6 d w1 c
+b d r5 r7 r9 r9 d w1 w7 c
+b d r0 r7 r3 r7 d w4 c
+b d r7 r4 r3 r0 d w9 c
+b d r9 r0 r6 r5 d w3 w7 c
+b d r6 r3 r8 r5 d w0 w4 c
+b d r4 r7 r3 r6 d w7 c
+b d r4 r7 r3 r8 d w9 w5 c
+b d r6 r8 r7 r0 d w3 w4 c
+b d r9 r7 r2 d w8 c
+b d r2 r3 r4 d w9 c
+b d r9 r5 r9 r1 d w5 w3 c
+b d r6 r5 r5 r2 d w0 c
+b d r9 r4 r5 r4 d w9 w4 c
+b d r1 r2 r8 r6 d w4 w5 c
+b d r1 r9 r3 r6 d w1 w7 c
+b d r7 r5 r4 r0 d w4 w7 c
+b d r5 r4 r4 d w6 c
+b d r4 r2 r1 d w5 c
+b d r8 r2 r4 r1 d w3 c
+b d r0 r3 r7 r9 d w1 w7 c
+b d r8 r2 r1 d w3 c
+b d r0 r1 r9 d w7 c
+b d r5 r5 r6 r1 d w7 w1 c
+b d r3 r4 r0 r2 d w4 w3 c
+b d r5 r0 r0 d w2 c
+b d r3 r8 r1 r4 d w7 c
+b d r0 r7 r3 d w4 c
+b d r1 r1 r5 r5 d w3 w0 c
+b d r4 r4 r9 r0 d w8 c
+b d r4 r1 r3 d w3 c
+b d r6 r0 r5 d w3 c
+b d r3 r7 r8 r0 d w8 c
+b d r1 r8 r4 r8 d w8 c
+b d r5 r6 r8 r5 d w1 c
+b d r3 r7 r4 d w5 c
+b d r0 r0 r3 d w2 c
+b d r9 r2 r2 r2 d w2 c
+b d r3 r7 r2 r4 d w2 c
+b d r5 r5 r3 d w9 c
+b d r5 r7 r0 r5 d w6 c
+b d r7 r0 r0 d w3 c
+b d r8 r0 r1 d w3 c
+b d r3 r3 r0 r9 d w7 c
+b d r8 r0 r8 r9 d w6 w6 c
+b d r0 r9 r5 r8 d w2 w4 c
+b d r2 r9 r2 d w8 c
+b d r8 r6 r3 r5 d w4 c
+b d r6 r1 r1 d w1 c
+b d r2 r7 r5 r1 d w6 c
+b d r0 r5 r0 d w6 c
+b d r7 r9 r9 r8 d w1 w9 c
+b d r3 r0 r2 r9 d w7 w1 c
+b d r1 r3 r5 r9 d w3 w9 c
+b d r0 r4 r4 r7 d w3 w2 c
+b d r0 r8 r2 r4 d w7 c
+b d r5 r7 r2 r0 d w6 w4 c
+b d r4 r8 r6 r8 d w9 w9 c
+b d r8 r3 r2 r5 d w6 w2 c
+b d r6 r5 r3 d w4 c
+b d r7 r2 r5 r3 d w9 w3 c
+b d r2 r3 r3 d w9 c
+b d r5 r4 r8 r2 d w4 w9 c
+b d r3 r3 r1 r2 d w6 w2 c
+b d r3 r0 r3 r1 d w0 w0 c
+b d r7 r8 r0 r0 d w7 w0 c
+b d r1 r5 r5 r1 d w8 c
+b d r2 r4 r1 r1 d w9 c
+b d r1 r2 r1 r7 d w3 w1 c
+b d r3 r6 r6 d w3 c
+b d r4 r6 r7 r0 d w6 w0 c
+b d r4 r9 r1 r5 d w0 w8 c
+b d r0 r1 r7 r7 d w0 c
+b d r3 r3 r0 r1 d w7 c
+b d r2 r6 r3 d w2 c
+b d r1 r6 r6 r7 d w3 w4 c
+b d r7 r6 r7 d w8 c
+b d r1 r1 r3 r1 d w7 c
+b d r0 r4 r7 r0 d w5 c
+b d r5 r1 r3 r9 d w3 c
+b d r0 r6 r6 r1 d w8 w5 c
+b d r1 r6 r6 d w3 c
+b d r5 r9 r0 r0 d w3 w4 c
+b d r9 r2 r8 r6 d w7 w9 c
+b d r0 r7 r9 r8 d w0 w3 c
+b d r3 r0 r6 r4 d w9 c
+b d r4 r6 r0 r0 d w7 c
+b d r3 r4 r3 r1 d w5 c
+b d r2 r3 r2 d w4 c
+b d r0 r2 r1 d w1 c
+b d r4 r1 r5 d w2 c
+b d r9 r3 r2 r1 d w5 c
+b d r5 r5 r2 r0 d w6 c
+b d r4 r6 r2 r1 d w4 w3 c
+b d r5 r2 r4 r8 d w3 c
+b d r5 r7 r5 r9 d w1 c
+b d r2 r7 r4 r8 d w6 c
+b d r0 r3 r8 r4 d w7 c
+b d r0 r0 r6 r2 d w4 w8 c
+b d r0 r3 r7 d w4 c
+b d r9 r5 r7 r1 d w9 c
+b d r5 r8 r4 r5 d w4 c
+b d r0 r3 r4 r4 d w7 c
+b d r5 r5 r3 d w7 c
+b d r1 r8 r8 r3 d w4 c
+b d r0 r3 r3 d w2 c
+b d r2 r3 r5 r4 d w8 w3 c
+b d r9 r0 r2 r9 d w0 w4 c
+b d r5 r7 r9 r0 d w4 w8 c
+b d r9 r2 r0 r7 d w8 c
+b d r4 r2 r5 d w8 c
+b d r7 r6 r7 r4 d w1 c
+b d r0 r1 r0 d w2 c
+b d r1 r3 r1 r1 d w0 w3 c
+b d r7 r2 r6 d w7 c
+b d r6 r2 r9 d w4 c
+b d r4 r7 r4 d w1 c
+b d r9 r4 r5 r4 d w8 w3 c
+b d r5 r4 r8 r2 d w0 w1 c
+b d r5 r5 r2 r7 d w2 w7 c
+b d r2 r9 r8 r2 d w9 c
+b d r7 r8 r8 r9 d w7 c
+b d r9 r1 r5 d w3 c
+b d r3 r6 r1 d w1 c
+b d r8 r5 r7 r6 d w7 c
+b d r2 r8 r6 d w5 c
+b d r9 r2 r0 r5 d w6 w2 c
+b d r5 r3 r7 d w2 c
+b d r8 r4 r8 d w9 c
+b d r2 r3 r1 r9 d w4 c
+b d r2 r8 r2 r4 d w3 w6 c
+b d r1 r8 r0 r7 d w8 c
+b d r3 r4 r0 r0 d w9 c
+b d r6 r8 r7 d w1 c
+b d r4 r2 r0 r9 d w3 w0 c
+b d r9 r0 r0 r5 d w0 c
+b d r9 r2 r9 r8 d w6 c
+b d r1 r3 r8 d w2 c
+b d r4 r1 r3 r9 d w8 c
+b d r2 r6 r5 d w9 c

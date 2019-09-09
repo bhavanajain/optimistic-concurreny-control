@@ -1,0 +1,3524 @@
+Thread 0 beginning transaction 0
+Thread 1 beginning transaction 1
+Thread 2 beginning transaction 2
+Thread 3 beginning transaction 3
+Thread 3: Reading data[4] = 1 for transaction #3
+Thread 3: Reading data[0] = 8 for transaction #3
+Thread 3: Reading data[0] = 8 for transaction #3
+Thread 3: Reading data[3] = 9 for transaction #3
+Thread 1: Reading data[5] = 3 for transaction #1
+Thread 1: Reading data[6] = 5 for transaction #1
+Thread 1: Reading data[6] = 5 for transaction #1
+Thread 1: Reading data[8] = 4 for transaction #1
+Thread 2: Reading data[4] = 1 for transaction #2
+Thread 2: Reading data[7] = 9 for transaction #2
+Thread 2: Reading data[9] = 10 for transaction #2
+Thread 2: Reading data[9] = 10 for transaction #2
+Thread 2: Writing data[0] = 7 for transaction #2
+Thread 2: Aborted transaction #2 due to conflict with transaction #3
+Thread 2 beginning transaction 6
+Thread 3: Writing data[3] = 6 for transaction #3
+Thread 1: Writing data[7] = 8 for transaction #1
+Thread 3: Writing data[9] = 4 for transaction #3
+Thread 3: Committed transaction #3 successfully
+Thread 1: Committed transaction #1 successfully
+Thread 3 beginning transaction 7
+Thread 1 beginning transaction 5
+Thread 0: Reading data[1] = 10 for transaction #0
+Thread 0: Reading data[4] = 1 for transaction #0
+Thread 2: Reading data[9] = 4 for transaction #6
+Thread 0: Reading data[7] = 8 for transaction #0
+Thread 2: Reading data[9] = 4 for transaction #6
+Thread 0: Reading data[6] = 5 for transaction #0
+Thread 2: Reading data[7] = 8 for transaction #6
+Thread 2: Reading data[1] = 10 for transaction #6
+Thread 1: Reading data[9] = 4 for transaction #5
+Thread 1: Reading data[1] = 10 for transaction #5
+Thread 1: Reading data[4] = 1 for transaction #5
+Thread 0: Writing data[7] = 6 for transaction #0
+Thread 0: Writing data[0] = 8 for transaction #0
+Thread 0: Aborted transaction #0 due to conflict with transaction #6
+Thread 0 beginning transaction 4
+Thread 2: Writing data[0] = 3 for transaction #6
+Thread 2: Committed transaction #6 successfully
+Thread 2 beginning transaction 10
+Thread 3: Reading data[2] = 4 for transaction #7
+Thread 3: Reading data[0] = 3 for transaction #7
+Thread 3: Reading data[4] = 1 for transaction #7
+Thread 3: Reading data[8] = 4 for transaction #7
+Thread 1: Writing data[5] = 3 for transaction #5
+Thread 1: Committed transaction #5 successfully
+Thread 1 beginning transaction 9
+Thread 0: Reading data[0] = 3 for transaction #4
+Thread 0: Reading data[4] = 1 for transaction #4
+Thread 0: Reading data[6] = 5 for transaction #4
+Thread 0: Reading data[7] = 8 for transaction #4
+Thread 2: Reading data[7] = 8 for transaction #10
+Thread 2: Reading data[5] = 3 for transaction #10
+Thread 2: Reading data[0] = 3 for transaction #10
+Thread 1: Reading data[4] = 1 for transaction #9
+Thread 1: Reading data[2] = 4 for transaction #9
+Thread 1: Reading data[3] = 6 for transaction #9
+Thread 2: Writing data[9] = 4 for transaction #10
+Thread 3: Writing data[6] = 4 for transaction #7
+Thread 2: Committed transaction #10 successfully
+Thread 2 beginning transaction 14
+Thread 3: Aborted transaction #7 due to conflict with transaction #4
+Thread 3 beginning transaction 11
+Thread 3: Reading data[2] = 4 for transaction #11
+Thread 3: Reading data[0] = 3 for transaction #11
+Thread 3: Reading data[5] = 3 for transaction #11
+Thread 3: Reading data[7] = 8 for transaction #11
+Thread 0: Writing data[2] = 7 for transaction #4
+Thread 0: Aborted transaction #4 due to conflict with transaction #9
+Thread 0 beginning transaction 8
+Thread 2: Reading data[9] = 4 for transaction #14
+Thread 2: Reading data[3] = 6 for transaction #14
+Thread 2: Reading data[9] = 4 for transaction #14
+Thread 1: Writing data[1] = 7 for transaction #9
+Thread 1: Committed transaction #9 successfully
+Thread 1 beginning transaction 13
+Thread 1: Reading data[0] = 3 for transaction #13
+Thread 1: Reading data[7] = 8 for transaction #13
+Thread 1: Reading data[0] = 3 for transaction #13
+Thread 1: Writing data[7] = 10 for transaction #13
+Thread 1: Aborted transaction #13 due to conflict with transaction #11
+Thread 1 beginning transaction 17
+Thread 2: Writing data[8] = 3 for transaction #14
+Thread 2: Committed transaction #14 successfully
+Thread 2 beginning transaction 18
+Thread 3: Writing data[1] = 2 for transaction #11
+Thread 3: Writing data[8] = 6 for transaction #11
+Thread 0: Reading data[8] = 3 for transaction #8
+Thread 3: Aborted transaction #11 due to conflict with transaction #8
+Thread 3 beginning transaction 15
+Thread 0: Reading data[8] = 3 for transaction #8
+Thread 0: Reading data[4] = 1 for transaction #8
+Thread 0: Reading data[7] = 8 for transaction #8
+Thread 1: Reading data[7] = 8 for transaction #17
+Thread 1: Reading data[8] = 3 for transaction #17
+Thread 1: Reading data[8] = 3 for transaction #17
+Thread 1: Reading data[2] = 4 for transaction #17
+Thread 2: Reading data[8] = 3 for transaction #18
+Thread 2: Reading data[7] = 8 for transaction #18
+Thread 2: Reading data[4] = 1 for transaction #18
+Thread 2: Reading data[3] = 6 for transaction #18
+Thread 1: Writing data[6] = 7 for transaction #17
+Thread 1: Writing data[4] = 2 for transaction #17
+Thread 1: Aborted transaction #17 due to conflict with transaction #8
+Thread 1 beginning transaction 21
+Thread 1: Reading data[4] = 1 for transaction #21
+Thread 1: Reading data[6] = 5 for transaction #21
+Thread 1: Reading data[5] = 3 for transaction #21
+Thread 1: Reading data[6] = 5 for transaction #21
+Thread 2: Writing data[9] = 4 for transaction #18
+Thread 2: Committed transaction #18 successfully
+Thread 2 beginning transaction 22
+Thread 3: Reading data[3] = 6 for transaction #15
+Thread 3: Reading data[6] = 5 for transaction #15
+Thread 3: Reading data[5] = 3 for transaction #15
+Thread 3: Reading data[7] = 8 for transaction #15
+Thread 0: Writing data[4] = 10 for transaction #8
+Thread 0: Aborted transaction #8 due to conflict with transaction #21
+Thread 0 beginning transaction 12
+Thread 2: Reading data[8] = 3 for transaction #22
+Thread 2: Reading data[3] = 6 for transaction #22
+Thread 2: Reading data[7] = 8 for transaction #22
+Thread 3: Writing data[0] = 4 for transaction #15
+Thread 3: Writing data[6] = 2 for transaction #15
+Thread 3: Aborted transaction #15 due to conflict with transaction #21
+Thread 3 beginning transaction 19
+Thread 1: Writing data[6] = 6 for transaction #21
+Thread 1: Writing data[8] = 1 for transaction #21
+Thread 1: Aborted transaction #21 due to conflict with transaction #22
+Thread 1 beginning transaction 25
+Thread 0: Reading data[9] = 4 for transaction #12
+Thread 0: Reading data[5] = 3 for transaction #12
+Thread 0: Reading data[3] = 6 for transaction #12
+Thread 0: Reading data[3] = 6 for transaction #12
+Thread 1: Reading data[8] = 3 for transaction #25
+Thread 1: Reading data[3] = 6 for transaction #25
+Thread 1: Reading data[4] = 1 for transaction #25
+Thread 1: Reading data[0] = 3 for transaction #25
+Thread 2: Writing data[9] = 8 for transaction #22
+Thread 2: Aborted transaction #22 due to conflict with transaction #12
+Thread 2 beginning transaction 26
+Thread 1: Writing data[3] = 5 for transaction #25
+Thread 3: Reading data[5] = 3 for transaction #19
+Thread 1: Aborted transaction #25 due to conflict with transaction #12
+Thread 1 beginning transaction 29
+Thread 2: Reading data[7] = 8 for transaction #26
+Thread 3: Reading data[2] = 4 for transaction #19
+Thread 2: Reading data[3] = 6 for transaction #26
+Thread 3: Reading data[4] = 1 for transaction #19
+Thread 2: Reading data[8] = 3 for transaction #26
+Thread 0: Writing data[6] = 5 for transaction #12
+Thread 0: Committed transaction #12 successfully
+Thread 0 beginning transaction 16
+Thread 1: Reading data[6] = 5 for transaction #29
+Thread 1: Reading data[6] = 5 for transaction #29
+Thread 1: Reading data[7] = 8 for transaction #29
+Thread 1: Writing data[5] = 7 for transaction #29
+Thread 1: Aborted transaction #29 due to conflict with transaction #19
+Thread 1 beginning transaction 33
+Thread 2: Writing data[7] = 9 for transaction #26
+Thread 2: Committed transaction #26 successfully
+Thread 2 beginning transaction 30
+Thread 0: Reading data[1] = 7 for transaction #16
+Thread 0: Reading data[4] = 1 for transaction #16
+Thread 0: Reading data[9] = 4 for transaction #16
+Thread 3: Writing data[7] = 7 for transaction #19
+Thread 3: Committed transaction #19 successfully
+Thread 3 beginning transaction 23
+Thread 2: Reading data[2] = 4 for transaction #30
+Thread 2: Reading data[4] = 1 for transaction #30
+Thread 2: Reading data[9] = 4 for transaction #30
+Thread 2: Reading data[7] = 7 for transaction #30
+Thread 0: Writing data[5] = 3 for transaction #16
+Thread 0: Committed transaction #16 successfully
+Thread 0 beginning transaction 20
+Thread 3: Reading data[2] = 4 for transaction #23
+Thread 3: Reading data[4] = 1 for transaction #23
+Thread 3: Reading data[0] = 3 for transaction #23
+Thread 2: Writing data[3] = 4 for transaction #30
+Thread 2: Writing data[2] = 10 for transaction #30
+Thread 2: Aborted transaction #30 due to conflict with transaction #23
+Thread 2 beginning transaction 34
+Thread 1: Reading data[1] = 7 for transaction #33
+Thread 1: Reading data[6] = 5 for transaction #33
+Thread 1: Reading data[7] = 7 for transaction #33
+Thread 1: Reading data[5] = 3 for transaction #33
+Thread 2: Reading data[6] = 5 for transaction #34
+Thread 2: Reading data[8] = 3 for transaction #34
+Thread 2: Reading data[2] = 4 for transaction #34
+Thread 2: Reading data[7] = 7 for transaction #34
+Thread 1: Writing data[7] = 7 for transaction #33
+Thread 1: Writing data[6] = 8 for transaction #33
+Thread 1: Aborted transaction #33 due to conflict with transaction #34
+Thread 1 beginning transaction 37
+Thread 0: Reading data[8] = 3 for transaction #20
+Thread 0: Reading data[3] = 6 for transaction #20
+Thread 0: Reading data[9] = 4 for transaction #20
+Thread 3: Writing data[2] = 1 for transaction #23
+Thread 3: Aborted transaction #23 due to conflict with transaction #34
+Thread 3 beginning transaction 27
+Thread 2: Writing data[6] = 1 for transaction #34
+Thread 2: Committed transaction #34 successfully
+Thread 2 beginning transaction 38
+Thread 1: Reading data[8] = 3 for transaction #37
+Thread 1: Reading data[7] = 7 for transaction #37
+Thread 1: Reading data[6] = 1 for transaction #37
+Thread 1: Reading data[3] = 6 for transaction #37
+Thread 0: Writing data[1] = 8 for transaction #20
+Thread 0: Committed transaction #20 successfully
+Thread 0 beginning transaction 24
+Thread 0: Reading data[5] = 3 for transaction #24
+Thread 0: Reading data[8] = 3 for transaction #24
+Thread 0: Reading data[9] = 4 for transaction #24
+Thread 0: Reading data[6] = 1 for transaction #24
+Thread 3: Reading data[2] = 4 for transaction #27
+Thread 3: Reading data[9] = 4 for transaction #27
+Thread 3: Reading data[6] = 1 for transaction #27
+Thread 3: Reading data[8] = 3 for transaction #27
+Thread 3: Writing data[8] = 4 for transaction #27
+Thread 3: Writing data[3] = 10 for transaction #27
+Thread 3: Aborted transaction #27 due to conflict with transaction #37
+Thread 3 beginning transaction 31
+Thread 1: Writing data[8] = 7 for transaction #37
+Thread 1: Aborted transaction #37 due to conflict with transaction #24
+Thread 1 beginning transaction 41
+Thread 2: Reading data[7] = 7 for transaction #38
+Thread 2: Reading data[8] = 3 for transaction #38
+Thread 2: Reading data[6] = 1 for transaction #38
+Thread 2: Reading data[7] = 7 for transaction #38
+Thread 0: Writing data[7] = 2 for transaction #24
+Thread 0: Writing data[5] = 7 for transaction #24
+Thread 0: Aborted transaction #24 due to conflict with transaction #38
+Thread 0 beginning transaction 28
+Thread 1: Reading data[3] = 6 for transaction #41
+Thread 1: Reading data[1] = 8 for transaction #41
+Thread 1: Reading data[9] = 4 for transaction #41
+Thread 1: Reading data[9] = 4 for transaction #41
+Thread 2: Writing data[0] = 5 for transaction #38
+Thread 3: Reading data[3] = 6 for transaction #31
+Thread 2: Writing data[3] = 3 for transaction #38
+Thread 3: Reading data[4] = 1 for transaction #31
+Thread 2: Aborted transaction #38 due to conflict with transaction #31
+Thread 3: Reading data[4] = 1 for transaction #31
+Thread 2 beginning transaction 42
+Thread 2: Reading data[0] = 3 for transaction #42
+Thread 2: Reading data[6] = 1 for transaction #42
+Thread 2: Reading data[1] = 8 for transaction #42
+Thread 2: Reading data[2] = 4 for transaction #42
+Thread 3: Writing data[9] = 6 for transaction #31
+Thread 2: Writing data[9] = 5 for transaction #42
+Thread 2: Writing data[0] = 6 for transaction #42
+Thread 3: Aborted transaction #31 due to conflict with transaction #41
+Thread 2: Aborted transaction #42 due to conflict with transaction #41
+Thread 3 beginning transaction 35
+Thread 2 beginning transaction 46
+Thread 0: Reading data[4] = 1 for transaction #28
+Thread 0: Reading data[6] = 1 for transaction #28
+Thread 0: Reading data[3] = 6 for transaction #28
+Thread 0: Reading data[9] = 4 for transaction #28
+Thread 1: Writing data[4] = 10 for transaction #41
+Thread 1: Aborted transaction #41 due to conflict with transaction #28
+Thread 1 beginning transaction 45
+Thread 2: Reading data[9] = 4 for transaction #46
+Thread 2: Reading data[7] = 7 for transaction #46
+Thread 2: Reading data[9] = 4 for transaction #46
+Thread 2: Reading data[2] = 4 for transaction #46
+Thread 3: Reading data[4] = 1 for transaction #35
+Thread 3: Reading data[2] = 4 for transaction #35
+Thread 3: Reading data[5] = 3 for transaction #35
+Thread 0: Writing data[0] = 2 for transaction #28
+Thread 0: Writing data[6] = 10 for transaction #28
+Thread 0: Committed transaction #28 successfully
+Thread 0 beginning transaction 32
+Thread 1: Reading data[7] = 7 for transaction #45
+Thread 1: Reading data[9] = 4 for transaction #45
+Thread 1: Reading data[5] = 3 for transaction #45
+Thread 3: Writing data[1] = 9 for transaction #35
+Thread 3: Committed transaction #35 successfully
+Thread 3 beginning transaction 39
+Thread 2: Writing data[5] = 7 for transaction #46
+Thread 2: Aborted transaction #46 due to conflict with transaction #45
+Thread 2 beginning transaction 50
+Thread 3: Reading data[3] = 6 for transaction #39
+Thread 3: Reading data[6] = 10 for transaction #39
+Thread 3: Reading data[9] = 4 for transaction #39
+Thread 0: Reading data[9] = 4 for transaction #32
+Thread 0: Reading data[6] = 10 for transaction #32
+Thread 0: Reading data[3] = 6 for transaction #32
+Thread 0: Reading data[0] = 2 for transaction #32
+Thread 1: Writing data[6] = 4 for transaction #45
+Thread 1: Aborted transaction #45 due to conflict with transaction #32
+Thread 1 beginning transaction 49
+Thread 0: Writing data[4] = 2 for transaction #32
+Thread 0: Writing data[6] = 9 for transaction #32
+Thread 3: Writing data[0] = 6 for transaction #39
+Thread 0: Aborted transaction #32 due to conflict with transaction #39
+Thread 0 beginning transaction 36
+Thread 3: Aborted transaction #39 due to conflict with transaction #32
+Thread 3 beginning transaction 43
+Thread 2: Reading data[6] = 10 for transaction #50
+Thread 2: Reading data[1] = 9 for transaction #50
+Thread 2: Reading data[6] = 10 for transaction #50
+Thread 2: Reading data[2] = 4 for transaction #50
+Thread 3: Reading data[4] = 1 for transaction #43
+Thread 3: Reading data[6] = 10 for transaction #43
+Thread 3: Reading data[3] = 6 for transaction #43
+Thread 3: Reading data[3] = 6 for transaction #43
+Thread 1: Reading data[8] = 3 for transaction #49
+Thread 1: Reading data[9] = 4 for transaction #49
+Thread 1: Reading data[8] = 3 for transaction #49
+Thread 2: Writing data[5] = 2 for transaction #50
+Thread 2: Committed transaction #50 successfully
+Thread 2 beginning transaction 54
+Thread 0: Reading data[8] = 3 for transaction #36
+Thread 0: Reading data[5] = 2 for transaction #36
+Thread 0: Reading data[3] = 6 for transaction #36
+Thread 0: Reading data[2] = 4 for transaction #36
+Thread 3: Writing data[6] = 6 for transaction #43
+Thread 3: Writing data[6] = 10 for transaction #43
+Thread 3: Committed transaction #43 successfully
+Thread 3 beginning transaction 47
+Thread 2: Reading data[7] = 7 for transaction #54
+Thread 2: Reading data[0] = 2 for transaction #54
+Thread 2: Reading data[5] = 2 for transaction #54
+Thread 2: Reading data[8] = 3 for transaction #54
+Thread 2: Writing data[9] = 7 for transaction #54
+Thread 2: Aborted transaction #54 due to conflict with transaction #49
+Thread 2 beginning transaction 58
+Thread 3: Reading data[8] = 3 for transaction #47
+Thread 3: Reading data[6] = 10 for transaction #47
+Thread 3: Reading data[1] = 9 for transaction #47
+Thread 1: Writing data[7] = 1 for transaction #49
+Thread 1: Committed transaction #49 successfully
+Thread 1 beginning transaction 53
+Thread 0: Writing data[6] = 7 for transaction #36
+Thread 0: Aborted transaction #36 due to conflict with transaction #47
+Thread 0 beginning transaction 40
+Thread 1: Reading data[1] = 9 for transaction #53
+Thread 1: Reading data[0] = 2 for transaction #53
+Thread 1: Reading data[6] = 10 for transaction #53
+Thread 1: Reading data[2] = 4 for transaction #53
+Thread 2: Reading data[4] = 1 for transaction #58
+Thread 2: Reading data[9] = 4 for transaction #58
+Thread 2: Reading data[0] = 2 for transaction #58
+Thread 2: Reading data[8] = 3 for transaction #58
+Thread 0: Reading data[9] = 4 for transaction #40
+Thread 0: Reading data[2] = 4 for transaction #40
+Thread 0: Reading data[1] = 9 for transaction #40
+Thread 0: Reading data[5] = 2 for transaction #40
+Thread 3: Writing data[7] = 6 for transaction #47
+Thread 3: Committed transaction #47 successfully
+Thread 3 beginning transaction 51
+Thread 1: Writing data[8] = 8 for transaction #53
+Thread 1: Writing data[2] = 7 for transaction #53
+Thread 1: Aborted transaction #53 due to conflict with transaction #58
+Thread 1 beginning transaction 57
+Thread 3: Reading data[9] = 4 for transaction #51
+Thread 3: Reading data[2] = 4 for transaction #51
+Thread 3: Reading data[2] = 4 for transaction #51
+Thread 2: Writing data[4] = 10 for transaction #58
+Thread 2: Writing data[7] = 1 for transaction #58
+Thread 2: Committed transaction #58 successfully
+Thread 2 beginning transaction 62
+Thread 3: Writing data[9] = 3 for transaction #51
+Thread 3: Aborted transaction #51 due to conflict with transaction #40
+Thread 0: Writing data[6] = 6 for transaction #40
+Thread 3 beginning transaction 55
+Thread 0: Writing data[1] = 7 for transaction #40
+Thread 0: Committed transaction #40 successfully
+Thread 0 beginning transaction 44
+Thread 0: Reading data[4] = 10 for transaction #44
+Thread 0: Reading data[7] = 1 for transaction #44
+Thread 0: Reading data[5] = 2 for transaction #44
+Thread 0: Reading data[9] = 4 for transaction #44
+Thread 3: Reading data[8] = 3 for transaction #55
+Thread 3: Reading data[8] = 3 for transaction #55
+Thread 3: Reading data[7] = 1 for transaction #55
+Thread 3: Reading data[5] = 2 for transaction #55
+Thread 2: Reading data[5] = 2 for transaction #62
+Thread 2: Reading data[2] = 4 for transaction #62
+Thread 2: Reading data[9] = 4 for transaction #62
+Thread 2: Reading data[4] = 10 for transaction #62
+Thread 1: Reading data[3] = 6 for transaction #57
+Thread 1: Reading data[5] = 2 for transaction #57
+Thread 1: Reading data[0] = 2 for transaction #57
+Thread 1: Reading data[1] = 7 for transaction #57
+Thread 1: Writing data[1] = 8 for transaction #57
+Thread 1: Writing data[1] = 3 for transaction #57
+Thread 1: Committed transaction #57 successfully
+Thread 1 beginning transaction 61
+Thread 0: Writing data[2] = 4 for transaction #44
+Thread 0: Writing data[5] = 9 for transaction #44
+Thread 2: Writing data[5] = 6 for transaction #62
+Thread 0: Aborted transaction #44 due to conflict with transaction #62
+Thread 2: Writing data[8] = 6 for transaction #62
+Thread 3: Writing data[2] = 10 for transaction #55
+Thread 0 beginning transaction 48
+Thread 2: Aborted transaction #62 due to conflict with transaction #55
+Thread 3: Aborted transaction #55 due to conflict with transaction #62
+Thread 2 beginning transaction 66
+Thread 3 beginning transaction 59
+Thread 0: Reading data[0] = 2 for transaction #48
+Thread 0: Reading data[4] = 10 for transaction #48
+Thread 0: Reading data[4] = 10 for transaction #48
+Thread 1: Reading data[4] = 10 for transaction #61
+Thread 1: Reading data[9] = 4 for transaction #61
+Thread 1: Reading data[6] = 6 for transaction #61
+Thread 1: Reading data[1] = 3 for transaction #61
+Thread 0: Writing data[6] = 9 for transaction #48
+Thread 0: Aborted transaction #48 due to conflict with transaction #61
+Thread 0 beginning transaction 52
+Thread 0: Reading data[1] = 3 for transaction #52
+Thread 0: Reading data[9] = 4 for transaction #52
+Thread 0: Reading data[9] = 4 for transaction #52
+Thread 3: Reading data[8] = 3 for transaction #59
+Thread 3: Reading data[6] = 6 for transaction #59
+Thread 3: Reading data[2] = 4 for transaction #59
+Thread 3: Reading data[4] = 10 for transaction #59
+Thread 0: Writing data[2] = 10 for transaction #52
+Thread 0: Aborted transaction #52 due to conflict with transaction #59
+Thread 0 beginning transaction 56
+Thread 1: Writing data[0] = 4 for transaction #61
+Thread 1: Committed transaction #61 successfully
+Thread 1 beginning transaction 65
+Thread 2: Reading data[4] = 10 for transaction #66
+Thread 2: Reading data[0] = 4 for transaction #66
+Thread 2: Reading data[3] = 6 for transaction #66
+Thread 2: Reading data[6] = 6 for transaction #66
+Thread 2: Writing data[8] = 6 for transaction #66
+Thread 1: Reading data[0] = 4 for transaction #65
+Thread 2: Aborted transaction #66 due to conflict with transaction #59
+Thread 1: Reading data[6] = 6 for transaction #65
+Thread 2 beginning transaction 70
+Thread 1: Reading data[8] = 3 for transaction #65
+Thread 1: Reading data[4] = 10 for transaction #65
+Thread 0: Reading data[2] = 4 for transaction #56
+Thread 0: Reading data[5] = 2 for transaction #56
+Thread 0: Reading data[1] = 3 for transaction #56
+Thread 2: Reading data[0] = 4 for transaction #70
+Thread 2: Reading data[7] = 1 for transaction #70
+Thread 2: Reading data[5] = 2 for transaction #70
+Thread 2: Reading data[3] = 6 for transaction #70
+Thread 3: Writing data[2] = 6 for transaction #59
+Thread 3: Writing data[7] = 8 for transaction #59
+Thread 3: Aborted transaction #59 due to conflict with transaction #56
+Thread 3 beginning transaction 63
+Thread 0: Writing data[0] = 5 for transaction #56
+Thread 2: Writing data[4] = 5 for transaction #70
+Thread 0: Aborted transaction #56 due to conflict with transaction #65
+Thread 2: Writing data[9] = 1 for transaction #70
+Thread 0 beginning transaction 60
+Thread 2: Aborted transaction #70 due to conflict with transaction #65
+Thread 2 beginning transaction 74
+Thread 1: Writing data[0] = 4 for transaction #65
+Thread 1: Committed transaction #65 successfully
+Thread 1 beginning transaction 69
+Thread 3: Reading data[6] = 6 for transaction #63
+Thread 1: Reading data[6] = 6 for transaction #69
+Thread 3: Reading data[9] = 4 for transaction #63
+Thread 0: Reading data[6] = 6 for transaction #60
+Thread 1: Reading data[0] = 4 for transaction #69
+Thread 3: Reading data[0] = 4 for transaction #63
+Thread 0: Reading data[4] = 10 for transaction #60
+Thread 1: Reading data[3] = 6 for transaction #69
+Thread 3: Reading data[7] = 1 for transaction #63
+Thread 0: Reading data[2] = 4 for transaction #60
+Thread 0: Reading data[5] = 2 for transaction #60
+Thread 1: Writing data[3] = 9 for transaction #69
+Thread 2: Reading data[5] = 2 for transaction #74
+Thread 1: Committed transaction #69 successfully
+Thread 1 beginning transaction 73
+Thread 2: Reading data[8] = 3 for transaction #74
+Thread 2: Reading data[4] = 10 for transaction #74
+Thread 0: Writing data[8] = 1 for transaction #60
+Thread 3: Writing data[9] = 8 for transaction #63
+Thread 0: Aborted transaction #60 due to conflict with transaction #74
+Thread 3: Writing data[8] = 9 for transaction #63
+Thread 0 beginning transaction 64
+Thread 3: Aborted transaction #63 due to conflict with transaction #74
+Thread 3 beginning transaction 67
+Thread 2: Writing data[1] = 6 for transaction #74
+Thread 2: Committed transaction #74 successfully
+Thread 2 beginning transaction 78
+Thread 1: Reading data[5] = 2 for transaction #73
+Thread 1: Reading data[6] = 6 for transaction #73
+Thread 1: Reading data[2] = 4 for transaction #73
+Thread 1: Reading data[0] = 4 for transaction #73
+Thread 1: Writing data[3] = 2 for transaction #73
+Thread 2: Reading data[3] = 9 for transaction #78
+Thread 1: Writing data[9] = 7 for transaction #73
+Thread 3: Reading data[4] = 10 for transaction #67
+Thread 2: Reading data[2] = 4 for transaction #78
+Thread 1: Aborted transaction #73 due to conflict with transaction #78
+Thread 3: Reading data[0] = 4 for transaction #67
+Thread 2: Reading data[6] = 6 for transaction #78
+Thread 1 beginning transaction 77
+Thread 3: Reading data[4] = 10 for transaction #67
+Thread 3: Reading data[3] = 9 for transaction #67
+Thread 1: Reading data[9] = 4 for transaction #77
+Thread 1: Reading data[9] = 4 for transaction #77
+Thread 1: Reading data[7] = 1 for transaction #77
+Thread 1: Reading data[0] = 4 for transaction #77
+Thread 0: Reading data[7] = 1 for transaction #64
+Thread 0: Reading data[2] = 4 for transaction #64
+Thread 0: Reading data[9] = 4 for transaction #64
+Thread 0: Reading data[7] = 1 for transaction #64
+Thread 3: Writing data[9] = 10 for transaction #67
+Thread 3: Writing data[6] = 9 for transaction #67
+Thread 3: Aborted transaction #67 due to conflict with transaction #64
+Thread 3 beginning transaction 71
+Thread 3: Reading data[1] = 6 for transaction #71
+Thread 3: Reading data[0] = 4 for transaction #71
+Thread 3: Reading data[9] = 4 for transaction #71
+Thread 3: Reading data[9] = 4 for transaction #71
+Thread 1: Writing data[8] = 8 for transaction #77
+Thread 1: Writing data[7] = 1 for transaction #77
+Thread 1: Aborted transaction #77 due to conflict with transaction #64
+Thread 1 beginning transaction 81
+Thread 2: Writing data[7] = 5 for transaction #78
+Thread 2: Aborted transaction #78 due to conflict with transaction #64
+Thread 2 beginning transaction 82
+Thread 0: Writing data[3] = 6 for transaction #64
+Thread 0: Writing data[5] = 10 for transaction #64
+Thread 0: Committed transaction #64 successfully
+Thread 0 beginning transaction 68
+Thread 3: Writing data[6] = 8 for transaction #71
+Thread 3: Committed transaction #71 successfully
+Thread 3 beginning transaction 75
+Thread 2: Reading data[3] = 6 for transaction #82
+Thread 2: Reading data[2] = 4 for transaction #82
+Thread 2: Reading data[7] = 1 for transaction #82
+Thread 2: Reading data[0] = 4 for transaction #82
+Thread 1: Reading data[3] = 6 for transaction #81
+Thread 1: Reading data[1] = 6 for transaction #81
+Thread 1: Reading data[4] = 10 for transaction #81
+Thread 1: Reading data[4] = 10 for transaction #81
+Thread 3: Reading data[9] = 4 for transaction #75
+Thread 3: Reading data[4] = 10 for transaction #75
+Thread 3: Reading data[5] = 10 for transaction #75
+Thread 3: Reading data[5] = 10 for transaction #75
+Thread 1: Writing data[3] = 7 for transaction #81
+Thread 1: Writing data[4] = 5 for transaction #81
+Thread 1: Aborted transaction #81 due to conflict with transaction #82
+Thread 1 beginning transaction 85
+Thread 1: Reading data[3] = 6 for transaction #85
+Thread 1: Reading data[9] = 4 for transaction #85
+Thread 1: Reading data[7] = 1 for transaction #85
+Thread 1: Reading data[6] = 8 for transaction #85
+Thread 0: Reading data[1] = 6 for transaction #68
+Thread 0: Reading data[6] = 8 for transaction #68
+Thread 0: Reading data[9] = 4 for transaction #68
+Thread 3: Writing data[2] = 9 for transaction #75
+Thread 3: Writing data[6] = 7 for transaction #75
+Thread 3: Aborted transaction #75 due to conflict with transaction #82
+Thread 3 beginning transaction 79
+Thread 0: Writing data[9] = 9 for transaction #68
+Thread 0: Aborted transaction #68 due to conflict with transaction #85
+Thread 0 beginning transaction 72
+Thread 2: Writing data[8] = 10 for transaction #82
+Thread 2: Committed transaction #82 successfully
+Thread 2 beginning transaction 86
+Thread 3: Reading data[2] = 4 for transaction #79
+Thread 3: Reading data[2] = 4 for transaction #79
+Thread 3: Reading data[3] = 6 for transaction #79
+Thread 3: Reading data[8] = 10 for transaction #79
+Thread 0: Reading data[0] = 4 for transaction #72
+Thread 0: Reading data[8] = 10 for transaction #72
+Thread 0: Reading data[4] = 10 for transaction #72
+Thread 0: Reading data[4] = 10 for transaction #72
+Thread 2: Reading data[2] = 4 for transaction #86
+Thread 2: Reading data[5] = 10 for transaction #86
+Thread 2: Reading data[6] = 8 for transaction #86
+Thread 2: Reading data[2] = 4 for transaction #86
+Thread 1: Writing data[2] = 1 for transaction #85
+Thread 1: Writing data[3] = 7 for transaction #85
+Thread 1: Aborted transaction #85 due to conflict with transaction #79
+Thread 1 beginning transaction 89
+Thread 0: Writing data[6] = 4 for transaction #72
+Thread 0: Writing data[2] = 2 for transaction #72
+Thread 0: Aborted transaction #72 due to conflict with transaction #79
+Thread 0 beginning transaction 76
+Thread 2: Writing data[4] = 5 for transaction #86
+Thread 2: Committed transaction #86 successfully
+Thread 2 beginning transaction 90
+Thread 3: Writing data[0] = 6 for transaction #79
+Thread 3: Writing data[9] = 6 for transaction #79
+Thread 3: Committed transaction #79 successfully
+Thread 3 beginning transaction 83
+Thread 0: Reading data[4] = 5 for transaction #76
+Thread 0: Reading data[4] = 5 for transaction #76
+Thread 0: Reading data[7] = 1 for transaction #76
+Thread 0: Reading data[0] = 6 for transaction #76
+Thread 2: Reading data[1] = 6 for transaction #90
+Thread 2: Reading data[9] = 6 for transaction #90
+Thread 2: Reading data[3] = 6 for transaction #90
+Thread 2: Reading data[1] = 6 for transaction #90
+Thread 2: Writing data[8] = 9 for transaction #90
+Thread 2: Writing data[3] = 8 for transaction #90
+Thread 2: Committed transaction #90 successfully
+Thread 2 beginning transaction 94
+Thread 1: Reading data[3] = 8 for transaction #89
+Thread 1: Reading data[4] = 5 for transaction #89
+Thread 1: Reading data[4] = 5 for transaction #89
+Thread 1: Reading data[5] = 10 for transaction #89
+Thread 3: Reading data[8] = 9 for transaction #83
+Thread 3: Reading data[3] = 8 for transaction #83
+Thread 3: Reading data[5] = 10 for transaction #83
+Thread 3: Reading data[0] = 6 for transaction #83
+Thread 3: Writing data[6] = 6 for transaction #83
+Thread 3: Committed transaction #83 successfully
+Thread 3 beginning transaction 87
+Thread 2: Reading data[7] = 1 for transaction #94
+Thread 0: Writing data[9] = 9 for transaction #76
+Thread 3: Reading data[3] = 8 for transaction #87
+Thread 2: Reading data[5] = 10 for transaction #94
+Thread 0: Committed transaction #76 successfully
+Thread 3: Reading data[2] = 4 for transaction #87
+Thread 0 beginning transaction 80
+Thread 2: Reading data[0] = 6 for transaction #94
+Thread 3: Reading data[2] = 4 for transaction #87
+Thread 2: Reading data[7] = 1 for transaction #94
+Thread 3: Reading data[5] = 10 for transaction #87
+Thread 0: Reading data[2] = 4 for transaction #80
+Thread 0: Reading data[9] = 9 for transaction #80
+Thread 0: Reading data[7] = 1 for transaction #80
+Thread 1: Writing data[9] = 1 for transaction #89
+Thread 0: Reading data[4] = 5 for transaction #80
+Thread 1: Writing data[7] = 9 for transaction #89
+Thread 1: Aborted transaction #89 due to conflict with transaction #94
+Thread 1 beginning transaction 93
+Thread 2: Writing data[0] = 6 for transaction #94
+Thread 3: Writing data[8] = 6 for transaction #87
+Thread 0: Writing data[1] = 5 for transaction #80
+Thread 2: Writing data[0] = 2 for transaction #94
+Thread 3: Committed transaction #87 successfully
+Thread 0: Writing data[9] = 10 for transaction #80
+Thread 2: Committed transaction #94 successfully
+Thread 3 beginning transaction 91
+Thread 0: Committed transaction #80 successfully
+Thread 2 beginning transaction 98
+Thread 0 beginning transaction 84
+Thread 1: Reading data[1] = 5 for transaction #93
+Thread 1: Reading data[2] = 4 for transaction #93
+Thread 1: Reading data[2] = 4 for transaction #93
+Thread 2: Reading data[4] = 5 for transaction #98
+Thread 2: Reading data[2] = 4 for transaction #98
+Thread 2: Reading data[2] = 4 for transaction #98
+Thread 2: Writing data[9] = 8 for transaction #98
+Thread 2: Committed transaction #98 successfully
+Thread 2 beginning transaction 102
+Thread 2: Reading data[4] = 5 for transaction #102
+Thread 2: Reading data[8] = 6 for transaction #102
+Thread 2: Reading data[4] = 5 for transaction #102
+Thread 2: Reading data[7] = 1 for transaction #102
+Thread 2: Writing data[9] = 10 for transaction #102
+Thread 2: Committed transaction #102 successfully
+Thread 2 beginning transaction 106
+Thread 3: Reading data[5] = 10 for transaction #91
+Thread 1: Writing data[0] = 10 for transaction #93
+Thread 0: Reading data[4] = 5 for transaction #84
+Thread 3: Reading data[0] = 2 for transaction #91
+Thread 1: Aborted transaction #93 due to conflict with transaction #91
+Thread 0: Reading data[2] = 4 for transaction #84
+Thread 1 beginning transaction 97
+Thread 3: Reading data[2] = 4 for transaction #91
+Thread 0: Reading data[5] = 10 for transaction #84
+Thread 0: Reading data[3] = 8 for transaction #84
+Thread 2: Reading data[5] = 10 for transaction #106
+Thread 2: Reading data[7] = 1 for transaction #106
+Thread 2: Reading data[2] = 4 for transaction #106
+Thread 2: Reading data[9] = 10 for transaction #106
+Thread 1: Reading data[6] = 6 for transaction #97
+Thread 1: Reading data[0] = 2 for transaction #97
+Thread 1: Reading data[9] = 10 for transaction #97
+Thread 1: Reading data[3] = 8 for transaction #97
+Thread 2: Writing data[6] = 2 for transaction #106
+Thread 2: Aborted transaction #106 due to conflict with transaction #97
+Thread 2 beginning transaction 110
+Thread 3: Writing data[4] = 4 for transaction #91
+Thread 0: Writing data[2] = 4 for transaction #84
+Thread 1: Writing data[9] = 8 for transaction #97
+Thread 3: Aborted transaction #91 due to conflict with transaction #84
+Thread 0: Aborted transaction #84 due to conflict with transaction #91
+Thread 1: Committed transaction #97 successfully
+Thread 3 beginning transaction 95
+Thread 0 beginning transaction 88
+Thread 1 beginning transaction 101
+Thread 3: Reading data[2] = 4 for transaction #95
+Thread 3: Reading data[8] = 6 for transaction #95
+Thread 3: Reading data[1] = 5 for transaction #95
+Thread 2: Reading data[8] = 6 for transaction #110
+Thread 2: Reading data[8] = 6 for transaction #110
+Thread 2: Reading data[5] = 10 for transaction #110
+Thread 3: Writing data[2] = 10 for transaction #95
+Thread 3: Committed transaction #95 successfully
+Thread 3 beginning transaction 99
+Thread 2: Writing data[9] = 5 for transaction #110
+Thread 2: Committed transaction #110 successfully
+Thread 2 beginning transaction 114
+Thread 1: Reading data[6] = 6 for transaction #101
+Thread 1: Reading data[4] = 5 for transaction #101
+Thread 1: Reading data[5] = 10 for transaction #101
+Thread 0: Reading data[6] = 6 for transaction #88
+Thread 0: Reading data[6] = 6 for transaction #88
+Thread 0: Reading data[5] = 10 for transaction #88
+Thread 1: Writing data[9] = 7 for transaction #101
+Thread 1: Committed transaction #101 successfully
+Thread 1 beginning transaction 105
+Thread 2: Reading data[5] = 10 for transaction #114
+Thread 2: Reading data[4] = 5 for transaction #114
+Thread 2: Reading data[8] = 6 for transaction #114
+Thread 0: Writing data[3] = 7 for transaction #88
+Thread 0: Committed transaction #88 successfully
+Thread 0 beginning transaction 92
+Thread 3: Reading data[2] = 10 for transaction #99
+Thread 3: Reading data[0] = 2 for transaction #99
+Thread 3: Reading data[9] = 7 for transaction #99
+Thread 0: Reading data[3] = 7 for transaction #92
+Thread 0: Reading data[9] = 7 for transaction #92
+Thread 0: Reading data[5] = 10 for transaction #92
+Thread 0: Writing data[6] = 10 for transaction #92
+Thread 0: Committed transaction #92 successfully
+Thread 0 beginning transaction 96
+Thread 1: Reading data[3] = 7 for transaction #105
+Thread 1: Reading data[2] = 10 for transaction #105
+Thread 1: Reading data[1] = 5 for transaction #105
+Thread 2: Writing data[8] = 10 for transaction #114
+Thread 2: Committed transaction #114 successfully
+Thread 2 beginning transaction 118
+Thread 0: Reading data[8] = 10 for transaction #96
+Thread 0: Reading data[7] = 1 for transaction #96
+Thread 0: Reading data[8] = 10 for transaction #96
+Thread 2: Reading data[0] = 2 for transaction #118
+Thread 2: Reading data[6] = 10 for transaction #118
+Thread 2: Reading data[9] = 7 for transaction #118
+Thread 2: Reading data[1] = 5 for transaction #118
+Thread 3: Writing data[6] = 6 for transaction #99
+Thread 3: Aborted transaction #99 due to conflict with transaction #118
+Thread 3 beginning transaction 103
+Thread 0: Writing data[4] = 8 for transaction #96
+Thread 0: Committed transaction #96 successfully
+Thread 0 beginning transaction 100
+Thread 3: Reading data[3] = 7 for transaction #103
+Thread 3: Reading data[6] = 10 for transaction #103
+Thread 3: Reading data[4] = 8 for transaction #103
+Thread 3: Reading data[1] = 5 for transaction #103
+Thread 1: Writing data[2] = 7 for transaction #105
+Thread 1: Committed transaction #105 successfully
+Thread 1 beginning transaction 109
+Thread 0: Reading data[9] = 7 for transaction #100
+Thread 0: Reading data[7] = 1 for transaction #100
+Thread 0: Reading data[0] = 2 for transaction #100
+Thread 0: Reading data[2] = 7 for transaction #100
+Thread 2: Writing data[5] = 6 for transaction #118
+Thread 2: Writing data[7] = 5 for transaction #118
+Thread 2: Aborted transaction #118 due to conflict with transaction #100
+Thread 2 beginning transaction 122
+Thread 0: Writing data[7] = 3 for transaction #100
+Thread 1: Reading data[1] = 5 for transaction #109
+Thread 1: Reading data[0] = 2 for transaction #109
+Thread 1: Reading data[9] = 7 for transaction #109
+Thread 0: Committed transaction #100 successfully
+Thread 0 beginning transaction 104
+Thread 3: Writing data[8] = 5 for transaction #103
+Thread 3: Writing data[7] = 2 for transaction #103
+Thread 3: Committed transaction #103 successfully
+Thread 3 beginning transaction 107
+Thread 2: Reading data[9] = 7 for transaction #122
+Thread 2: Reading data[2] = 7 for transaction #122
+Thread 2: Reading data[6] = 10 for transaction #122
+Thread 2: Reading data[9] = 7 for transaction #122
+Thread 0: Reading data[3] = 7 for transaction #104
+Thread 0: Reading data[6] = 10 for transaction #104
+Thread 0: Reading data[2] = 7 for transaction #104
+Thread 0: Reading data[1] = 5 for transaction #104
+Thread 0: Writing data[1] = 1 for transaction #104
+Thread 0: Writing data[9] = 4 for transaction #104
+Thread 0: Aborted transaction #104 due to conflict with transaction #109
+Thread 0 beginning transaction 108
+Thread 3: Reading data[5] = 10 for transaction #107
+Thread 3: Reading data[8] = 5 for transaction #107
+Thread 3: Reading data[0] = 2 for transaction #107
+Thread 3: Reading data[1] = 5 for transaction #107
+Thread 1: Writing data[7] = 6 for transaction #109
+Thread 1: Committed transaction #109 successfully
+Thread 1 beginning transaction 113
+Thread 2: Writing data[9] = 8 for transaction #122
+Thread 2: Committed transaction #122 successfully
+Thread 2 beginning transaction 126
+Thread 0: Reading data[5] = 10 for transaction #108
+Thread 0: Reading data[5] = 10 for transaction #108
+Thread 0: Reading data[0] = 2 for transaction #108
+Thread 0: Reading data[7] = 6 for transaction #108
+Thread 3: Writing data[2] = 10 for transaction #107
+Thread 2: Reading data[2] = 7 for transaction #126
+Thread 0: Writing data[2] = 1 for transaction #108
+Thread 3: Aborted transaction #107 due to conflict with transaction #126
+Thread 0: Writing data[2] = 6 for transaction #108
+Thread 2: Reading data[9] = 8 for transaction #126
+Thread 3 beginning transaction 111
+Thread 0: Aborted transaction #108 due to conflict with transaction #126
+Thread 2: Reading data[0] = 2 for transaction #126
+Thread 0 beginning transaction 112
+Thread 1: Reading data[5] = 10 for transaction #113
+Thread 1: Reading data[6] = 10 for transaction #113
+Thread 1: Reading data[6] = 10 for transaction #113
+Thread 1: Reading data[4] = 8 for transaction #113
+Thread 3: Reading data[1] = 5 for transaction #111
+Thread 2: Writing data[9] = 3 for transaction #126
+Thread 0: Reading data[2] = 7 for transaction #112
+Thread 3: Reading data[4] = 8 for transaction #111
+Thread 2: Committed transaction #126 successfully
+Thread 0: Reading data[5] = 10 for transaction #112
+Thread 2 beginning transaction 130
+Thread 3: Reading data[5] = 10 for transaction #111
+Thread 0: Reading data[3] = 7 for transaction #112
+Thread 3: Reading data[1] = 5 for transaction #111
+Thread 0: Reading data[0] = 2 for transaction #112
+Thread 3: Writing data[4] = 7 for transaction #111
+Thread 3: Aborted transaction #111 due to conflict with transaction #113
+Thread 3 beginning transaction 115
+Thread 0: Writing data[7] = 6 for transaction #112
+Thread 0: Writing data[4] = 7 for transaction #112
+Thread 0: Aborted transaction #112 due to conflict with transaction #113
+Thread 0 beginning transaction 116
+Thread 1: Writing data[6] = 3 for transaction #113
+Thread 1: Writing data[0] = 10 for transaction #113
+Thread 1: Committed transaction #113 successfully
+Thread 1 beginning transaction 117
+Thread 3: Reading data[5] = 10 for transaction #115
+Thread 3: Reading data[6] = 3 for transaction #115
+Thread 3: Reading data[7] = 6 for transaction #115
+Thread 3: Reading data[1] = 5 for transaction #115
+Thread 2: Reading data[0] = 10 for transaction #130
+Thread 2: Reading data[5] = 10 for transaction #130
+Thread 2: Reading data[0] = 10 for transaction #130
+Thread 2: Reading data[0] = 10 for transaction #130
+Thread 0: Reading data[9] = 3 for transaction #116
+Thread 0: Reading data[2] = 7 for transaction #116
+Thread 0: Reading data[5] = 10 for transaction #116
+Thread 1: Reading data[3] = 7 for transaction #117
+Thread 1: Reading data[3] = 7 for transaction #117
+Thread 1: Reading data[9] = 3 for transaction #117
+Thread 0: Writing data[1] = 1 for transaction #116
+Thread 0: Aborted transaction #116 due to conflict with transaction #115
+Thread 0 beginning transaction 120
+Thread 1: Writing data[3] = 10 for transaction #117
+Thread 1: Committed transaction #117 successfully
+Thread 1 beginning transaction 121
+Thread 0: Reading data[6] = 3 for transaction #120
+Thread 0: Reading data[7] = 6 for transaction #120
+Thread 0: Reading data[7] = 6 for transaction #120
+Thread 2: Writing data[3] = 2 for transaction #130
+Thread 3: Writing data[2] = 2 for transaction #115
+Thread 2: Committed transaction #130 successfully
+Thread 3: Writing data[3] = 10 for transaction #115
+Thread 2 beginning transaction 134
+Thread 3: Committed transaction #115 successfully
+Thread 3 beginning transaction 119
+Thread 1: Reading data[5] = 10 for transaction #121
+Thread 1: Reading data[9] = 3 for transaction #121
+Thread 1: Reading data[4] = 8 for transaction #121
+Thread 1: Reading data[9] = 3 for transaction #121
+Thread 0: Writing data[1] = 2 for transaction #120
+Thread 0: Committed transaction #120 successfully
+Thread 0 beginning transaction 124
+Thread 3: Reading data[3] = 10 for transaction #119
+Thread 3: Reading data[9] = 3 for transaction #119
+Thread 3: Reading data[7] = 6 for transaction #119
+Thread 3: Reading data[0] = 10 for transaction #119
+Thread 2: Reading data[5] = 10 for transaction #134
+Thread 2: Reading data[2] = 2 for transaction #134
+Thread 2: Reading data[1] = 2 for transaction #134
+Thread 2: Reading data[6] = 3 for transaction #134
+Thread 2: Writing data[0] = 4 for transaction #134
+Thread 2: Aborted transaction #134 due to conflict with transaction #119
+Thread 2 beginning transaction 138
+Thread 0: Reading data[7] = 6 for transaction #124
+Thread 0: Reading data[2] = 2 for transaction #124
+Thread 0: Reading data[3] = 10 for transaction #124
+Thread 0: Reading data[2] = 2 for transaction #124
+Thread 3: Writing data[7] = 2 for transaction #119
+Thread 3: Writing data[0] = 8 for transaction #119
+Thread 3: Aborted transaction #119 due to conflict with transaction #124
+Thread 1: Writing data[7] = 7 for transaction #121
+Thread 3 beginning transaction 123
+Thread 1: Writing data[8] = 10 for transaction #121
+Thread 1: Aborted transaction #121 due to conflict with transaction #124
+Thread 1 beginning transaction 125
+Thread 2: Reading data[5] = 10 for transaction #138
+Thread 2: Reading data[2] = 2 for transaction #138
+Thread 1: Reading data[9] = 3 for transaction #125
+Thread 2: Reading data[3] = 10 for transaction #138
+Thread 1: Reading data[1] = 2 for transaction #125
+Thread 2: Reading data[6] = 3 for transaction #138
+Thread 1: Reading data[8] = 5 for transaction #125
+Thread 1: Reading data[1] = 2 for transaction #125
+Thread 1: Writing data[8] = 7 for transaction #125
+Thread 1: Committed transaction #125 successfully
+Thread 1 beginning transaction 129
+Thread 3: Reading data[1] = 2 for transaction #123
+Thread 3: Reading data[1] = 2 for transaction #123
+Thread 3: Reading data[2] = 2 for transaction #123
+Thread 3: Reading data[8] = 7 for transaction #123
+Thread 2: Writing data[9] = 8 for transaction #138
+Thread 2: Committed transaction #138 successfully
+Thread 2 beginning transaction 142
+Thread 2: Reading data[7] = 6 for transaction #142
+Thread 0: Writing data[8] = 8 for transaction #124
+Thread 2: Reading data[8] = 7 for transaction #142
+Thread 0: Writing data[6] = 3 for transaction #124
+Thread 2: Reading data[0] = 10 for transaction #142
+Thread 0: Aborted transaction #124 due to conflict with transaction #123
+Thread 2: Reading data[7] = 6 for transaction #142
+Thread 0 beginning transaction 128
+Thread 2: Writing data[2] = 7 for transaction #142
+Thread 2: Writing data[2] = 5 for transaction #142
+Thread 2: Aborted transaction #142 due to conflict with transaction #123
+Thread 2 beginning transaction 146
+Thread 3: Writing data[6] = 7 for transaction #123
+Thread 3: Committed transaction #123 successfully
+Thread 3 beginning transaction 127
+Thread 1: Reading data[8] = 7 for transaction #129
+Thread 1: Reading data[2] = 2 for transaction #129
+Thread 1: Reading data[5] = 10 for transaction #129
+Thread 1: Reading data[6] = 7 for transaction #129
+Thread 0: Reading data[7] = 6 for transaction #128
+Thread 0: Reading data[6] = 7 for transaction #128
+Thread 0: Reading data[1] = 2 for transaction #128
+Thread 0: Reading data[9] = 8 for transaction #128
+Thread 2: Reading data[4] = 8 for transaction #146
+Thread 2: Reading data[6] = 7 for transaction #146
+Thread 2: Reading data[4] = 8 for transaction #146
+Thread 2: Reading data[2] = 2 for transaction #146
+Thread 3: Reading data[9] = 8 for transaction #127
+Thread 3: Reading data[2] = 2 for transaction #127
+Thread 3: Reading data[6] = 7 for transaction #127
+Thread 3: Reading data[3] = 10 for transaction #127
+Thread 1: Writing data[7] = 2 for transaction #129
+Thread 1: Writing data[7] = 1 for transaction #129
+Thread 1: Aborted transaction #129 due to conflict with transaction #128
+Thread 1 beginning transaction 133
+Thread 2: Writing data[7] = 5 for transaction #146
+Thread 2: Aborted transaction #146 due to conflict with transaction #128
+Thread 2 beginning transaction 150
+Thread 0: Writing data[4] = 3 for transaction #128
+Thread 2: Reading data[5] = 10 for transaction #150
+Thread 2: Reading data[5] = 10 for transaction #150
+Thread 2: Reading data[7] = 6 for transaction #150
+Thread 0: Committed transaction #128 successfully
+Thread 0 beginning transaction 132
+Thread 1: Reading data[0] = 10 for transaction #133
+Thread 1: Reading data[1] = 2 for transaction #133
+Thread 1: Reading data[8] = 7 for transaction #133
+Thread 1: Reading data[7] = 6 for transaction #133
+Thread 2: Writing data[6] = 7 for transaction #150
+Thread 2: Aborted transaction #150 due to conflict with transaction #127
+Thread 2 beginning transaction 154
+Thread 1: Writing data[0] = 10 for transaction #133
+Thread 3: Writing data[9] = 10 for transaction #127
+Thread 1: Writing data[3] = 2 for transaction #133
+Thread 3: Writing data[5] = 8 for transaction #127
+Thread 1: Aborted transaction #133 due to conflict with transaction #127
+Thread 3: Committed transaction #127 successfully
+Thread 1 beginning transaction 137
+Thread 3 beginning transaction 131
+Thread 2: Reading data[4] = 3 for transaction #154
+Thread 2: Reading data[9] = 10 for transaction #154
+Thread 2: Reading data[0] = 10 for transaction #154
+Thread 2: Reading data[2] = 2 for transaction #154
+Thread 0: Reading data[2] = 2 for transaction #132
+Thread 0: Reading data[6] = 7 for transaction #132
+Thread 0: Reading data[6] = 7 for transaction #132
+Thread 1: Reading data[4] = 3 for transaction #137
+Thread 1: Reading data[4] = 3 for transaction #137
+Thread 1: Reading data[5] = 8 for transaction #137
+Thread 1: Reading data[8] = 7 for transaction #137
+Thread 3: Reading data[9] = 10 for transaction #131
+Thread 3: Reading data[5] = 8 for transaction #131
+Thread 3: Reading data[1] = 2 for transaction #131
+Thread 3: Reading data[0] = 10 for transaction #131
+Thread 2: Writing data[4] = 10 for transaction #154
+Thread 2: Aborted transaction #154 due to conflict with transaction #137
+Thread 2 beginning transaction 158
+Thread 1: Writing data[5] = 1 for transaction #137
+Thread 1: Writing data[4] = 9 for transaction #137
+Thread 1: Aborted transaction #137 due to conflict with transaction #131
+Thread 1 beginning transaction 141
+Thread 2: Reading data[1] = 2 for transaction #158
+Thread 2: Reading data[2] = 2 for transaction #158
+Thread 2: Reading data[4] = 3 for transaction #158
+Thread 2: Reading data[7] = 6 for transaction #158
+Thread 0: Writing data[5] = 6 for transaction #132
+Thread 0: Aborted transaction #132 due to conflict with transaction #131
+Thread 0 beginning transaction 136
+Thread 3: Writing data[2] = 2 for transaction #131
+Thread 3: Aborted transaction #131 due to conflict with transaction #158
+Thread 3 beginning transaction 135
+Thread 3: Reading data[2] = 2 for transaction #135
+Thread 3: Reading data[7] = 6 for transaction #135
+Thread 3: Reading data[9] = 10 for transaction #135
+Thread 1: Reading data[2] = 2 for transaction #141
+Thread 1: Reading data[4] = 3 for transaction #141
+Thread 1: Reading data[0] = 10 for transaction #141
+Thread 1: Writing data[8] = 10 for transaction #141
+Thread 0: Reading data[9] = 10 for transaction #136
+Thread 3: Writing data[6] = 7 for transaction #135
+Thread 2: Writing data[5] = 2 for transaction #158
+Thread 1: Committed transaction #141 successfully
+Thread 0: Reading data[4] = 3 for transaction #136
+Thread 1 beginning transaction 145
+Thread 3: Committed transaction #135 successfully
+Thread 3 beginning transaction 139
+Thread 2: Committed transaction #158 successfully
+Thread 2 beginning transaction 162
+Thread 0: Reading data[1] = 2 for transaction #136
+Thread 2: Reading data[2] = 2 for transaction #162
+Thread 2: Reading data[1] = 2 for transaction #162
+Thread 2: Reading data[3] = 10 for transaction #162
+Thread 2: Reading data[5] = 2 for transaction #162
+Thread 1: Reading data[1] = 2 for transaction #145
+Thread 1: Reading data[0] = 10 for transaction #145
+Thread 1: Reading data[1] = 2 for transaction #145
+Thread 1: Reading data[0] = 10 for transaction #145
+Thread 0: Writing data[8] = 6 for transaction #136
+Thread 3: Reading data[4] = 3 for transaction #139
+Thread 0: Committed transaction #136 successfully
+Thread 3: Reading data[9] = 10 for transaction #139
+Thread 0 beginning transaction 140
+Thread 3: Reading data[1] = 2 for transaction #139
+Thread 2: Writing data[0] = 3 for transaction #162
+Thread 2: Writing data[7] = 9 for transaction #162
+Thread 2: Aborted transaction #162 due to conflict with transaction #145
+Thread 2 beginning transaction 166
+Thread 3: Writing data[7] = 6 for transaction #139
+Thread 3: Committed transaction #139 successfully
+Thread 3 beginning transaction 143
+Thread 1: Writing data[4] = 10 for transaction #145
+Thread 3: Reading data[0] = 10 for transaction #143
+Thread 1: Writing data[3] = 10 for transaction #145
+Thread 3: Reading data[5] = 2 for transaction #143
+Thread 1: Committed transaction #145 successfully
+Thread 3: Reading data[8] = 6 for transaction #143
+Thread 1 beginning transaction 149
+Thread 0: Reading data[3] = 10 for transaction #140
+Thread 2: Reading data[5] = 2 for transaction #166
+Thread 0: Reading data[0] = 10 for transaction #140
+Thread 2: Reading data[5] = 2 for transaction #166
+Thread 0: Reading data[1] = 2 for transaction #140
+Thread 2: Reading data[3] = 10 for transaction #166
+Thread 0: Reading data[4] = 10 for transaction #140
+Thread 2: Writing data[2] = 5 for transaction #166
+Thread 2: Committed transaction #166 successfully
+Thread 2 beginning transaction 170
+Thread 0: Writing data[6] = 8 for transaction #140
+Thread 0: Writing data[8] = 9 for transaction #140
+Thread 0: Aborted transaction #140 due to conflict with transaction #143
+Thread 0 beginning transaction 144
+Thread 3: Writing data[5] = 9 for transaction #143
+Thread 3: Committed transaction #143 successfully
+Thread 3 beginning transaction 147
+Thread 1: Reading data[6] = 7 for transaction #149
+Thread 1: Reading data[8] = 6 for transaction #149
+Thread 1: Reading data[4] = 10 for transaction #149
+Thread 1: Reading data[7] = 6 for transaction #149
+Thread 2: Reading data[8] = 6 for transaction #170
+Thread 2: Reading data[9] = 10 for transaction #170
+Thread 2: Reading data[0] = 10 for transaction #170
+Thread 2: Reading data[4] = 10 for transaction #170
+Thread 0: Reading data[2] = 5 for transaction #144
+Thread 0: Reading data[0] = 10 for transaction #144
+Thread 0: Reading data[7] = 6 for transaction #144
+Thread 1: Writing data[6] = 10 for transaction #149
+Thread 1: Writing data[5] = 10 for transaction #149
+Thread 1: Committed transaction #149 successfully
+Thread 1 beginning transaction 153
+Thread 3: Reading data[7] = 6 for transaction #147
+Thread 3: Reading data[6] = 10 for transaction #147
+Thread 3: Reading data[0] = 10 for transaction #147
+Thread 2: Writing data[1] = 6 for transaction #170
+Thread 2: Writing data[5] = 4 for transaction #170
+Thread 2: Committed transaction #170 successfully
+Thread 2 beginning transaction 174
+Thread 0: Writing data[9] = 5 for transaction #144
+Thread 0: Committed transaction #144 successfully
+Thread 0 beginning transaction 148
+Thread 3: Writing data[7] = 9 for transaction #147
+Thread 1: Reading data[4] = 10 for transaction #153
+Thread 3: Committed transaction #147 successfully
+Thread 3 beginning transaction 151
+Thread 1: Reading data[4] = 10 for transaction #153
+Thread 1: Reading data[9] = 5 for transaction #153
+Thread 1: Reading data[0] = 10 for transaction #153
+Thread 2: Reading data[6] = 10 for transaction #174
+Thread 2: Reading data[8] = 6 for transaction #174
+Thread 2: Reading data[5] = 4 for transaction #174
+Thread 2: Reading data[7] = 9 for transaction #174
+Thread 0: Reading data[0] = 10 for transaction #148
+Thread 0: Reading data[4] = 10 for transaction #148
+Thread 0: Reading data[6] = 10 for transaction #148
+Thread 3: Reading data[5] = 4 for transaction #151
+Thread 3: Reading data[9] = 5 for transaction #151
+Thread 3: Reading data[7] = 9 for transaction #151
+Thread 1: Writing data[0] = 9 for transaction #153
+Thread 1: Writing data[9] = 5 for transaction #153
+Thread 2: Writing data[3] = 6 for transaction #174
+Thread 0: Writing data[9] = 7 for transaction #148
+Thread 1: Aborted transaction #153 due to conflict with transaction #148
+Thread 2: Committed transaction #174 successfully
+Thread 0: Aborted transaction #148 due to conflict with transaction #153
+Thread 1 beginning transaction 157
+Thread 2 beginning transaction 178
+Thread 0 beginning transaction 152
+Thread 1: Reading data[8] = 6 for transaction #157
+Thread 1: Reading data[0] = 10 for transaction #157
+Thread 1: Reading data[9] = 5 for transaction #157
+Thread 1: Reading data[5] = 4 for transaction #157
+Thread 2: Reading data[9] = 5 for transaction #178
+Thread 0: Reading data[6] = 10 for transaction #152
+Thread 1: Writing data[6] = 9 for transaction #157
+Thread 1: Writing data[6] = 3 for transaction #157
+Thread 3: Writing data[1] = 6 for transaction #151
+Thread 2: Reading data[7] = 9 for transaction #178
+Thread 0: Reading data[2] = 5 for transaction #152
+Thread 1: Aborted transaction #157 due to conflict with transaction #152
+Thread 1 beginning transaction 161
+Thread 3: Committed transaction #151 successfully
+Thread 3 beginning transaction 155
+Thread 2: Reading data[4] = 10 for transaction #178
+Thread 0: Reading data[5] = 4 for transaction #152
+Thread 0: Reading data[4] = 10 for transaction #152
+Thread 3: Reading data[0] = 10 for transaction #155
+Thread 3: Reading data[6] = 10 for transaction #155
+Thread 3: Reading data[7] = 9 for transaction #155
+Thread 2: Writing data[8] = 1 for transaction #178
+Thread 2: Committed transaction #178 successfully
+Thread 2 beginning transaction 182
+Thread 0: Writing data[3] = 8 for transaction #152
+Thread 0: Writing data[9] = 6 for transaction #152
+Thread 0: Committed transaction #152 successfully
+Thread 0 beginning transaction 156
+Thread 2: Reading data[5] = 4 for transaction #182
+Thread 2: Reading data[6] = 10 for transaction #182
+Thread 2: Reading data[1] = 6 for transaction #182
+Thread 1: Reading data[6] = 10 for transaction #161
+Thread 1: Reading data[4] = 10 for transaction #161
+Thread 1: Reading data[1] = 6 for transaction #161
+Thread 1: Reading data[9] = 6 for transaction #161
+Thread 1: Writing data[9] = 10 for transaction #161
+Thread 1: Writing data[3] = 1 for transaction #161
+Thread 1: Committed transaction #161 successfully
+Thread 1 beginning transaction 165
+Thread 0: Reading data[3] = 1 for transaction #156
+Thread 0: Reading data[4] = 10 for transaction #156
+Thread 0: Reading data[6] = 10 for transaction #156
+Thread 0: Reading data[3] = 1 for transaction #156
+Thread 3: Writing data[6] = 8 for transaction #155
+Thread 3: Aborted transaction #155 due to conflict with transaction #182
+Thread 3 beginning transaction 159
+Thread 2: Writing data[6] = 1 for transaction #182
+Thread 2: Aborted transaction #182 due to conflict with transaction #156
+Thread 2 beginning transaction 186
+Thread 0: Writing data[9] = 8 for transaction #156
+Thread 0: Committed transaction #156 successfully
+Thread 0 beginning transaction 160
+Thread 1: Reading data[6] = 10 for transaction #165
+Thread 2: Reading data[7] = 9 for transaction #186
+Thread 1: Reading data[7] = 9 for transaction #165
+Thread 2: Reading data[7] = 9 for transaction #186
+Thread 1: Reading data[2] = 5 for transaction #165
+Thread 2: Reading data[8] = 1 for transaction #186
+Thread 3: Reading data[7] = 9 for transaction #159
+Thread 3: Reading data[3] = 1 for transaction #159
+Thread 3: Reading data[1] = 6 for transaction #159
+Thread 3: Reading data[3] = 1 for transaction #159
+Thread 2: Writing data[3] = 7 for transaction #186
+Thread 2: Aborted transaction #186 due to conflict with transaction #159
+Thread 2 beginning transaction 190
+Thread 0: Reading data[6] = 10 for transaction #160
+Thread 0: Reading data[0] = 10 for transaction #160
+Thread 0: Reading data[8] = 1 for transaction #160
+Thread 0: Reading data[8] = 1 for transaction #160
+Thread 1: Writing data[7] = 7 for transaction #165
+Thread 1: Aborted transaction #165 due to conflict with transaction #159
+Thread 1 beginning transaction 169
+Thread 0: Writing data[2] = 4 for transaction #160
+Thread 0: Writing data[9] = 9 for transaction #160
+Thread 0: Committed transaction #160 successfully
+Thread 0 beginning transaction 164
+Thread 3: Writing data[9] = 1 for transaction #159
+Thread 2: Reading data[9] = 9 for transaction #190
+Thread 3: Aborted transaction #159 due to conflict with transaction #190
+Thread 2: Reading data[6] = 10 for transaction #190
+Thread 3 beginning transaction 163
+Thread 2: Reading data[1] = 6 for transaction #190
+Thread 1: Reading data[4] = 10 for transaction #169
+Thread 1: Reading data[1] = 6 for transaction #169
+Thread 1: Reading data[2] = 4 for transaction #169
+Thread 1: Writing data[1] = 2 for transaction #169
+Thread 1: Aborted transaction #169 due to conflict with transaction #190
+Thread 1 beginning transaction 173
+Thread 2: Writing data[9] = 8 for transaction #190
+Thread 2: Committed transaction #190 successfully
+Thread 2 beginning transaction 194
+Thread 3: Reading data[9] = 8 for transaction #163
+Thread 3: Reading data[2] = 4 for transaction #163
+Thread 3: Reading data[3] = 1 for transaction #163
+Thread 3: Writing data[9] = 6 for transaction #163
+Thread 3: Committed transaction #163 successfully
+Thread 3 beginning transaction 167
+Thread 2: Reading data[1] = 6 for transaction #194
+Thread 1: Reading data[8] = 1 for transaction #173
+Thread 0: Reading data[5] = 4 for transaction #164
+Thread 2: Reading data[3] = 1 for transaction #194
+Thread 1: Reading data[9] = 6 for transaction #173
+Thread 0: Reading data[1] = 6 for transaction #164
+Thread 2: Reading data[3] = 1 for transaction #194
+Thread 1: Reading data[5] = 4 for transaction #173
+Thread 0: Reading data[6] = 10 for transaction #164
+Thread 2: Reading data[6] = 10 for transaction #194
+Thread 1: Reading data[3] = 1 for transaction #173
+Thread 1: Writing data[2] = 10 for transaction #173
+Thread 3: Reading data[7] = 9 for transaction #167
+Thread 1: Committed transaction #173 successfully
+Thread 1 beginning transaction 177
+Thread 3: Reading data[8] = 1 for transaction #167
+Thread 3: Reading data[4] = 10 for transaction #167
+Thread 2: Writing data[1] = 1 for transaction #194
+Thread 3: Reading data[3] = 1 for transaction #167
+Thread 2: Writing data[3] = 1 for transaction #194
+Thread 2: Aborted transaction #194 due to conflict with transaction #164
+Thread 2 beginning transaction 198
+Thread 0: Writing data[2] = 10 for transaction #164
+Thread 0: Committed transaction #164 successfully
+Thread 0 beginning transaction 168
+Thread 1: Reading data[5] = 4 for transaction #177
+Thread 1: Reading data[4] = 10 for transaction #177
+Thread 1: Reading data[9] = 6 for transaction #177
+Thread 1: Reading data[6] = 10 for transaction #177
+Thread 2: Reading data[9] = 6 for transaction #198
+Thread 2: Reading data[5] = 4 for transaction #198
+Thread 2: Reading data[3] = 1 for transaction #198
+Thread 3: Writing data[3] = 8 for transaction #167
+Thread 3: Writing data[9] = 7 for transaction #167
+Thread 3: Aborted transaction #167 due to conflict with transaction #177
+Thread 3 beginning transaction 171
+Thread 1: Writing data[8] = 5 for transaction #177
+Thread 1: Committed transaction #177 successfully
+Thread 1 beginning transaction 181
+Thread 3: Reading data[1] = 6 for transaction #171
+Thread 2: Writing data[9] = 3 for transaction #198
+Thread 0: Reading data[1] = 6 for transaction #168
+Thread 3: Reading data[9] = 6 for transaction #171
+Thread 2: Aborted transaction #198 due to conflict with transaction #171
+Thread 2 beginning transaction 202
+Thread 0: Reading data[1] = 6 for transaction #168
+Thread 3: Reading data[8] = 5 for transaction #171
+Thread 0: Reading data[7] = 9 for transaction #168
+Thread 3: Reading data[5] = 4 for transaction #171
+Thread 0: Reading data[3] = 1 for transaction #168
+Thread 1: Reading data[9] = 6 for transaction #181
+Thread 1: Reading data[5] = 4 for transaction #181
+Thread 1: Reading data[7] = 9 for transaction #181
+Thread 1: Reading data[1] = 6 for transaction #181
+Thread 3: Writing data[6] = 3 for transaction #171
+Thread 3: Writing data[5] = 3 for transaction #171
+Thread 3: Aborted transaction #171 due to conflict with transaction #181
+Thread 3 beginning transaction 175
+Thread 1: Writing data[5] = 7 for transaction #181
+Thread 1: Writing data[5] = 9 for transaction #181
+Thread 1: Committed transaction #181 successfully
+Thread 1 beginning transaction 185
+Thread 2: Reading data[5] = 9 for transaction #202
+Thread 2: Reading data[9] = 6 for transaction #202
+Thread 2: Reading data[3] = 1 for transaction #202
+Thread 2: Reading data[9] = 6 for transaction #202
+Thread 0: Writing data[0] = 9 for transaction #168
+Thread 0: Writing data[9] = 2 for transaction #168
+Thread 0: Aborted transaction #168 due to conflict with transaction #202
+Thread 0 beginning transaction 172
+Thread 3: Reading data[4] = 10 for transaction #175
+Thread 0: Reading data[4] = 10 for transaction #172
+Thread 3: Reading data[7] = 9 for transaction #175
+Thread 0: Reading data[2] = 10 for transaction #172
+Thread 3: Reading data[6] = 10 for transaction #175
+Thread 0: Reading data[2] = 10 for transaction #172
+Thread 1: Reading data[1] = 6 for transaction #185
+Thread 1: Reading data[6] = 10 for transaction #185
+Thread 1: Reading data[4] = 10 for transaction #185
+Thread 0: Writing data[5] = 5 for transaction #172
+Thread 0: Aborted transaction #172 due to conflict with transaction #202
+Thread 0 beginning transaction 176
+Thread 0: Reading data[8] = 5 for transaction #176
+Thread 0: Reading data[1] = 6 for transaction #176
+Thread 0: Reading data[0] = 10 for transaction #176
+Thread 2: Writing data[1] = 9 for transaction #202
+Thread 2: Aborted transaction #202 due to conflict with transaction #185
+Thread 2 beginning transaction 206
+Thread 0: Writing data[7] = 7 for transaction #176
+Thread 0: Aborted transaction #176 due to conflict with transaction #175
+Thread 0 beginning transaction 180
+Thread 1: Writing data[4] = 2 for transaction #185
+Thread 1: Aborted transaction #185 due to conflict with transaction #175
+Thread 1 beginning transaction 189
+Thread 2: Reading data[7] = 9 for transaction #206
+Thread 2: Reading data[4] = 10 for transaction #206
+Thread 2: Reading data[0] = 10 for transaction #206
+Thread 2: Reading data[9] = 6 for transaction #206
+Thread 3: Writing data[4] = 9 for transaction #175
+Thread 1: Reading data[8] = 5 for transaction #189
+Thread 3: Aborted transaction #175 due to conflict with transaction #206
+Thread 0: Reading data[4] = 10 for transaction #180
+Thread 3 beginning transaction 179
+Thread 1: Reading data[8] = 5 for transaction #189
+Thread 0: Reading data[0] = 10 for transaction #180
+Thread 1: Reading data[8] = 5 for transaction #189
+Thread 0: Reading data[0] = 10 for transaction #180
+Thread 1: Reading data[4] = 10 for transaction #189
+Thread 0: Reading data[2] = 10 for transaction #180
+Thread 2: Writing data[8] = 9 for transaction #206
+Thread 2: Writing data[2] = 6 for transaction #206
+Thread 2: Aborted transaction #206 due to conflict with transaction #180
+Thread 2 beginning transaction 210
+Thread 0: Writing data[1] = 5 for transaction #180
+Thread 0: Writing data[8] = 7 for transaction #180
+Thread 0: Aborted transaction #180 due to conflict with transaction #189
+Thread 0 beginning transaction 184
+Thread 3: Reading data[4] = 10 for transaction #179
+Thread 3: Reading data[6] = 10 for transaction #179
+Thread 3: Reading data[1] = 6 for transaction #179
+Thread 2: Reading data[2] = 10 for transaction #210
+Thread 2: Reading data[4] = 10 for transaction #210
+Thread 2: Reading data[5] = 9 for transaction #210
+Thread 2: Reading data[3] = 1 for transaction #210
+Thread 1: Writing data[2] = 4 for transaction #189
+Thread 1: Writing data[3] = 10 for transaction #189
+Thread 1: Aborted transaction #189 due to conflict with transaction #210
+Thread 1 beginning transaction 193
+Thread 3: Writing data[7] = 10 for transaction #179
+Thread 3: Committed transaction #179 successfully
+Thread 0: Reading data[9] = 6 for transaction #184
+Thread 3 beginning transaction 183
+Thread 0: Reading data[6] = 10 for transaction #184
+Thread 0: Reading data[9] = 6 for transaction #184
+Thread 2: Writing data[8] = 7 for transaction #210
+Thread 2: Writing data[5] = 1 for transaction #210
+Thread 2: Committed transaction #210 successfully
+Thread 2 beginning transaction 214
+Thread 1: Reading data[2] = 10 for transaction #193
+Thread 1: Reading data[5] = 1 for transaction #193
+Thread 0: Writing data[5] = 5 for transaction #184
+Thread 3: Reading data[8] = 7 for transaction #183
+Thread 1: Reading data[1] = 6 for transaction #193
+Thread 0: Aborted transaction #184 due to conflict with transaction #193
+Thread 0 beginning transaction 188
+Thread 3: Reading data[5] = 1 for transaction #183
+Thread 1: Reading data[1] = 6 for transaction #193
+Thread 3: Reading data[9] = 6 for transaction #183
+Thread 3: Reading data[6] = 10 for transaction #183
+Thread 0: Reading data[1] = 6 for transaction #188
+Thread 0: Reading data[2] = 10 for transaction #188
+Thread 0: Reading data[0] = 10 for transaction #188
+Thread 0: Reading data[1] = 6 for transaction #188
+Thread 2: Reading data[6] = 10 for transaction #214
+Thread 2: Reading data[7] = 10 for transaction #214
+Thread 2: Reading data[5] = 1 for transaction #214
+Thread 2: Reading data[1] = 6 for transaction #214
+Thread 1: Writing data[8] = 3 for transaction #193
+Thread 1: Writing data[0] = 4 for transaction #193
+Thread 1: Aborted transaction #193 due to conflict with transaction #183
+Thread 1 beginning transaction 197
+Thread 2: Writing data[1] = 1 for transaction #214
+Thread 2: Writing data[5] = 1 for transaction #214
+Thread 3: Writing data[8] = 2 for transaction #183
+Thread 2: Aborted transaction #214 due to conflict with transaction #183
+Thread 3: Committed transaction #183 successfully
+Thread 2 beginning transaction 218
+Thread 3 beginning transaction 187
+Thread 3: Reading data[1] = 6 for transaction #187
+Thread 3: Reading data[2] = 10 for transaction #187
+Thread 3: Reading data[4] = 10 for transaction #187
+Thread 0: Writing data[9] = 6 for transaction #188
+Thread 0: Writing data[7] = 2 for transaction #188
+Thread 0: Committed transaction #188 successfully
+Thread 0 beginning transaction 192
+Thread 2: Reading data[9] = 6 for transaction #218
+Thread 2: Reading data[5] = 1 for transaction #218
+Thread 2: Reading data[9] = 6 for transaction #218
+Thread 3: Writing data[5] = 3 for transaction #187
+Thread 3: Aborted transaction #187 due to conflict with transaction #218
+Thread 3 beginning transaction 191
+Thread 1: Reading data[2] = 10 for transaction #197
+Thread 1: Reading data[4] = 10 for transaction #197
+Thread 1: Reading data[1] = 6 for transaction #197
+Thread 1: Reading data[3] = 1 for transaction #197
+Thread 1: Writing data[5] = 5 for transaction #197
+Thread 1: Aborted transaction #197 due to conflict with transaction #218
+Thread 1 beginning transaction 201
+Thread 0: Reading data[7] = 2 for transaction #192
+Thread 2: Writing data[9] = 9 for transaction #218
+Thread 0: Reading data[8] = 2 for transaction #192
+Thread 0: Reading data[0] = 10 for transaction #192
+Thread 0: Reading data[6] = 10 for transaction #192
+Thread 2: Committed transaction #218 successfully
+Thread 2 beginning transaction 222
+Thread 3: Reading data[4] = 10 for transaction #191
+Thread 3: Reading data[3] = 1 for transaction #191
+Thread 3: Reading data[1] = 6 for transaction #191
+Thread 0: Writing data[5] = 4 for transaction #192
+Thread 0: Writing data[2] = 5 for transaction #192
+Thread 0: Committed transaction #192 successfully
+Thread 0 beginning transaction 196
+Thread 1: Reading data[2] = 5 for transaction #201
+Thread 1: Reading data[1] = 6 for transaction #201
+Thread 1: Reading data[5] = 4 for transaction #201
+Thread 1: Reading data[0] = 10 for transaction #201
+Thread 2: Reading data[3] = 1 for transaction #222
+Thread 2: Reading data[0] = 10 for transaction #222
+Thread 2: Reading data[9] = 9 for transaction #222
+Thread 2: Reading data[1] = 6 for transaction #222
+Thread 3: Writing data[2] = 1 for transaction #191
+Thread 3: Aborted transaction #191 due to conflict with transaction #201
+Thread 3 beginning transaction 195
+Thread 3: Reading data[2] = 5 for transaction #195
+Thread 3: Reading data[1] = 6 for transaction #195
+Thread 3: Reading data[5] = 4 for transaction #195
+Thread 3: Reading data[7] = 2 for transaction #195
+Thread 1: Writing data[6] = 2 for transaction #201
+Thread 1: Writing data[5] = 6 for transaction #201
+Thread 1: Aborted transaction #201 due to conflict with transaction #195
+Thread 1 beginning transaction 205
+Thread 0: Reading data[4] = 10 for transaction #196
+Thread 0: Reading data[6] = 10 for transaction #196
+Thread 0: Reading data[6] = 10 for transaction #196
+Thread 0: Reading data[1] = 6 for transaction #196
+Thread 1: Reading data[3] = 1 for transaction #205
+Thread 1: Reading data[4] = 10 for transaction #205
+Thread 1: Reading data[3] = 1 for transaction #205
+Thread 2: Writing data[4] = 7 for transaction #222
+Thread 2: Aborted transaction #222 due to conflict with transaction #196
+Thread 2 beginning transaction 226
+Thread 3: Writing data[5] = 4 for transaction #195
+Thread 3: Writing data[6] = 6 for transaction #195
+Thread 3: Aborted transaction #195 due to conflict with transaction #196
+Thread 3 beginning transaction 199
+Thread 1: Writing data[1] = 2 for transaction #205
+Thread 1: Aborted transaction #205 due to conflict with transaction #196
+Thread 1 beginning transaction 209
+Thread 2: Reading data[8] = 2 for transaction #226
+Thread 2: Reading data[9] = 9 for transaction #226
+Thread 2: Reading data[9] = 9 for transaction #226
+Thread 0: Writing data[9] = 6 for transaction #196
+Thread 0: Aborted transaction #196 due to conflict with transaction #226
+Thread 0 beginning transaction 200
+Thread 3: Reading data[8] = 2 for transaction #199
+Thread 3: Reading data[3] = 1 for transaction #199
+Thread 3: Reading data[9] = 9 for transaction #199
+Thread 3: Reading data[5] = 4 for transaction #199
+Thread 3: Writing data[8] = 8 for transaction #199
+Thread 3: Writing data[4] = 9 for transaction #199
+Thread 3: Aborted transaction #199 due to conflict with transaction #226
+Thread 3 beginning transaction 203
+Thread 2: Writing data[6] = 9 for transaction #226
+Thread 1: Reading data[7] = 2 for transaction #209
+Thread 2: Committed transaction #226 successfully
+Thread 2 beginning transaction 230
+Thread 1: Reading data[5] = 4 for transaction #209
+Thread 1: Reading data[6] = 9 for transaction #209
+Thread 2: Reading data[1] = 6 for transaction #230
+Thread 2: Reading data[2] = 5 for transaction #230
+Thread 2: Reading data[8] = 2 for transaction #230
+Thread 2: Reading data[7] = 2 for transaction #230
+Thread 0: Reading data[6] = 9 for transaction #200
+Thread 0: Reading data[7] = 2 for transaction #200
+Thread 0: Reading data[8] = 2 for transaction #200
+Thread 0: Reading data[7] = 2 for transaction #200
+Thread 3: Reading data[8] = 2 for transaction #203
+Thread 3: Reading data[0] = 10 for transaction #203
+Thread 3: Reading data[7] = 2 for transaction #203
+Thread 3: Reading data[8] = 2 for transaction #203
+Thread 2: Writing data[7] = 1 for transaction #230
+Thread 2: Writing data[0] = 6 for transaction #230
+Thread 2: Aborted transaction #230 due to conflict with transaction #209
+Thread 2 beginning transaction 234
+Thread 1: Writing data[3] = 10 for transaction #209
+Thread 1: Committed transaction #209 successfully
+Thread 1 beginning transaction 213
+Thread 0: Writing data[0] = 5 for transaction #200
+Thread 0: Writing data[3] = 8 for transaction #200
+Thread 3: Writing data[0] = 3 for transaction #203
+Thread 0: Aborted transaction #200 due to conflict with transaction #203
+Thread 3: Writing data[2] = 6 for transaction #203
+Thread 3: Committed transaction #203 successfully
+Thread 3 beginning transaction 207
+Thread 0 beginning transaction 204
+Thread 2: Reading data[9] = 9 for transaction #234
+Thread 0: Reading data[7] = 2 for transaction #204
+Thread 1: Reading data[5] = 4 for transaction #213
+Thread 2: Reading data[9] = 9 for transaction #234
+Thread 0: Reading data[0] = 3 for transaction #204
+Thread 1: Reading data[3] = 10 for transaction #213
+Thread 2: Reading data[1] = 6 for transaction #234
+Thread 0: Reading data[0] = 3 for transaction #204
+Thread 1: Reading data[3] = 10 for transaction #213
+Thread 2: Reading data[4] = 10 for transaction #234
+Thread 1: Reading data[6] = 9 for transaction #213
+Thread 1: Writing data[7] = 3 for transaction #213
+Thread 1: Aborted transaction #213 due to conflict with transaction #204
+Thread 1 beginning transaction 217
+Thread 0: Writing data[8] = 5 for transaction #204
+Thread 0: Committed transaction #204 successfully
+Thread 0 beginning transaction 208
+Thread 0: Reading data[8] = 5 for transaction #208
+Thread 2: Writing data[1] = 4 for transaction #234
+Thread 2: Writing data[1] = 9 for transaction #234
+Thread 3: Reading data[2] = 6 for transaction #207
+Thread 2: Committed transaction #234 successfully
+Thread 0: Reading data[3] = 10 for transaction #208
+Thread 2 beginning transaction 238
+Thread 3: Reading data[5] = 4 for transaction #207
+Thread 0: Reading data[1] = 9 for transaction #208
+Thread 3: Reading data[2] = 6 for transaction #207
+Thread 0: Reading data[4] = 10 for transaction #208
+Thread 3: Reading data[9] = 9 for transaction #207
+Thread 2: Reading data[7] = 2 for transaction #238
+Thread 2: Reading data[6] = 9 for transaction #238
+Thread 2: Reading data[6] = 9 for transaction #238
+Thread 0: Writing data[5] = 6 for transaction #208
+Thread 2: Reading data[3] = 10 for transaction #238
+Thread 0: Aborted transaction #208 due to conflict with transaction #207
+Thread 0 beginning transaction 212
+Thread 3: Writing data[3] = 10 for transaction #207
+Thread 1: Reading data[8] = 5 for transaction #217
+Thread 3: Writing data[1] = 10 for transaction #207
+Thread 1: Reading data[0] = 3 for transaction #217
+Thread 2: Writing data[7] = 4 for transaction #238
+Thread 3: Aborted transaction #207 due to conflict with transaction #238
+Thread 1: Reading data[0] = 3 for transaction #217
+Thread 3 beginning transaction 211
+Thread 2: Committed transaction #238 successfully
+Thread 2 beginning transaction 242
+Thread 1: Reading data[1] = 9 for transaction #217
+Thread 3: Reading data[0] = 3 for transaction #211
+Thread 3: Reading data[9] = 9 for transaction #211
+Thread 3: Reading data[7] = 4 for transaction #211
+Thread 3: Reading data[3] = 10 for transaction #211
+Thread 1: Writing data[4] = 6 for transaction #217
+Thread 1: Committed transaction #217 successfully
+Thread 0: Reading data[2] = 6 for transaction #212
+Thread 1 beginning transaction 221
+Thread 0: Reading data[2] = 6 for transaction #212
+Thread 0: Reading data[4] = 6 for transaction #212
+Thread 0: Reading data[0] = 3 for transaction #212
+Thread 3: Writing data[2] = 10 for transaction #211
+Thread 3: Writing data[4] = 5 for transaction #211
+Thread 3: Aborted transaction #211 due to conflict with transaction #212
+Thread 3 beginning transaction 215
+Thread 1: Reading data[1] = 9 for transaction #221
+Thread 1: Reading data[6] = 9 for transaction #221
+Thread 1: Reading data[8] = 5 for transaction #221
+Thread 2: Reading data[7] = 4 for transaction #242
+Thread 2: Reading data[2] = 6 for transaction #242
+Thread 2: Reading data[2] = 6 for transaction #242
+Thread 2: Writing data[2] = 1 for transaction #242
+Thread 2: Aborted transaction #242 due to conflict with transaction #212
+Thread 2 beginning transaction 246
+Thread 0: Writing data[5] = 7 for transaction #212
+Thread 0: Committed transaction #212 successfully
+Thread 0 beginning transaction 216
+Thread 1: Writing data[6] = 2 for transaction #221
+Thread 1: Committed transaction #221 successfully
+Thread 1 beginning transaction 225
+Thread 2: Reading data[5] = 7 for transaction #246
+Thread 2: Reading data[6] = 2 for transaction #246
+Thread 2: Reading data[2] = 6 for transaction #246
+Thread 2: Reading data[7] = 4 for transaction #246
+Thread 3: Reading data[8] = 5 for transaction #215
+Thread 3: Reading data[4] = 6 for transaction #215
+Thread 3: Reading data[4] = 6 for transaction #215
+Thread 1: Reading data[4] = 6 for transaction #225
+Thread 0: Reading data[8] = 5 for transaction #216
+Thread 1: Reading data[6] = 2 for transaction #225
+Thread 0: Reading data[9] = 9 for transaction #216
+Thread 1: Reading data[5] = 7 for transaction #225
+Thread 0: Reading data[4] = 6 for transaction #216
+Thread 3: Writing data[0] = 4 for transaction #215
+Thread 3: Committed transaction #215 successfully
+Thread 3 beginning transaction 219
+Thread 0: Writing data[9] = 2 for transaction #216
+Thread 0: Committed transaction #216 successfully
+Thread 0 beginning transaction 220
+Thread 2: Writing data[0] = 10 for transaction #246
+Thread 2: Committed transaction #246 successfully
+Thread 2 beginning transaction 250
+Thread 2: Reading data[6] = 2 for transaction #250
+Thread 2: Reading data[4] = 6 for transaction #250
+Thread 2: Reading data[0] = 10 for transaction #250
+Thread 2: Reading data[0] = 10 for transaction #250
+Thread 3: Reading data[9] = 2 for transaction #219
+Thread 3: Reading data[5] = 7 for transaction #219
+Thread 3: Reading data[0] = 10 for transaction #219
+Thread 3: Reading data[7] = 4 for transaction #219
+Thread 0: Reading data[9] = 2 for transaction #220
+Thread 0: Reading data[9] = 2 for transaction #220
+Thread 0: Reading data[2] = 6 for transaction #220
+Thread 0: Reading data[1] = 9 for transaction #220
+Thread 1: Writing data[3] = 3 for transaction #225
+Thread 1: Committed transaction #225 successfully
+Thread 1 beginning transaction 229
+Thread 1: Reading data[0] = 10 for transaction #229
+Thread 1: Reading data[3] = 3 for transaction #229
+Thread 1: Reading data[3] = 3 for transaction #229
+Thread 1: Reading data[3] = 3 for transaction #229
+Thread 3: Writing data[2] = 3 for transaction #219
+Thread 3: Writing data[4] = 4 for transaction #219
+Thread 3: Aborted transaction #219 due to conflict with transaction #220
+Thread 3 beginning transaction 223
+Thread 2: Writing data[7] = 3 for transaction #250
+Thread 2: Committed transaction #250 successfully
+Thread 2 beginning transaction 254
+Thread 0: Writing data[1] = 4 for transaction #220
+Thread 0: Writing data[5] = 8 for transaction #220
+Thread 0: Committed transaction #220 successfully
+Thread 0 beginning transaction 224
+Thread 3: Reading data[8] = 5 for transaction #223
+Thread 3: Reading data[9] = 2 for transaction #223
+Thread 3: Reading data[4] = 6 for transaction #223
+Thread 1: Writing data[0] = 9 for transaction #229
+Thread 0: Reading data[8] = 5 for transaction #224
+Thread 1: Writing data[7] = 5 for transaction #229
+Thread 0: Reading data[7] = 3 for transaction #224
+Thread 1: Aborted transaction #229 due to conflict with transaction #224
+Thread 0: Reading data[0] = 10 for transaction #224
+Thread 1 beginning transaction 233
+Thread 0: Reading data[0] = 10 for transaction #224
+Thread 2: Reading data[1] = 4 for transaction #254
+Thread 2: Reading data[8] = 5 for transaction #254
+Thread 2: Reading data[9] = 2 for transaction #254
+Thread 2: Reading data[2] = 6 for transaction #254
+Thread 3: Writing data[7] = 9 for transaction #223
+Thread 3: Aborted transaction #223 due to conflict with transaction #224
+Thread 3 beginning transaction 227
+Thread 1: Reading data[3] = 3 for transaction #233
+Thread 1: Reading data[3] = 3 for transaction #233
+Thread 1: Reading data[6] = 2 for transaction #233
+Thread 0: Writing data[8] = 4 for transaction #224
+Thread 0: Aborted transaction #224 due to conflict with transaction #254
+Thread 0 beginning transaction 228
+Thread 2: Writing data[9] = 7 for transaction #254
+Thread 2: Writing data[2] = 5 for transaction #254
+Thread 2: Committed transaction #254 successfully
+Thread 2 beginning transaction 258
+Thread 3: Reading data[6] = 2 for transaction #227
+Thread 3: Reading data[0] = 10 for transaction #227
+Thread 3: Reading data[2] = 5 for transaction #227
+Thread 0: Reading data[1] = 4 for transaction #228
+Thread 0: Reading data[8] = 5 for transaction #228
+Thread 0: Reading data[6] = 2 for transaction #228
+Thread 0: Reading data[5] = 8 for transaction #228
+Thread 1: Writing data[1] = 6 for transaction #233
+Thread 1: Aborted transaction #233 due to conflict with transaction #228
+Thread 1 beginning transaction 237
+Thread 2: Reading data[2] = 5 for transaction #258
+Thread 2: Reading data[1] = 4 for transaction #258
+Thread 2: Reading data[6] = 2 for transaction #258
+Thread 2: Reading data[3] = 3 for transaction #258
+Thread 0: Writing data[1] = 4 for transaction #228
+Thread 0: Writing data[2] = 3 for transaction #228
+Thread 0: Aborted transaction #228 due to conflict with transaction #227
+Thread 0 beginning transaction 232
+Thread 3: Writing data[8] = 2 for transaction #227
+Thread 2: Writing data[4] = 10 for transaction #258
+Thread 3: Committed transaction #227 successfully
+Thread 3 beginning transaction 231
+Thread 2: Committed transaction #258 successfully
+Thread 2 beginning transaction 262
+Thread 2: Reading data[7] = 3 for transaction #262
+Thread 2: Reading data[9] = 7 for transaction #262
+Thread 2: Reading data[4] = 10 for transaction #262
+Thread 2: Reading data[0] = 10 for transaction #262
+Thread 3: Reading data[3] = 3 for transaction #231
+Thread 3: Reading data[7] = 3 for transaction #231
+Thread 3: Reading data[9] = 7 for transaction #231
+Thread 3: Reading data[9] = 7 for transaction #231
+Thread 1: Reading data[4] = 10 for transaction #237
+Thread 1: Reading data[0] = 10 for transaction #237
+Thread 1: Reading data[4] = 10 for transaction #237
+Thread 1: Reading data[4] = 10 for transaction #237
+Thread 3: Writing data[1] = 4 for transaction #231
+Thread 3: Committed transaction #231 successfully
+Thread 3 beginning transaction 235
+Thread 2: Writing data[4] = 1 for transaction #262
+Thread 2: Writing data[3] = 8 for transaction #262
+Thread 2: Aborted transaction #262 due to conflict with transaction #237
+Thread 2 beginning transaction 266
+Thread 0: Reading data[4] = 10 for transaction #232
+Thread 0: Reading data[8] = 2 for transaction #232
+Thread 0: Reading data[2] = 5 for transaction #232
+Thread 3: Reading data[1] = 4 for transaction #235
+Thread 3: Reading data[6] = 2 for transaction #235
+Thread 3: Reading data[8] = 2 for transaction #235
+Thread 1: Writing data[7] = 3 for transaction #237
+Thread 0: Writing data[3] = 3 for transaction #232
+Thread 1: Writing data[2] = 6 for transaction #237
+Thread 0: Committed transaction #232 successfully
+Thread 1: Aborted transaction #237 due to conflict with transaction #232
+Thread 0 beginning transaction 236
+Thread 1 beginning transaction 241
+Thread 3: Writing data[1] = 10 for transaction #235
+Thread 3: Committed transaction #235 successfully
+Thread 3 beginning transaction 239
+Thread 2: Reading data[7] = 3 for transaction #266
+Thread 2: Reading data[0] = 10 for transaction #266
+Thread 2: Reading data[1] = 10 for transaction #266
+Thread 3: Reading data[5] = 8 for transaction #239
+Thread 0: Reading data[5] = 8 for transaction #236
+Thread 3: Reading data[6] = 2 for transaction #239
+Thread 0: Reading data[5] = 8 for transaction #236
+Thread 3: Reading data[1] = 10 for transaction #239
+Thread 0: Reading data[0] = 10 for transaction #236
+Thread 3: Reading data[4] = 10 for transaction #239
+Thread 2: Writing data[5] = 5 for transaction #266
+Thread 2: Aborted transaction #266 due to conflict with transaction #236
+Thread 2 beginning transaction 270
+Thread 3: Writing data[5] = 3 for transaction #239
+Thread 3: Aborted transaction #239 due to conflict with transaction #236
+Thread 3 beginning transaction 243
+Thread 1: Reading data[8] = 2 for transaction #241
+Thread 1: Reading data[5] = 8 for transaction #241
+Thread 1: Reading data[3] = 3 for transaction #241
+Thread 1: Reading data[9] = 7 for transaction #241
+Thread 3: Reading data[6] = 2 for transaction #243
+Thread 3: Reading data[4] = 10 for transaction #243
+Thread 3: Reading data[7] = 3 for transaction #243
+Thread 3: Reading data[7] = 3 for transaction #243
+Thread 0: Writing data[7] = 10 for transaction #236
+Thread 0: Aborted transaction #236 due to conflict with transaction #243
+Thread 0 beginning transaction 240
+Thread 2: Reading data[9] = 7 for transaction #270
+Thread 2: Reading data[1] = 10 for transaction #270
+Thread 2: Reading data[7] = 3 for transaction #270
+Thread 2: Reading data[7] = 3 for transaction #270
+Thread 2: Writing data[4] = 4 for transaction #270
+Thread 2: Writing data[3] = 3 for transaction #270
+Thread 2: Aborted transaction #270 due to conflict with transaction #241
+Thread 2 beginning transaction 274
+Thread 1: Writing data[6] = 1 for transaction #241
+Thread 1: Aborted transaction #241 due to conflict with transaction #243
+Thread 1 beginning transaction 245
+Thread 0: Reading data[2] = 5 for transaction #240
+Thread 0: Reading data[7] = 3 for transaction #240
+Thread 0: Reading data[6] = 2 for transaction #240
+Thread 0: Reading data[0] = 10 for transaction #240
+Thread 3: Writing data[9] = 4 for transaction #243
+Thread 3: Committed transaction #243 successfully
+Thread 3 beginning transaction 247
+Thread 3: Reading data[3] = 3 for transaction #247
+Thread 3: Reading data[1] = 10 for transaction #247
+Thread 3: Reading data[3] = 3 for transaction #247
+Thread 3: Reading data[8] = 2 for transaction #247
+Thread 2: Reading data[5] = 8 for transaction #274
+Thread 2: Reading data[6] = 2 for transaction #274
+Thread 2: Reading data[2] = 5 for transaction #274
+Thread 2: Reading data[4] = 10 for transaction #274
+Thread 0: Writing data[8] = 4 for transaction #240
+Thread 0: Writing data[6] = 9 for transaction #240
+Thread 0: Aborted transaction #240 due to conflict with transaction #274
+Thread 0 beginning transaction 244
+Thread 2: Writing data[1] = 7 for transaction #274
+Thread 2: Writing data[3] = 5 for transaction #274
+Thread 2: Aborted transaction #274 due to conflict with transaction #247
+Thread 2 beginning transaction 278
+Thread 1: Reading data[7] = 3 for transaction #245
+Thread 1: Reading data[5] = 8 for transaction #245
+Thread 1: Reading data[5] = 8 for transaction #245
+Thread 1: Reading data[6] = 2 for transaction #245
+Thread 2: Reading data[6] = 2 for transaction #278
+Thread 2: Reading data[0] = 10 for transaction #278
+Thread 2: Reading data[6] = 2 for transaction #278
+Thread 2: Reading data[7] = 3 for transaction #278
+Thread 3: Writing data[7] = 6 for transaction #247
+Thread 0: Reading data[2] = 5 for transaction #244
+Thread 3: Aborted transaction #247 due to conflict with transaction #245
+Thread 0: Reading data[7] = 3 for transaction #244
+Thread 3 beginning transaction 251
+Thread 0: Reading data[0] = 10 for transaction #244
+Thread 0: Reading data[2] = 5 for transaction #244
+Thread 1: Writing data[9] = 8 for transaction #245
+Thread 1: Committed transaction #245 successfully
+Thread 1 beginning transaction 249
+Thread 3: Reading data[2] = 5 for transaction #251
+Thread 3: Reading data[4] = 10 for transaction #251
+Thread 3: Reading data[0] = 10 for transaction #251
+Thread 2: Writing data[1] = 3 for transaction #278
+Thread 0: Writing data[4] = 10 for transaction #244
+Thread 2: Committed transaction #278 successfully
+Thread 0: Aborted transaction #244 due to conflict with transaction #251
+Thread 2 beginning transaction 282
+Thread 0 beginning transaction 248
+Thread 2: Reading data[0] = 10 for transaction #282
+Thread 2: Reading data[7] = 3 for transaction #282
+Thread 2: Reading data[7] = 3 for transaction #282
+Thread 2: Reading data[2] = 5 for transaction #282
+Thread 1: Reading data[3] = 3 for transaction #249
+Thread 1: Reading data[3] = 3 for transaction #249
+Thread 1: Reading data[0] = 10 for transaction #249
+Thread 3: Writing data[0] = 6 for transaction #251
+Thread 3: Aborted transaction #251 due to conflict with transaction #249
+Thread 3 beginning transaction 255
+Thread 0: Reading data[5] = 8 for transaction #248
+Thread 0: Reading data[7] = 3 for transaction #248
+Thread 0: Reading data[0] = 10 for transaction #248
+Thread 0: Reading data[4] = 10 for transaction #248
+Thread 3: Reading data[5] = 8 for transaction #255
+Thread 2: Writing data[2] = 8 for transaction #282
+Thread 3: Reading data[5] = 8 for transaction #255
+Thread 2: Writing data[6] = 4 for transaction #282
+Thread 3: Reading data[3] = 3 for transaction #255
+Thread 2: Committed transaction #282 successfully
+Thread 2 beginning transaction 286
+Thread 3: Reading data[3] = 3 for transaction #255
+Thread 3: Writing data[2] = 4 for transaction #255
+Thread 3: Committed transaction #255 successfully
+Thread 3 beginning transaction 259
+Thread 1: Writing data[5] = 1 for transaction #249
+Thread 1: Aborted transaction #249 due to conflict with transaction #248
+Thread 1 beginning transaction 253
+Thread 3: Reading data[2] = 4 for transaction #259
+Thread 0: Writing data[4] = 10 for transaction #248
+Thread 3: Reading data[8] = 2 for transaction #259
+Thread 0: Writing data[5] = 8 for transaction #248
+Thread 3: Reading data[8] = 2 for transaction #259
+Thread 0: Committed transaction #248 successfully
+Thread 3: Reading data[1] = 3 for transaction #259
+Thread 0 beginning transaction 252
+Thread 2: Reading data[4] = 10 for transaction #286
+Thread 2: Reading data[7] = 3 for transaction #286
+Thread 2: Reading data[8] = 2 for transaction #286
+Thread 2: Reading data[0] = 10 for transaction #286
+Thread 1: Reading data[1] = 3 for transaction #253
+Thread 1: Reading data[7] = 3 for transaction #253
+Thread 1: Reading data[5] = 8 for transaction #253
+Thread 1: Reading data[0] = 10 for transaction #253
+Thread 1: Writing data[7] = 1 for transaction #253
+Thread 1: Aborted transaction #253 due to conflict with transaction #286
+Thread 1 beginning transaction 257
+Thread 1: Reading data[6] = 4 for transaction #257
+Thread 3: Writing data[3] = 10 for transaction #259
+Thread 2: Writing data[0] = 5 for transaction #286
+Thread 0: Reading data[8] = 2 for transaction #252
+Thread 1: Reading data[4] = 10 for transaction #257
+Thread 3: Committed transaction #259 successfully
+Thread 3 beginning transaction 263
+Thread 2: Committed transaction #286 successfully
+Thread 2 beginning transaction 290
+Thread 0: Reading data[5] = 8 for transaction #252
+Thread 1: Reading data[6] = 4 for transaction #257
+Thread 0: Reading data[8] = 2 for transaction #252
+Thread 0: Reading data[3] = 10 for transaction #252
+Thread 3: Reading data[6] = 4 for transaction #263
+Thread 3: Reading data[5] = 8 for transaction #263
+Thread 3: Reading data[4] = 10 for transaction #263
+Thread 3: Reading data[1] = 3 for transaction #263
+Thread 3: Writing data[9] = 10 for transaction #263
+Thread 3: Writing data[5] = 1 for transaction #263
+Thread 3: Aborted transaction #263 due to conflict with transaction #252
+Thread 3 beginning transaction 267
+Thread 0: Writing data[9] = 10 for transaction #252
+Thread 0: Committed transaction #252 successfully
+Thread 0 beginning transaction 256
+Thread 2: Reading data[8] = 2 for transaction #290
+Thread 2: Reading data[0] = 5 for transaction #290
+Thread 2: Reading data[1] = 3 for transaction #290
+Thread 2: Reading data[3] = 10 for transaction #290
+Thread 1: Writing data[2] = 7 for transaction #257
+Thread 1: Committed transaction #257 successfully
+Thread 1 beginning transaction 261
+Thread 0: Reading data[5] = 8 for transaction #256
+Thread 0: Reading data[3] = 10 for transaction #256
+Thread 0: Reading data[7] = 3 for transaction #256
+Thread 0: Reading data[2] = 7 for transaction #256
+Thread 0: Writing data[9] = 3 for transaction #256
+Thread 0: Writing data[1] = 7 for transaction #256
+Thread 0: Aborted transaction #256 due to conflict with transaction #290
+Thread 0 beginning transaction 260
+Thread 3: Reading data[1] = 3 for transaction #267
+Thread 3: Reading data[2] = 7 for transaction #267
+Thread 3: Reading data[1] = 3 for transaction #267
+Thread 3: Reading data[9] = 10 for transaction #267
+Thread 1: Reading data[9] = 10 for transaction #261
+Thread 1: Reading data[4] = 10 for transaction #261
+Thread 1: Reading data[8] = 2 for transaction #261
+Thread 0: Reading data[2] = 7 for transaction #260
+Thread 0: Reading data[6] = 4 for transaction #260
+Thread 0: Reading data[1] = 3 for transaction #260
+Thread 2: Writing data[2] = 6 for transaction #290
+Thread 2: Writing data[8] = 8 for transaction #290
+Thread 2: Aborted transaction #290 due to conflict with transaction #267
+Thread 2 beginning transaction 294
+Thread 2: Reading data[3] = 10 for transaction #294
+Thread 2: Reading data[2] = 7 for transaction #294
+Thread 2: Reading data[3] = 10 for transaction #294
+Thread 2: Reading data[0] = 5 for transaction #294
+Thread 3: Writing data[1] = 3 for transaction #267
+Thread 3: Aborted transaction #267 due to conflict with transaction #260
+Thread 3 beginning transaction 271
+Thread 0: Writing data[0] = 9 for transaction #260
+Thread 0: Aborted transaction #260 due to conflict with transaction #294
+Thread 0 beginning transaction 264
+Thread 3: Reading data[6] = 4 for transaction #271
+Thread 3: Reading data[9] = 10 for transaction #271
+Thread 3: Reading data[5] = 8 for transaction #271
+Thread 3: Reading data[3] = 10 for transaction #271
+Thread 1: Writing data[8] = 5 for transaction #261
+Thread 1: Committed transaction #261 successfully
+Thread 1 beginning transaction 265
+Thread 2: Writing data[8] = 10 for transaction #294
+Thread 2: Committed transaction #294 successfully
+Thread 2 beginning transaction 298
+Thread 3: Writing data[6] = 8 for transaction #271
+Thread 3: Writing data[6] = 4 for transaction #271
+Thread 3: Committed transaction #271 successfully
+Thread 3 beginning transaction 275
+Thread 0: Reading data[2] = 7 for transaction #264
+Thread 2: Reading data[8] = 10 for transaction #298
+Thread 0: Reading data[2] = 7 for transaction #264
+Thread 2: Reading data[5] = 8 for transaction #298
+Thread 0: Reading data[5] = 8 for transaction #264
+Thread 2: Reading data[0] = 5 for transaction #298
+Thread 0: Reading data[3] = 10 for transaction #264
+Thread 2: Reading data[6] = 4 for transaction #298
+Thread 2: Writing data[2] = 10 for transaction #298
+Thread 2: Writing data[7] = 9 for transaction #298
+Thread 2: Aborted transaction #298 due to conflict with transaction #264
+Thread 2 beginning transaction 302
+Thread 1: Reading data[3] = 10 for transaction #265
+Thread 1: Reading data[6] = 4 for transaction #265
+Thread 1: Reading data[2] = 7 for transaction #265
+Thread 1: Reading data[1] = 3 for transaction #265
+Thread 0: Writing data[1] = 4 for transaction #264
+Thread 0: Writing data[4] = 5 for transaction #264
+Thread 0: Aborted transaction #264 due to conflict with transaction #265
+Thread 0 beginning transaction 268
+Thread 1: Writing data[3] = 3 for transaction #265
+Thread 1: Committed transaction #265 successfully
+Thread 1 beginning transaction 269
+Thread 3: Reading data[4] = 10 for transaction #275
+Thread 3: Reading data[6] = 4 for transaction #275
+Thread 3: Reading data[0] = 5 for transaction #275
+Thread 3: Reading data[8] = 10 for transaction #275
+Thread 0: Reading data[2] = 7 for transaction #268
+Thread 0: Reading data[8] = 10 for transaction #268
+Thread 0: Reading data[8] = 10 for transaction #268
+Thread 0: Reading data[6] = 4 for transaction #268
+Thread 2: Reading data[2] = 7 for transaction #302
+Thread 2: Reading data[0] = 5 for transaction #302
+Thread 2: Reading data[2] = 7 for transaction #302
+Thread 2: Reading data[3] = 3 for transaction #302
+Thread 3: Writing data[7] = 9 for transaction #275
+Thread 2: Writing data[7] = 5 for transaction #302
+Thread 3: Writing data[1] = 9 for transaction #275
+Thread 2: Writing data[0] = 6 for transaction #302
+Thread 3: Committed transaction #275 successfully
+Thread 2: Aborted transaction #302 due to conflict with transaction #275
+Thread 3 beginning transaction 279
+Thread 2 beginning transaction 306
+Thread 1: Reading data[9] = 10 for transaction #269
+Thread 1: Reading data[5] = 8 for transaction #269
+Thread 1: Reading data[9] = 10 for transaction #269
+Thread 3: Reading data[0] = 5 for transaction #279
+Thread 3: Reading data[3] = 3 for transaction #279
+Thread 3: Reading data[5] = 8 for transaction #279
+Thread 3: Reading data[8] = 10 for transaction #279
+Thread 1: Writing data[5] = 2 for transaction #269
+Thread 1: Aborted transaction #269 due to conflict with transaction #279
+Thread 1 beginning transaction 273
+Thread 2: Reading data[6] = 4 for transaction #306
+Thread 2: Reading data[6] = 4 for transaction #306
+Thread 2: Reading data[2] = 7 for transaction #306
+Thread 2: Reading data[2] = 7 for transaction #306
+Thread 0: Writing data[4] = 4 for transaction #268
+Thread 0: Writing data[4] = 7 for transaction #268
+Thread 0: Committed transaction #268 successfully
+Thread 0 beginning transaction 272
+Thread 2: Writing data[4] = 9 for transaction #306
+Thread 2: Committed transaction #306 successfully
+Thread 2 beginning transaction 310
+Thread 3: Writing data[1] = 8 for transaction #279
+Thread 3: Writing data[7] = 8 for transaction #279
+Thread 3: Committed transaction #279 successfully
+Thread 3 beginning transaction 283
+Thread 2: Reading data[6] = 4 for transaction #310
+Thread 0: Reading data[6] = 4 for transaction #272
+Thread 1: Reading data[2] = 7 for transaction #273
+Thread 2: Reading data[8] = 10 for transaction #310
+Thread 0: Reading data[6] = 4 for transaction #272
+Thread 1: Reading data[4] = 9 for transaction #273
+Thread 2: Reading data[1] = 8 for transaction #310
+Thread 0: Reading data[0] = 5 for transaction #272
+Thread 1: Reading data[1] = 8 for transaction #273
+Thread 2: Reading data[5] = 8 for transaction #310
+Thread 0: Reading data[3] = 3 for transaction #272
+Thread 1: Reading data[0] = 5 for transaction #273
+Thread 1: Writing data[4] = 1 for transaction #273
+Thread 1: Writing data[5] = 6 for transaction #273
+Thread 1: Aborted transaction #273 due to conflict with transaction #310
+Thread 1 beginning transaction 277
+Thread 0: Writing data[2] = 3 for transaction #272
+Thread 0: Committed transaction #272 successfully
+Thread 0 beginning transaction 276
+Thread 1: Reading data[8] = 10 for transaction #277
+Thread 1: Reading data[4] = 9 for transaction #277
+Thread 1: Reading data[9] = 10 for transaction #277
+Thread 1: Reading data[0] = 5 for transaction #277
+Thread 2: Writing data[8] = 2 for transaction #310
+Thread 2: Aborted transaction #310 due to conflict with transaction #277
+Thread 2 beginning transaction 314
+Thread 1: Writing data[1] = 8 for transaction #277
+Thread 1: Committed transaction #277 successfully
+Thread 1 beginning transaction 281
+Thread 2: Reading data[7] = 8 for transaction #314
+Thread 2: Reading data[0] = 5 for transaction #314
+Thread 2: Reading data[5] = 8 for transaction #314
+Thread 1: Reading data[8] = 10 for transaction #281
+Thread 1: Reading data[8] = 10 for transaction #281
+Thread 1: Reading data[1] = 8 for transaction #281
+Thread 3: Reading data[6] = 4 for transaction #283
+Thread 3: Reading data[9] = 10 for transaction #283
+Thread 3: Reading data[3] = 3 for transaction #283
+Thread 1: Writing data[0] = 8 for transaction #281
+Thread 1: Aborted transaction #281 due to conflict with transaction #314
+Thread 1 beginning transaction 285
+Thread 0: Reading data[6] = 4 for transaction #276
+Thread 0: Reading data[4] = 9 for transaction #276
+Thread 0: Reading data[8] = 10 for transaction #276
+Thread 0: Reading data[9] = 10 for transaction #276
+Thread 2: Writing data[3] = 7 for transaction #314
+Thread 2: Aborted transaction #314 due to conflict with transaction #283
+Thread 2 beginning transaction 318
+Thread 2: Reading data[0] = 5 for transaction #318
+Thread 2: Reading data[0] = 5 for transaction #318
+Thread 2: Reading data[4] = 9 for transaction #318
+Thread 2: Reading data[0] = 5 for transaction #318
+Thread 0: Writing data[8] = 6 for transaction #276
+Thread 0: Committed transaction #276 successfully
+Thread 0 beginning transaction 280
+Thread 0: Reading data[6] = 4 for transaction #280
+Thread 1: Reading data[2] = 3 for transaction #285
+Thread 0: Reading data[5] = 8 for transaction #280
+Thread 1: Reading data[0] = 5 for transaction #285
+Thread 0: Reading data[5] = 8 for transaction #280
+Thread 1: Reading data[0] = 5 for transaction #285
+Thread 0: Reading data[1] = 8 for transaction #280
+Thread 1: Writing data[3] = 10 for transaction #285
+Thread 1: Aborted transaction #285 due to conflict with transaction #283
+Thread 1 beginning transaction 289
+Thread 3: Writing data[4] = 4 for transaction #283
+Thread 3: Aborted transaction #283 due to conflict with transaction #318
+Thread 3 beginning transaction 287
+Thread 0: Writing data[3] = 7 for transaction #280
+Thread 0: Writing data[7] = 8 for transaction #280
+Thread 0: Committed transaction #280 successfully
+Thread 0 beginning transaction 284
+Thread 2: Writing data[8] = 1 for transaction #318
+Thread 2: Writing data[8] = 9 for transaction #318
+Thread 2: Committed transaction #318 successfully
+Thread 2 beginning transaction 322
+Thread 1: Reading data[1] = 8 for transaction #289
+Thread 0: Reading data[8] = 9 for transaction #284
+Thread 3: Reading data[3] = 7 for transaction #287
+Thread 1: Reading data[3] = 7 for transaction #289
+Thread 0: Reading data[9] = 10 for transaction #284
+Thread 3: Reading data[5] = 8 for transaction #287
+Thread 1: Reading data[2] = 3 for transaction #289
+Thread 0: Reading data[1] = 8 for transaction #284
+Thread 3: Reading data[2] = 3 for transaction #287
+Thread 0: Reading data[8] = 9 for transaction #284
+Thread 0: Writing data[0] = 9 for transaction #284
+Thread 0: Writing data[9] = 6 for transaction #284
+Thread 0: Committed transaction #284 successfully
+Thread 0 beginning transaction 288
+Thread 0: Reading data[6] = 4 for transaction #288
+Thread 0: Reading data[4] = 9 for transaction #288
+Thread 0: Reading data[1] = 8 for transaction #288
+Thread 2: Reading data[3] = 7 for transaction #322
+Thread 2: Reading data[9] = 6 for transaction #322
+Thread 2: Reading data[6] = 4 for transaction #322
+Thread 2: Reading data[7] = 8 for transaction #322
+Thread 3: Writing data[1] = 5 for transaction #287
+Thread 3: Aborted transaction #287 due to conflict with transaction #289
+Thread 3 beginning transaction 291
+Thread 1: Writing data[0] = 10 for transaction #289
+Thread 1: Committed transaction #289 successfully
+Thread 1 beginning transaction 293
+Thread 0: Writing data[9] = 4 for transaction #288
+Thread 0: Aborted transaction #288 due to conflict with transaction #322
+Thread 0 beginning transaction 292
+Thread 3: Reading data[2] = 3 for transaction #291
+Thread 3: Reading data[5] = 8 for transaction #291
+Thread 3: Reading data[1] = 8 for transaction #291
+Thread 1: Reading data[5] = 8 for transaction #293
+Thread 1: Reading data[7] = 8 for transaction #293
+Thread 1: Reading data[2] = 3 for transaction #293
+Thread 1: Reading data[3] = 7 for transaction #293
+Thread 2: Writing data[1] = 10 for transaction #322
+Thread 2: Writing data[4] = 3 for transaction #322
+Thread 2: Aborted transaction #322 due to conflict with transaction #291
+Thread 2 beginning transaction 326
+Thread 3: Writing data[7] = 4 for transaction #291
+Thread 3: Aborted transaction #291 due to conflict with transaction #293
+Thread 3 beginning transaction 295
+Thread 0: Reading data[4] = 9 for transaction #292
+Thread 0: Reading data[0] = 10 for transaction #292
+Thread 0: Reading data[6] = 4 for transaction #292
+Thread 0: Reading data[1] = 8 for transaction #292
+Thread 3: Reading data[7] = 8 for transaction #295
+Thread 3: Reading data[5] = 8 for transaction #295
+Thread 3: Reading data[0] = 10 for transaction #295
+Thread 3: Reading data[8] = 9 for transaction #295
+Thread 0: Writing data[1] = 7 for transaction #292
+Thread 0: Writing data[3] = 2 for transaction #292
+Thread 0: Aborted transaction #292 due to conflict with transaction #293
+Thread 0 beginning transaction 296
+Thread 2: Reading data[7] = 8 for transaction #326
+Thread 2: Reading data[5] = 8 for transaction #326
+Thread 2: Reading data[8] = 9 for transaction #326
+Thread 1: Writing data[8] = 7 for transaction #293
+Thread 1: Aborted transaction #293 due to conflict with transaction #326
+Thread 1 beginning transaction 297
+Thread 3: Writing data[1] = 1 for transaction #295
+Thread 3: Writing data[4] = 10 for transaction #295
+Thread 3: Committed transaction #295 successfully
+Thread 3 beginning transaction 299
+Thread 3: Reading data[0] = 10 for transaction #299
+Thread 3: Reading data[5] = 8 for transaction #299
+Thread 3: Reading data[3] = 7 for transaction #299
+Thread 3: Reading data[0] = 10 for transaction #299
+Thread 2: Writing data[9] = 7 for transaction #326
+Thread 2: Committed transaction #326 successfully
+Thread 2 beginning transaction 330
+Thread 0: Reading data[3] = 7 for transaction #296
+Thread 0: Reading data[6] = 4 for transaction #296
+Thread 0: Reading data[2] = 3 for transaction #296
+Thread 0: Reading data[7] = 8 for transaction #296
+Thread 2: Reading data[0] = 10 for transaction #330
+Thread 2: Reading data[6] = 4 for transaction #330
+Thread 2: Reading data[1] = 1 for transaction #330
+Thread 3: Writing data[9] = 5 for transaction #299
+Thread 3: Writing data[2] = 3 for transaction #299
+Thread 3: Aborted transaction #299 due to conflict with transaction #296
+Thread 3 beginning transaction 303
+Thread 1: Reading data[8] = 9 for transaction #297
+Thread 1: Reading data[0] = 10 for transaction #297
+Thread 1: Reading data[2] = 3 for transaction #297
+Thread 1: Reading data[9] = 7 for transaction #297
+Thread 0: Writing data[5] = 10 for transaction #296
+Thread 0: Writing data[0] = 5 for transaction #296
+Thread 0: Aborted transaction #296 due to conflict with transaction #297
+Thread 0 beginning transaction 300
+Thread 2: Writing data[9] = 3 for transaction #330
+Thread 2: Aborted transaction #330 due to conflict with transaction #297
+Thread 2 beginning transaction 334
+Thread 3: Reading data[6] = 4 for transaction #303
+Thread 3: Reading data[1] = 1 for transaction #303
+Thread 3: Reading data[7] = 8 for transaction #303
+Thread 3: Reading data[2] = 3 for transaction #303
+Thread 0: Reading data[3] = 7 for transaction #300
+Thread 0: Reading data[5] = 8 for transaction #300
+Thread 0: Reading data[0] = 10 for transaction #300
+Thread 0: Reading data[1] = 1 for transaction #300
+Thread 3: Writing data[9] = 6 for transaction #303
+Thread 3: Writing data[7] = 8 for transaction #303
+Thread 3: Aborted transaction #303 due to conflict with transaction #297
+Thread 3 beginning transaction 307
+Thread 1: Writing data[6] = 1 for transaction #297
+Thread 1: Writing data[8] = 9 for transaction #297
+Thread 1: Committed transaction #297 successfully
+Thread 1 beginning transaction 301
+Thread 2: Reading data[7] = 8 for transaction #334
+Thread 3: Reading data[3] = 7 for transaction #307
+Thread 2: Reading data[9] = 7 for transaction #334
+Thread 3: Reading data[3] = 7 for transaction #307
+Thread 2: Reading data[4] = 10 for transaction #334
+Thread 3: Reading data[0] = 10 for transaction #307
+Thread 2: Reading data[7] = 8 for transaction #334
+Thread 3: Reading data[7] = 8 for transaction #307
+Thread 3: Writing data[7] = 5 for transaction #307
+Thread 3: Aborted transaction #307 due to conflict with transaction #334
+Thread 3 beginning transaction 311
+Thread 0: Writing data[9] = 10 for transaction #300
+Thread 0: Writing data[7] = 8 for transaction #300
+Thread 0: Aborted transaction #300 due to conflict with transaction #334
+Thread 0 beginning transaction 304
+Thread 1: Reading data[3] = 7 for transaction #301
+Thread 1: Reading data[2] = 3 for transaction #301
+Thread 1: Reading data[8] = 9 for transaction #301
+Thread 1: Reading data[2] = 3 for transaction #301
+Thread 2: Writing data[1] = 10 for transaction #334
+Thread 2: Writing data[6] = 1 for transaction #334
+Thread 2: Committed transaction #334 successfully
+Thread 2 beginning transaction 338
+Thread 3: Reading data[6] = 1 for transaction #311
+Thread 3: Reading data[8] = 9 for transaction #311
+Thread 3: Reading data[3] = 7 for transaction #311
+Thread 3: Reading data[0] = 10 for transaction #311
+Thread 3: Writing data[8] = 9 for transaction #311
+Thread 3: Aborted transaction #311 due to conflict with transaction #301
+Thread 3 beginning transaction 315
+Thread 0: Reading data[5] = 8 for transaction #304
+Thread 0: Reading data[1] = 10 for transaction #304
+Thread 0: Reading data[5] = 8 for transaction #304
+Thread 0: Reading data[9] = 7 for transaction #304
+Thread 1: Writing data[9] = 2 for transaction #301
+Thread 1: Writing data[1] = 2 for transaction #301
+Thread 1: Aborted transaction #301 due to conflict with transaction #304
+Thread 1 beginning transaction 305
+Thread 2: Reading data[1] = 10 for transaction #338
+Thread 2: Reading data[6] = 1 for transaction #338
+Thread 2: Reading data[2] = 3 for transaction #338
+Thread 2: Reading data[5] = 8 for transaction #338
+Thread 1: Reading data[4] = 10 for transaction #305
+Thread 1: Reading data[0] = 10 for transaction #305
+Thread 1: Reading data[7] = 8 for transaction #305
+Thread 1: Reading data[5] = 8 for transaction #305
+Thread 3: Reading data[3] = 7 for transaction #315
+Thread 3: Reading data[8] = 9 for transaction #315
+Thread 3: Reading data[8] = 9 for transaction #315
+Thread 3: Reading data[6] = 1 for transaction #315
+Thread 1: Writing data[9] = 9 for transaction #305
+Thread 1: Aborted transaction #305 due to conflict with transaction #304
+Thread 1 beginning transaction 309
+Thread 0: Writing data[1] = 6 for transaction #304
+Thread 0: Aborted transaction #304 due to conflict with transaction #338
+Thread 0 beginning transaction 308
+Thread 3: Writing data[5] = 2 for transaction #315
+Thread 3: Aborted transaction #315 due to conflict with transaction #338
+Thread 3 beginning transaction 319
+Thread 2: Writing data[7] = 5 for transaction #338
+Thread 0: Reading data[5] = 8 for transaction #308
+Thread 2: Committed transaction #338 successfully
+Thread 0: Reading data[7] = 5 for transaction #308
+Thread 2 beginning transaction 342
+Thread 0: Reading data[8] = 9 for transaction #308
+Thread 0: Reading data[3] = 7 for transaction #308
+Thread 3: Reading data[7] = 5 for transaction #319
+Thread 1: Reading data[9] = 7 for transaction #309
+Thread 3: Reading data[1] = 10 for transaction #319
+Thread 1: Reading data[3] = 7 for transaction #309
+Thread 3: Reading data[5] = 8 for transaction #319
+Thread 1: Reading data[8] = 9 for transaction #309
+Thread 1: Reading data[0] = 10 for transaction #309
+Thread 2: Reading data[8] = 9 for transaction #342
+Thread 2: Reading data[8] = 9 for transaction #342
+Thread 2: Reading data[1] = 10 for transaction #342
+Thread 2: Reading data[0] = 10 for transaction #342
+Thread 3: Writing data[0] = 7 for transaction #319
+Thread 3: Aborted transaction #319 due to conflict with transaction #309
+Thread 3 beginning transaction 323
+Thread 1: Writing data[6] = 9 for transaction #309
+Thread 1: Committed transaction #309 successfully
+Thread 1 beginning transaction 313
+Thread 0: Writing data[1] = 1 for transaction #308
+Thread 0: Aborted transaction #308 due to conflict with transaction #342
+Thread 0 beginning transaction 312
+Thread 0: Reading data[2] = 3 for transaction #312
+Thread 0: Reading data[3] = 7 for transaction #312
+Thread 0: Reading data[6] = 9 for transaction #312
+Thread 3: Reading data[5] = 8 for transaction #323
+Thread 3: Reading data[4] = 10 for transaction #323
+Thread 3: Reading data[7] = 5 for transaction #323
+Thread 1: Reading data[8] = 9 for transaction #313
+Thread 1: Reading data[3] = 7 for transaction #313
+Thread 1: Reading data[8] = 9 for transaction #313
+Thread 1: Reading data[2] = 3 for transaction #313
+Thread 1: Writing data[2] = 7 for transaction #313
+Thread 1: Aborted transaction #313 due to conflict with transaction #312
+Thread 1 beginning transaction 317
+Thread 2: Writing data[6] = 1 for transaction #342
+Thread 2: Writing data[5] = 4 for transaction #342
+Thread 2: Aborted transaction #342 due to conflict with transaction #323
+Thread 2 beginning transaction 346
+Thread 2: Reading data[0] = 10 for transaction #346
+Thread 2: Reading data[8] = 9 for transaction #346
+Thread 2: Reading data[1] = 10 for transaction #346
+Thread 2: Reading data[7] = 5 for transaction #346
+Thread 1: Reading data[9] = 7 for transaction #317
+Thread 1: Reading data[5] = 8 for transaction #317
+Thread 1: Reading data[6] = 9 for transaction #317
+Thread 1: Reading data[7] = 5 for transaction #317
+Thread 3: Writing data[0] = 8 for transaction #323
+Thread 3: Aborted transaction #323 due to conflict with transaction #346
+Thread 3 beginning transaction 327
+Thread 2: Writing data[0] = 6 for transaction #346
+Thread 2: Writing data[1] = 10 for transaction #346
+Thread 2: Committed transaction #346 successfully
+Thread 2 beginning transaction 350
+Thread 3: Reading data[1] = 10 for transaction #327
+Thread 3: Reading data[4] = 10 for transaction #327
+Thread 3: Reading data[6] = 9 for transaction #327
+Thread 3: Reading data[6] = 9 for transaction #327
+Thread 0: Writing data[4] = 5 for transaction #312
+Thread 2: Reading data[5] = 8 for transaction #350
+Thread 0: Aborted transaction #312 due to conflict with transaction #327
+Thread 0 beginning transaction 316
+Thread 2: Reading data[5] = 8 for transaction #350
+Thread 2: Reading data[7] = 5 for transaction #350
+Thread 2: Reading data[2] = 3 for transaction #350
+Thread 3: Writing data[2] = 10 for transaction #327
+Thread 3: Aborted transaction #327 due to conflict with transaction #350
+Thread 3 beginning transaction 331
+Thread 0: Reading data[2] = 3 for transaction #316
+Thread 0: Reading data[1] = 10 for transaction #316
+Thread 0: Reading data[9] = 7 for transaction #316
+Thread 0: Reading data[6] = 9 for transaction #316
+Thread 1: Writing data[0] = 10 for transaction #317
+Thread 1: Committed transaction #317 successfully
+Thread 1 beginning transaction 321
+Thread 1: Reading data[1] = 10 for transaction #321
+Thread 1: Reading data[1] = 10 for transaction #321
+Thread 1: Reading data[1] = 10 for transaction #321
+Thread 0: Writing data[5] = 1 for transaction #316
+Thread 0: Writing data[7] = 4 for transaction #316
+Thread 0: Aborted transaction #316 due to conflict with transaction #350
+Thread 0 beginning transaction 320
+Thread 3: Reading data[1] = 10 for transaction #331
+Thread 3: Reading data[1] = 10 for transaction #331
+Thread 3: Reading data[8] = 9 for transaction #331
+Thread 3: Reading data[9] = 7 for transaction #331
+Thread 2: Writing data[5] = 7 for transaction #350
+Thread 2: Writing data[4] = 3 for transaction #350
+Thread 2: Committed transaction #350 successfully
+Thread 2 beginning transaction 354
+Thread 0: Reading data[6] = 9 for transaction #320
+Thread 3: Writing data[9] = 2 for transaction #331
+Thread 0: Reading data[0] = 10 for transaction #320
+Thread 3: Writing data[3] = 2 for transaction #331
+Thread 0: Reading data[2] = 3 for transaction #320
+Thread 3: Committed transaction #331 successfully
+Thread 3 beginning transaction 335
+Thread 1: Writing data[5] = 9 for transaction #321
+Thread 1: Committed transaction #321 successfully
+Thread 1 beginning transaction 325
+Thread 2: Reading data[1] = 10 for transaction #354
+Thread 2: Reading data[7] = 5 for transaction #354
+Thread 2: Reading data[1] = 10 for transaction #354
+Thread 2: Reading data[9] = 2 for transaction #354
+Thread 1: Reading data[1] = 10 for transaction #325
+Thread 1: Reading data[6] = 9 for transaction #325
+Thread 1: Reading data[9] = 2 for transaction #325
+Thread 0: Writing data[8] = 10 for transaction #320
+Thread 0: Committed transaction #320 successfully
+Thread 0 beginning transaction 324
+Thread 0: Reading data[5] = 9 for transaction #324
+Thread 0: Reading data[0] = 10 for transaction #324
+Thread 0: Reading data[4] = 3 for transaction #324
+Thread 0: Reading data[8] = 10 for transaction #324
+Thread 2: Writing data[3] = 5 for transaction #354
+Thread 2: Committed transaction #354 successfully
+Thread 2 beginning transaction 358
+Thread 2: Reading data[4] = 3 for transaction #358
+Thread 3: Reading data[7] = 5 for transaction #335
+Thread 2: Reading data[0] = 10 for transaction #358
+Thread 3: Reading data[3] = 5 for transaction #335
+Thread 2: Reading data[5] = 9 for transaction #358
+Thread 3: Reading data[1] = 10 for transaction #335
+Thread 2: Reading data[5] = 9 for transaction #358
+Thread 3: Reading data[1] = 10 for transaction #335
+Thread 3: Writing data[1] = 6 for transaction #335
+Thread 3: Writing data[3] = 2 for transaction #335
+Thread 3: Aborted transaction #335 due to conflict with transaction #325
+Thread 3 beginning transaction 339
+Thread 3: Reading data[9] = 2 for transaction #339
+Thread 3: Reading data[8] = 10 for transaction #339
+Thread 3: Reading data[1] = 10 for transaction #339
+Thread 0: Writing data[0] = 4 for transaction #324
+Thread 0: Writing data[4] = 6 for transaction #324
+Thread 0: Aborted transaction #324 due to conflict with transaction #358
+Thread 0 beginning transaction 328
+Thread 1: Writing data[8] = 3 for transaction #325
+Thread 2: Writing data[3] = 1 for transaction #358
+Thread 1: Aborted transaction #325 due to conflict with transaction #339
+Thread 2: Writing data[9] = 1 for transaction #358
+Thread 1 beginning transaction 329
+Thread 2: Aborted transaction #358 due to conflict with transaction #339
+Thread 2 beginning transaction 362
+Thread 0: Reading data[4] = 3 for transaction #328
+Thread 0: Reading data[9] = 2 for transaction #328
+Thread 0: Reading data[2] = 3 for transaction #328
+Thread 0: Reading data[5] = 9 for transaction #328
+Thread 1: Reading data[0] = 10 for transaction #329
+Thread 1: Reading data[5] = 9 for transaction #329
+Thread 1: Reading data[9] = 2 for transaction #329
+Thread 2: Reading data[0] = 10 for transaction #362
+Thread 2: Reading data[7] = 5 for transaction #362
+Thread 2: Reading data[3] = 5 for transaction #362
+Thread 2: Reading data[7] = 5 for transaction #362
+Thread 0: Writing data[4] = 3 for transaction #328
+Thread 0: Committed transaction #328 successfully
+Thread 0 beginning transaction 332
+Thread 1: Writing data[3] = 2 for transaction #329
+Thread 0: Reading data[4] = 3 for transaction #332
+Thread 3: Writing data[2] = 2 for transaction #339
+Thread 1: Aborted transaction #329 due to conflict with transaction #362
+Thread 1 beginning transaction 333
+Thread 0: Reading data[1] = 10 for transaction #332
+Thread 3: Committed transaction #339 successfully
+Thread 0: Reading data[1] = 10 for transaction #332
+Thread 3 beginning transaction 343
+Thread 0: Writing data[4] = 2 for transaction #332
+Thread 0: Committed transaction #332 successfully
+Thread 0 beginning transaction 336
+Thread 1: Reading data[3] = 5 for transaction #333
+Thread 1: Reading data[0] = 10 for transaction #333
+Thread 1: Reading data[2] = 2 for transaction #333
+Thread 1: Reading data[2] = 2 for transaction #333
+Thread 2: Writing data[4] = 9 for transaction #362
+Thread 2: Committed transaction #362 successfully
+Thread 2 beginning transaction 366
+Thread 3: Reading data[6] = 9 for transaction #343
+Thread 3: Reading data[9] = 2 for transaction #343
+Thread 3: Reading data[3] = 5 for transaction #343
+Thread 3: Reading data[5] = 9 for transaction #343
+Thread 2: Reading data[4] = 9 for transaction #366
+Thread 2: Reading data[7] = 5 for transaction #366
+Thread 2: Reading data[3] = 5 for transaction #366
+Thread 2: Reading data[6] = 9 for transaction #366
+Thread 0: Reading data[5] = 9 for transaction #336
+Thread 0: Reading data[8] = 10 for transaction #336
+Thread 0: Reading data[7] = 5 for transaction #336
+Thread 0: Reading data[5] = 9 for transaction #336
+Thread 1: Writing data[1] = 2 for transaction #333
+Thread 1: Writing data[5] = 1 for transaction #333
+Thread 1: Aborted transaction #333 due to conflict with transaction #343
+Thread 1 beginning transaction 337
+Thread 0: Writing data[7] = 9 for transaction #336
+Thread 0: Writing data[0] = 1 for transaction #336
+Thread 3: Writing data[1] = 4 for transaction #343
+Thread 2: Writing data[7] = 4 for transaction #366
+Thread 0: Aborted transaction #336 due to conflict with transaction #366
+Thread 3: Committed transaction #343 successfully
+Thread 2: Aborted transaction #366 due to conflict with transaction #336
+Thread 1: Reading data[5] = 9 for transaction #337
+Thread 0 beginning transaction 340
+Thread 3 beginning transaction 347
+Thread 1: Reading data[9] = 2 for transaction #337
+Thread 2 beginning transaction 370
+Thread 1: Reading data[1] = 4 for transaction #337
+Thread 1: Reading data[0] = 10 for transaction #337
+Thread 1: Writing data[9] = 1 for transaction #337
+Thread 1: Committed transaction #337 successfully
+Thread 1 beginning transaction 341
+Thread 1: Reading data[8] = 10 for transaction #341
+Thread 1: Reading data[2] = 2 for transaction #341
+Thread 1: Reading data[4] = 9 for transaction #341
+Thread 1: Reading data[8] = 10 for transaction #341
+Thread 0: Reading data[5] = 9 for transaction #340
+Thread 0: Reading data[0] = 10 for transaction #340
+Thread 0: Reading data[0] = 10 for transaction #340
+Thread 0: Reading data[9] = 1 for transaction #340
+Thread 3: Reading data[1] = 4 for transaction #347
+Thread 3: Reading data[1] = 4 for transaction #347
+Thread 2: Reading data[2] = 2 for transaction #370
+Thread 3: Reading data[2] = 2 for transaction #347
+Thread 2: Reading data[3] = 5 for transaction #370
+Thread 2: Reading data[4] = 9 for transaction #370
+Thread 3: Writing data[4] = 10 for transaction #347
+Thread 3: Aborted transaction #347 due to conflict with transaction #370
+Thread 3 beginning transaction 351
+Thread 2: Writing data[9] = 6 for transaction #370
+Thread 2: Aborted transaction #370 due to conflict with transaction #340
+Thread 2 beginning transaction 374
+Thread 1: Writing data[5] = 4 for transaction #341
+Thread 1: Writing data[1] = 4 for transaction #341
+Thread 0: Writing data[0] = 3 for transaction #340
+Thread 1: Aborted transaction #341 due to conflict with transaction #340
+Thread 0: Committed transaction #340 successfully
+Thread 1 beginning transaction 345
+Thread 0 beginning transaction 344
+Thread 1: Reading data[5] = 9 for transaction #345
+Thread 1: Reading data[6] = 9 for transaction #345
+Thread 1: Reading data[3] = 5 for transaction #345
+Thread 3: Reading data[7] = 5 for transaction #351
+Thread 1: Reading data[4] = 9 for transaction #345
+Thread 3: Reading data[1] = 4 for transaction #351
+Thread 3: Reading data[3] = 5 for transaction #351
+Thread 3: Reading data[3] = 5 for transaction #351
+Thread 1: Writing data[9] = 8 for transaction #345
+Thread 1: Writing data[9] = 2 for transaction #345
+Thread 1: Committed transaction #345 successfully
+Thread 1 beginning transaction 349
+Thread 2: Reading data[1] = 4 for transaction #374
+Thread 2: Reading data[2] = 2 for transaction #374
+Thread 2: Reading data[8] = 10 for transaction #374
+Thread 2: Reading data[6] = 9 for transaction #374
+Thread 0: Reading data[6] = 9 for transaction #344
+Thread 0: Reading data[1] = 4 for transaction #344
+Thread 0: Reading data[8] = 10 for transaction #344
+Thread 3: Writing data[2] = 5 for transaction #351
+Thread 3: Writing data[2] = 7 for transaction #351
+Thread 3: Aborted transaction #351 due to conflict with transaction #374
+Thread 3 beginning transaction 355
+Thread 1: Reading data[3] = 5 for transaction #349
+Thread 1: Reading data[8] = 10 for transaction #349
+Thread 1: Reading data[2] = 2 for transaction #349
+Thread 1: Reading data[7] = 5 for transaction #349
+Thread 2: Writing data[4] = 9 for transaction #374
+Thread 2: Writing data[5] = 2 for transaction #374
+Thread 2: Committed transaction #374 successfully
+Thread 2 beginning transaction 378
+Thread 0: Writing data[5] = 1 for transaction #344
+Thread 0: Committed transaction #344 successfully
+Thread 0 beginning transaction 348
+Thread 2: Reading data[4] = 9 for transaction #378
+Thread 2: Reading data[2] = 2 for transaction #378
+Thread 2: Reading data[1] = 4 for transaction #378
+Thread 1: Writing data[4] = 5 for transaction #349
+Thread 1: Aborted transaction #349 due to conflict with transaction #378
+Thread 1 beginning transaction 353
+Thread 3: Reading data[4] = 9 for transaction #355
+Thread 3: Reading data[5] = 1 for transaction #355
+Thread 3: Reading data[2] = 2 for transaction #355
+Thread 0: Reading data[3] = 5 for transaction #348
+Thread 0: Reading data[1] = 4 for transaction #348
+Thread 0: Reading data[7] = 5 for transaction #348
+Thread 0: Reading data[4] = 9 for transaction #348
+Thread 2: Writing data[5] = 4 for transaction #378
+Thread 2: Aborted transaction #378 due to conflict with transaction #355
+Thread 2 beginning transaction 382
+Thread 3: Writing data[5] = 6 for transaction #355
+Thread 3: Committed transaction #355 successfully
+Thread 3 beginning transaction 359
+Thread 1: Reading data[1] = 4 for transaction #353
+Thread 1: Reading data[5] = 6 for transaction #353
+Thread 1: Reading data[7] = 5 for transaction #353
+Thread 0: Writing data[3] = 5 for transaction #348
+Thread 0: Committed transaction #348 successfully
+Thread 0 beginning transaction 352
+Thread 2: Reading data[0] = 3 for transaction #382
+Thread 2: Reading data[1] = 4 for transaction #382
+Thread 2: Reading data[9] = 2 for transaction #382
+Thread 2: Writing data[7] = 4 for transaction #382
+Thread 2: Aborted transaction #382 due to conflict with transaction #353
+Thread 2 beginning transaction 386
+Thread 1: Writing data[5] = 6 for transaction #353
+Thread 0: Reading data[4] = 9 for transaction #352
+Thread 1: Committed transaction #353 successfully
+Thread 0: Reading data[4] = 9 for transaction #352
+Thread 1 beginning transaction 357
+Thread 0: Reading data[9] = 2 for transaction #352
+Thread 0: Reading data[7] = 5 for transaction #352
+Thread 0: Writing data[0] = 2 for transaction #352
+Thread 1: Reading data[6] = 9 for transaction #357
+Thread 0: Writing data[7] = 1 for transaction #352
+Thread 3: Reading data[2] = 2 for transaction #359
+Thread 1: Reading data[3] = 5 for transaction #357
+Thread 0: Committed transaction #352 successfully
+Thread 3: Reading data[0] = 2 for transaction #359
+Thread 0 beginning transaction 356
+Thread 1: Reading data[1] = 4 for transaction #357
+Thread 3: Reading data[9] = 2 for transaction #359
+Thread 1: Reading data[2] = 2 for transaction #357
+Thread 3: Reading data[6] = 9 for transaction #359
+Thread 1: Writing data[0] = 3 for transaction #357
+Thread 1: Writing data[5] = 3 for transaction #357
+Thread 1: Aborted transaction #357 due to conflict with transaction #359
+Thread 1 beginning transaction 361
+Thread 0: Reading data[1] = 4 for transaction #356
+Thread 0: Reading data[9] = 2 for transaction #356
+Thread 0: Reading data[7] = 1 for transaction #356
+Thread 0: Reading data[5] = 6 for transaction #356
+Thread 2: Reading data[3] = 5 for transaction #386
+Thread 2: Reading data[8] = 10 for transaction #386
+Thread 2: Reading data[1] = 4 for transaction #386
+Thread 2: Reading data[4] = 9 for transaction #386
+Thread 3: Writing data[3] = 1 for transaction #359
+Thread 3: Aborted transaction #359 due to conflict with transaction #386
+Thread 3 beginning transaction 363
+Thread 2: Writing data[7] = 7 for transaction #386
+Thread 2: Aborted transaction #386 due to conflict with transaction #356
+Thread 2 beginning transaction 390
+Thread 1: Reading data[5] = 6 for transaction #361
+Thread 1: Reading data[7] = 1 for transaction #361
+Thread 1: Reading data[9] = 2 for transaction #361
+Thread 1: Reading data[9] = 2 for transaction #361
+Thread 0: Writing data[8] = 7 for transaction #356
+Thread 0: Writing data[4] = 8 for transaction #356
+Thread 0: Committed transaction #356 successfully
+Thread 0 beginning transaction 360
+Thread 2: Reading data[4] = 8 for transaction #390
+Thread 2: Reading data[1] = 4 for transaction #390
+Thread 2: Reading data[3] = 5 for transaction #390
+Thread 3: Reading data[7] = 1 for transaction #363
+Thread 3: Reading data[4] = 8 for transaction #363
+Thread 3: Reading data[3] = 5 for transaction #363
+Thread 3: Reading data[0] = 2 for transaction #363
+Thread 3: Writing data[9] = 5 for transaction #363
+Thread 3: Aborted transaction #363 due to conflict with transaction #361
+Thread 3 beginning transaction 367
+Thread 0: Reading data[2] = 2 for transaction #360
+Thread 0: Reading data[7] = 1 for transaction #360
+Thread 0: Reading data[6] = 9 for transaction #360
+Thread 0: Reading data[6] = 9 for transaction #360
+Thread 3: Reading data[4] = 8 for transaction #367
+Thread 3: Reading data[7] = 1 for transaction #367
+Thread 3: Reading data[3] = 5 for transaction #367
+Thread 3: Reading data[8] = 7 for transaction #367
+Thread 2: Writing data[3] = 10 for transaction #390
+Thread 2: Aborted transaction #390 due to conflict with transaction #367
+Thread 2 beginning transaction 394
+Thread 0: Writing data[1] = 3 for transaction #360
+Thread 1: Writing data[1] = 9 for transaction #361
+Thread 3: Writing data[9] = 9 for transaction #367
+Thread 0: Committed transaction #360 successfully
+Thread 1: Writing data[7] = 10 for transaction #361
+Thread 3: Writing data[5] = 6 for transaction #367
+Thread 0 beginning transaction 364
+Thread 1: Aborted transaction #361 due to conflict with transaction #367
+Thread 3: Aborted transaction #367 due to conflict with transaction #361
+Thread 1 beginning transaction 365
+Thread 3 beginning transaction 371
+Thread 2: Reading data[5] = 6 for transaction #394
+Thread 2: Reading data[6] = 9 for transaction #394
+Thread 2: Reading data[8] = 7 for transaction #394
+Thread 2: Reading data[5] = 6 for transaction #394
+Thread 0: Reading data[9] = 2 for transaction #364
+Thread 0: Reading data[0] = 2 for transaction #364
+Thread 0: Reading data[6] = 9 for transaction #364
+Thread 0: Reading data[5] = 6 for transaction #364
+Thread 3: Reading data[9] = 2 for transaction #371
+Thread 3: Reading data[5] = 6 for transaction #371
+Thread 3: Reading data[9] = 2 for transaction #371
+Thread 3: Reading data[1] = 3 for transaction #371
+Thread 0: Writing data[3] = 6 for transaction #364
+Thread 0: Writing data[7] = 10 for transaction #364
+Thread 0: Committed transaction #364 successfully
+Thread 0 beginning transaction 368
+Thread 0: Reading data[6] = 9 for transaction #368
+Thread 0: Reading data[8] = 7 for transaction #368
+Thread 0: Reading data[7] = 10 for transaction #368
+Thread 0: Reading data[0] = 2 for transaction #368
+Thread 2: Writing data[1] = 1 for transaction #394
+Thread 2: Aborted transaction #394 due to conflict with transaction #371
+Thread 2 beginning transaction 398
+Thread 3: Writing data[5] = 4 for transaction #371
+Thread 3: Writing data[3] = 5 for transaction #371
+Thread 3: Committed transaction #371 successfully
+Thread 3 beginning transaction 375
+Thread 1: Reading data[6] = 9 for transaction #365
+Thread 1: Reading data[3] = 5 for transaction #365
+Thread 1: Reading data[8] = 7 for transaction #365
+Thread 1: Reading data[5] = 4 for transaction #365
+Thread 0: Writing data[3] = 10 for transaction #368
+Thread 3: Reading data[1] = 3 for transaction #375
+Thread 0: Writing data[4] = 8 for transaction #368
+Thread 3: Reading data[9] = 2 for transaction #375
+Thread 0: Aborted transaction #368 due to conflict with transaction #365
+Thread 3: Reading data[3] = 5 for transaction #375
+Thread 0 beginning transaction 372
+Thread 3: Reading data[6] = 9 for transaction #375
+Thread 1: Writing data[0] = 2 for transaction #365
+Thread 1: Writing data[4] = 7 for transaction #365
+Thread 1: Committed transaction #365 successfully
+Thread 1 beginning transaction 369
+Thread 2: Reading data[3] = 5 for transaction #398
+Thread 2: Reading data[7] = 10 for transaction #398
+Thread 2: Reading data[2] = 2 for transaction #398
+Thread 2: Reading data[4] = 7 for transaction #398
+Thread 1: Reading data[9] = 2 for transaction #369
+Thread 1: Reading data[7] = 10 for transaction #369
+Thread 1: Reading data[2] = 2 for transaction #369
+Thread 3: Writing data[1] = 9 for transaction #375
+Thread 3: Writing data[7] = 9 for transaction #375
+Thread 3: Aborted transaction #375 due to conflict with transaction #398
+Thread 3 beginning transaction 379
+Thread 3: Reading data[8] = 7 for transaction #379
+Thread 3: Reading data[2] = 2 for transaction #379
+Thread 3: Reading data[4] = 7 for transaction #379
+Thread 3: Reading data[1] = 3 for transaction #379
+Thread 1: Writing data[8] = 3 for transaction #369
+Thread 2: Writing data[2] = 9 for transaction #398
+Thread 0: Reading data[6] = 9 for transaction #372
+Thread 1: Aborted transaction #369 due to conflict with transaction #379
+Thread 1 beginning transaction 373
+Thread 2: Aborted transaction #398 due to conflict with transaction #369
+Thread 2 beginning transaction 402
+Thread 0: Reading data[5] = 4 for transaction #372
+Thread 0: Reading data[5] = 4 for transaction #372
+Thread 0: Reading data[2] = 2 for transaction #372
+Thread 3: Writing data[3] = 3 for transaction #379
+Thread 3: Committed transaction #379 successfully
+Thread 3 beginning transaction 383
+Thread 2: Reading data[8] = 7 for transaction #402
+Thread 2: Reading data[0] = 2 for transaction #402
+Thread 2: Reading data[1] = 3 for transaction #402
+Thread 1: Reading data[9] = 2 for transaction #373
+Thread 1: Reading data[4] = 7 for transaction #373
+Thread 0: Writing data[0] = 7 for transaction #372
+Thread 1: Reading data[5] = 4 for transaction #373
+Thread 2: Writing data[3] = 2 for transaction #402
+Thread 3: Reading data[5] = 4 for transaction #383
+Thread 0: Aborted transaction #372 due to conflict with transaction #402
+Thread 0 beginning transaction 376
+Thread 1: Reading data[4] = 7 for transaction #373
+Thread 2: Committed transaction #402 successfully
+Thread 2 beginning transaction 406
+Thread 3: Reading data[5] = 4 for transaction #383
+Thread 3: Reading data[6] = 9 for transaction #383
+Thread 3: Reading data[1] = 3 for transaction #383
+Thread 0: Reading data[7] = 10 for transaction #376
+Thread 0: Reading data[5] = 4 for transaction #376
+Thread 0: Reading data[4] = 7 for transaction #376
+Thread 0: Reading data[0] = 2 for transaction #376
+Thread 3: Writing data[7] = 1 for transaction #383
+Thread 0: Writing data[4] = 5 for transaction #376
+Thread 3: Writing data[1] = 9 for transaction #383
+Thread 0: Writing data[7] = 1 for transaction #376
+Thread 2: Reading data[2] = 2 for transaction #406
+Thread 3: Aborted transaction #383 due to conflict with transaction #376
+Thread 0: Aborted transaction #376 due to conflict with transaction #373
+Thread 2: Reading data[9] = 2 for transaction #406
+Thread 3 beginning transaction 387
+Thread 0 beginning transaction 380
+Thread 2: Reading data[2] = 2 for transaction #406
+Thread 1: Writing data[9] = 5 for transaction #373
+Thread 2: Writing data[8] = 10 for transaction #406
+Thread 1: Writing data[4] = 2 for transaction #373
+Thread 2: Committed transaction #406 successfully
+Thread 1: Aborted transaction #373 due to conflict with transaction #406
+Thread 2 beginning transaction 410
+Thread 1 beginning transaction 377
+Thread 1: Reading data[5] = 4 for transaction #377
+Thread 1: Reading data[4] = 7 for transaction #377
+Thread 1: Reading data[4] = 7 for transaction #377
+Thread 2: Reading data[0] = 2 for transaction #410
+Thread 2: Reading data[5] = 4 for transaction #410
+Thread 2: Reading data[0] = 2 for transaction #410
+Thread 3: Reading data[0] = 2 for transaction #387
+Thread 3: Reading data[7] = 10 for transaction #387
+Thread 3: Reading data[3] = 2 for transaction #387
+Thread 2: Writing data[6] = 1 for transaction #410
+Thread 0: Reading data[0] = 2 for transaction #380
+Thread 2: Committed transaction #410 successfully
+Thread 0: Reading data[3] = 2 for transaction #380
+Thread 2 beginning transaction 414
+Thread 0: Reading data[7] = 10 for transaction #380
+Thread 0: Reading data[9] = 2 for transaction #380
+Thread 0: Writing data[1] = 5 for transaction #380
+Thread 0: Writing data[7] = 10 for transaction #380
+Thread 0: Aborted transaction #380 due to conflict with transaction #387
+Thread 0 beginning transaction 384
+Thread 1: Writing data[6] = 2 for transaction #377
+Thread 1: Committed transaction #377 successfully
+Thread 1 beginning transaction 381
+Thread 2: Reading data[0] = 2 for transaction #414
+Thread 2: Reading data[4] = 7 for transaction #414
+Thread 2: Reading data[4] = 7 for transaction #414
+Thread 2: Reading data[7] = 10 for transaction #414
+Thread 3: Writing data[4] = 10 for transaction #387
+Thread 3: Aborted transaction #387 due to conflict with transaction #414
+Thread 3 beginning transaction 391
+Thread 1: Reading data[8] = 10 for transaction #381
+Thread 1: Reading data[2] = 2 for transaction #381
+Thread 1: Reading data[1] = 3 for transaction #381
+Thread 0: Reading data[3] = 2 for transaction #384
+Thread 0: Reading data[4] = 7 for transaction #384
+Thread 0: Reading data[0] = 2 for transaction #384
+Thread 0: Reading data[2] = 2 for transaction #384
+Thread 2: Writing data[3] = 5 for transaction #414
+Thread 2: Writing data[2] = 2 for transaction #414
+Thread 2: Aborted transaction #414 due to conflict with transaction #384
+Thread 2 beginning transaction 418
+Thread 2: Reading data[8] = 10 for transaction #418
+Thread 2: Reading data[3] = 2 for transaction #418
+Thread 2: Reading data[2] = 2 for transaction #418
+Thread 2: Reading data[5] = 4 for transaction #418
+Thread 1: Writing data[3] = 3 for transaction #381
+Thread 1: Aborted transaction #381 due to conflict with transaction #384
+Thread 1 beginning transaction 385
+Thread 3: Reading data[6] = 2 for transaction #391
+Thread 3: Reading data[0] = 2 for transaction #391
+Thread 3: Reading data[5] = 4 for transaction #391
+Thread 2: Writing data[6] = 7 for transaction #418
+Thread 2: Writing data[2] = 10 for transaction #418
+Thread 2: Aborted transaction #418 due to conflict with transaction #384
+Thread 2 beginning transaction 422
+Thread 3: Writing data[3] = 2 for transaction #391
+Thread 3: Aborted transaction #391 due to conflict with transaction #384
+Thread 3 beginning transaction 395
+Thread 1: Reading data[5] = 4 for transaction #385
+Thread 1: Reading data[0] = 2 for transaction #385
+Thread 1: Reading data[0] = 2 for transaction #385
+Thread 0: Writing data[4] = 3 for transaction #384
+Thread 0: Writing data[3] = 9 for transaction #384
+Thread 0: Committed transaction #384 successfully
+Thread 0 beginning transaction 388
+Thread 0: Reading data[1] = 3 for transaction #388
+Thread 0: Reading data[1] = 3 for transaction #388
+Thread 0: Reading data[5] = 4 for transaction #388
+Thread 0: Reading data[5] = 4 for transaction #388
+Thread 1: Writing data[2] = 7 for transaction #385
+Thread 1: Committed transaction #385 successfully
+Thread 1 beginning transaction 389
+Thread 2: Reading data[5] = 4 for transaction #422
+Thread 2: Reading data[4] = 3 for transaction #422
+Thread 2: Reading data[8] = 10 for transaction #422
+Thread 2: Reading data[2] = 7 for transaction #422
+Thread 0: Writing data[3] = 6 for transaction #388
+Thread 0: Writing data[0] = 5 for transaction #388
+Thread 0: Committed transaction #388 successfully
+Thread 0 beginning transaction 392
+Thread 0: Reading data[3] = 6 for transaction #392
+Thread 0: Reading data[7] = 10 for transaction #392
+Thread 0: Reading data[8] = 10 for transaction #392
+Thread 0: Reading data[0] = 5 for transaction #392
+Thread 3: Reading data[3] = 6 for transaction #395
+Thread 3: Reading data[7] = 10 for transaction #395
+Thread 3: Reading data[4] = 3 for transaction #395
+Thread 3: Writing data[5] = 9 for transaction #395
+Thread 3: Aborted transaction #395 due to conflict with transaction #422
+Thread 3 beginning transaction 399
+Thread 2: Writing data[4] = 5 for transaction #422
+Thread 2: Writing data[9] = 5 for transaction #422
+Thread 2: Committed transaction #422 successfully
+Thread 2 beginning transaction 426
+Thread 0: Writing data[8] = 6 for transaction #392
+Thread 0: Committed transaction #392 successfully
+Thread 0 beginning transaction 396
+Thread 3: Reading data[5] = 4 for transaction #399
+Thread 3: Reading data[5] = 4 for transaction #399
+Thread 3: Reading data[3] = 6 for transaction #399
+Thread 2: Reading data[1] = 3 for transaction #426
+Thread 2: Reading data[5] = 4 for transaction #426
+Thread 2: Reading data[5] = 4 for transaction #426
+Thread 2: Reading data[1] = 3 for transaction #426
+Thread 1: Reading data[4] = 5 for transaction #389
+Thread 1: Reading data[4] = 5 for transaction #389
+Thread 1: Reading data[9] = 5 for transaction #389
+Thread 1: Reading data[0] = 5 for transaction #389
+Thread 0: Reading data[0] = 5 for transaction #396
+Thread 0: Reading data[0] = 5 for transaction #396
+Thread 0: Reading data[3] = 6 for transaction #396
+Thread 2: Writing data[8] = 3 for transaction #426
+Thread 2: Committed transaction #426 successfully
+Thread 2 beginning transaction 430
+Thread 3: Writing data[9] = 4 for transaction #399
+Thread 3: Aborted transaction #399 due to conflict with transaction #389
+Thread 3 beginning transaction 403
+Thread 3: Reading data[3] = 6 for transaction #403
+Thread 3: Reading data[3] = 6 for transaction #403
+Thread 3: Reading data[0] = 5 for transaction #403
+Thread 3: Reading data[9] = 5 for transaction #403
+Thread 1: Writing data[8] = 4 for transaction #389
+Thread 1: Committed transaction #389 successfully
+Thread 1 beginning transaction 393
+Thread 2: Reading data[4] = 5 for transaction #430
+Thread 2: Reading data[6] = 2 for transaction #430
+Thread 2: Reading data[7] = 10 for transaction #430
+Thread 2: Reading data[0] = 5 for transaction #430
+Thread 0: Writing data[2] = 4 for transaction #396
+Thread 0: Committed transaction #396 successfully
+Thread 0 beginning transaction 400
+Thread 1: Reading data[1] = 3 for transaction #393
+Thread 1: Reading data[8] = 4 for transaction #393
+Thread 1: Reading data[4] = 5 for transaction #393
+Thread 1: Reading data[8] = 4 for transaction #393
+Thread 1: Writing data[8] = 5 for transaction #393
+Thread 2: Writing data[6] = 5 for transaction #430
+Thread 1: Committed transaction #393 successfully
+Thread 2: Writing data[0] = 2 for transaction #430
+Thread 1 beginning transaction 397
+Thread 2: Aborted transaction #430 due to conflict with transaction #403
+Thread 2 beginning transaction 434
+Thread 3: Writing data[7] = 9 for transaction #403
+Thread 3: Committed transaction #403 successfully
+Thread 3 beginning transaction 407
+Thread 0: Reading data[5] = 4 for transaction #400
+Thread 0: Reading data[7] = 9 for transaction #400
+Thread 0: Reading data[0] = 5 for transaction #400
+Thread 0: Reading data[5] = 4 for transaction #400
+Thread 0: Writing data[6] = 5 for transaction #400
+Thread 0: Committed transaction #400 successfully
+Thread 0 beginning transaction 404
+Thread 1: Reading data[9] = 5 for transaction #397
+Thread 2: Reading data[2] = 4 for transaction #434
+Thread 1: Reading data[2] = 4 for transaction #397
+Thread 2: Reading data[6] = 5 for transaction #434
+Thread 1: Reading data[2] = 4 for transaction #397
+Thread 2: Reading data[3] = 6 for transaction #434
+Thread 1: Reading data[2] = 4 for transaction #397
+Thread 3: Reading data[8] = 5 for transaction #407
+Thread 3: Reading data[6] = 5 for transaction #407
+Thread 3: Reading data[3] = 6 for transaction #407
+Thread 3: Reading data[5] = 4 for transaction #407
+Thread 1: Writing data[2] = 10 for transaction #397
+Thread 1: Aborted transaction #397 due to conflict with transaction #434
+Thread 1 beginning transaction 401
+Thread 3: Writing data[4] = 4 for transaction #407
+Thread 3: Committed transaction #407 successfully
+Thread 3 beginning transaction 411
+Thread 0: Reading data[8] = 5 for transaction #404
+Thread 0: Reading data[0] = 5 for transaction #404
+Thread 0: Reading data[8] = 5 for transaction #404
+Thread 0: Reading data[9] = 5 for transaction #404
+Thread 3: Reading data[7] = 9 for transaction #411
+Thread 3: Reading data[9] = 5 for transaction #411
+Thread 3: Reading data[9] = 5 for transaction #411
+Thread 3: Reading data[8] = 5 for transaction #411
+Thread 0: Writing data[6] = 3 for transaction #404
+Thread 0: Writing data[6] = 5 for transaction #404
+Thread 0: Aborted transaction #404 due to conflict with transaction #434
+Thread 0 beginning transaction 408
+Thread 2: Writing data[2] = 1 for transaction #434
+Thread 2: Committed transaction #434 successfully
+Thread 2 beginning transaction 438
+Thread 1: Reading data[7] = 9 for transaction #401
+Thread 1: Reading data[0] = 5 for transaction #401
+Thread 1: Reading data[0] = 5 for transaction #401
+Thread 1: Writing data[3] = 4 for transaction #401
+Thread 1: Committed transaction #401 successfully
+Thread 1 beginning transaction 405
+Thread 2: Reading data[0] = 5 for transaction #438
+Thread 2: Reading data[4] = 4 for transaction #438
+Thread 2: Reading data[7] = 9 for transaction #438
+Thread 0: Reading data[6] = 5 for transaction #408
+Thread 2: Reading data[0] = 5 for transaction #438
+Thread 0: Reading data[1] = 3 for transaction #408
+Thread 0: Reading data[1] = 3 for transaction #408
+Thread 3: Writing data[1] = 2 for transaction #411
+Thread 3: Writing data[9] = 5 for transaction #411
+Thread 3: Aborted transaction #411 due to conflict with transaction #408
+Thread 3 beginning transaction 415
+Thread 0: Writing data[1] = 5 for transaction #408
+Thread 0: Committed transaction #408 successfully
+Thread 0 beginning transaction 412
+Thread 0: Reading data[3] = 4 for transaction #412
+Thread 0: Reading data[0] = 5 for transaction #412
+Thread 0: Reading data[2] = 1 for transaction #412
+Thread 0: Reading data[9] = 5 for transaction #412
+Thread 1: Reading data[0] = 5 for transaction #405
+Thread 1: Reading data[9] = 5 for transaction #405
+Thread 1: Reading data[5] = 4 for transaction #405
+Thread 1: Reading data[8] = 5 for transaction #405
+Thread 0: Writing data[7] = 9 for transaction #412
+Thread 1: Writing data[2] = 8 for transaction #405
+Thread 0: Writing data[1] = 6 for transaction #412
+Thread 1: Writing data[4] = 3 for transaction #405
+Thread 1: Aborted transaction #405 due to conflict with transaction #438
+Thread 1 beginning transaction 409
+Thread 0: Aborted transaction #412 due to conflict with transaction #438
+Thread 0 beginning transaction 416
+Thread 2: Writing data[5] = 8 for transaction #438
+Thread 3: Reading data[0] = 5 for transaction #415
+Thread 2: Committed transaction #438 successfully
+Thread 2 beginning transaction 442
+Thread 3: Reading data[8] = 5 for transaction #415
+Thread 3: Reading data[2] = 1 for transaction #415
+Thread 3: Reading data[4] = 4 for transaction #415
+Thread 1: Reading data[2] = 1 for transaction #409
+Thread 1: Reading data[7] = 9 for transaction #409
+Thread 1: Reading data[5] = 8 for transaction #409
+Thread 1: Reading data[1] = 5 for transaction #409
+Thread 0: Reading data[5] = 8 for transaction #416
+Thread 0: Reading data[7] = 9 for transaction #416
+Thread 0: Reading data[2] = 1 for transaction #416
+Thread 0: Reading data[0] = 5 for transaction #416
+Thread 2: Reading data[5] = 8 for transaction #442
+Thread 2: Reading data[9] = 5 for transaction #442
+Thread 2: Reading data[0] = 5 for transaction #442
+Thread 2: Reading data[0] = 5 for transaction #442
+Thread 1: Writing data[6] = 4 for transaction #409
+Thread 0: Writing data[6] = 4 for transaction #416
+Thread 0: Writing data[4] = 7 for transaction #416
+Thread 1: Committed transaction #409 successfully
+Thread 1 beginning transaction 413
+Thread 0: Aborted transaction #416 due to conflict with transaction #415
+Thread 0 beginning transaction 420
+Thread 3: Writing data[7] = 1 for transaction #415
+Thread 3: Committed transaction #415 successfully
+Thread 3 beginning transaction 419
+Thread 2: Writing data[3] = 10 for transaction #442
+Thread 2: Writing data[4] = 2 for transaction #442
+Thread 2: Committed transaction #442 successfully
+Thread 2 beginning transaction 446
+Thread 0: Reading data[7] = 1 for transaction #420
+Thread 0: Reading data[2] = 1 for transaction #420
+Thread 0: Reading data[5] = 8 for transaction #420
+Thread 0: Reading data[3] = 10 for transaction #420
+Thread 1: Reading data[1] = 5 for transaction #413
+Thread 1: Reading data[3] = 10 for transaction #413
+Thread 1: Reading data[5] = 8 for transaction #413
+Thread 1: Reading data[9] = 5 for transaction #413
+Thread 0: Writing data[9] = 4 for transaction #420
+Thread 0: Writing data[3] = 10 for transaction #420
+Thread 0: Aborted transaction #420 due to conflict with transaction #413
+Thread 0 beginning transaction 424
+Thread 3: Reading data[6] = 4 for transaction #419
+Thread 3: Reading data[5] = 8 for transaction #419
+Thread 3: Reading data[3] = 10 for transaction #419
+Thread 3: Writing data[4] = 7 for transaction #419
+Thread 0: Reading data[3] = 10 for transaction #424
+Thread 2: Reading data[4] = 2 for transaction #446
+Thread 3: Aborted transaction #419 due to conflict with transaction #446
+Thread 3 beginning transaction 423
+Thread 0: Reading data[0] = 5 for transaction #424
+Thread 2: Reading data[6] = 4 for transaction #446
+Thread 0: Reading data[3] = 10 for transaction #424
+Thread 2: Reading data[0] = 5 for transaction #446
+Thread 0: Reading data[1] = 5 for transaction #424
+Thread 2: Reading data[0] = 5 for transaction #446
+Thread 2: Writing data[7] = 3 for transaction #446
+Thread 2: Committed transaction #446 successfully
+Thread 2 beginning transaction 450
+Thread 3: Reading data[3] = 10 for transaction #423
+Thread 3: Reading data[3] = 10 for transaction #423
+Thread 3: Reading data[1] = 5 for transaction #423
+Thread 3: Reading data[2] = 1 for transaction #423
+Thread 0: Writing data[0] = 4 for transaction #424
+Thread 1: Writing data[3] = 2 for transaction #413
+Thread 0: Writing data[0] = 5 for transaction #424
+Thread 1: Writing data[9] = 8 for transaction #413
+Thread 0: Committed transaction #424 successfully
+Thread 1: Aborted transaction #413 due to conflict with transaction #424
+Thread 0 beginning transaction 428
+Thread 1 beginning transaction 417
+Thread 3: Writing data[6] = 4 for transaction #423
+Thread 3: Writing data[2] = 2 for transaction #423
+Thread 3: Committed transaction #423 successfully
+Thread 3 beginning transaction 427
+Thread 0: Reading data[1] = 5 for transaction #428
+Thread 0: Reading data[2] = 2 for transaction #428
+Thread 0: Reading data[1] = 5 for transaction #428
+Thread 0: Reading data[7] = 3 for transaction #428
+Thread 2: Reading data[4] = 2 for transaction #450
+Thread 2: Reading data[1] = 5 for transaction #450
+Thread 2: Reading data[5] = 8 for transaction #450
+Thread 2: Writing data[2] = 3 for transaction #450
+Thread 3: Reading data[2] = 2 for transaction #427
+Thread 2: Aborted transaction #450 due to conflict with transaction #428
+Thread 3: Reading data[4] = 2 for transaction #427
+Thread 2 beginning transaction 454
+Thread 3: Reading data[1] = 5 for transaction #427
+Thread 3: Reading data[1] = 5 for transaction #427
+Thread 1: Reading data[4] = 2 for transaction #417
+Thread 1: Reading data[8] = 5 for transaction #417
+Thread 1: Reading data[6] = 4 for transaction #417
+Thread 1: Reading data[8] = 5 for transaction #417
+Thread 0: Writing data[3] = 4 for transaction #428
+Thread 0: Writing data[1] = 2 for transaction #428
+Thread 0: Aborted transaction #428 due to conflict with transaction #427
+Thread 0 beginning transaction 432
+Thread 3: Writing data[9] = 2 for transaction #427
+Thread 3: Committed transaction #427 successfully
+Thread 3 beginning transaction 431
+Thread 2: Reading data[5] = 8 for transaction #454
+Thread 0: Reading data[0] = 5 for transaction #432
+Thread 2: Reading data[2] = 2 for transaction #454
+Thread 0: Reading data[1] = 5 for transaction #432
+Thread 2: Reading data[4] = 2 for transaction #454
+Thread 0: Reading data[7] = 3 for transaction #432
+Thread 2: Reading data[8] = 5 for transaction #454
+Thread 0: Reading data[7] = 3 for transaction #432
+Thread 3: Reading data[4] = 2 for transaction #431
+Thread 3: Reading data[9] = 2 for transaction #431
+Thread 3: Reading data[1] = 5 for transaction #431
+Thread 3: Reading data[5] = 8 for transaction #431
+Thread 1: Writing data[9] = 2 for transaction #417
+Thread 1: Writing data[9] = 7 for transaction #417
+Thread 1: Aborted transaction #417 due to conflict with transaction #431
+Thread 1 beginning transaction 421
+Thread 1: Reading data[2] = 2 for transaction #421
+Thread 1: Reading data[3] = 10 for transaction #421
+Thread 1: Reading data[3] = 10 for transaction #421
+Thread 2: Writing data[3] = 2 for transaction #454
+Thread 2: Aborted transaction #454 due to conflict with transaction #421
+Thread 2 beginning transaction 458
+Thread 0: Writing data[0] = 9 for transaction #432
+Thread 0: Committed transaction #432 successfully
+Thread 0 beginning transaction 436
+Thread 0: Reading data[7] = 3 for transaction #436
+Thread 0: Reading data[6] = 4 for transaction #436
+Thread 0: Reading data[7] = 3 for transaction #436
+Thread 2: Reading data[0] = 9 for transaction #458
+Thread 2: Reading data[0] = 9 for transaction #458
+Thread 2: Reading data[6] = 4 for transaction #458
+Thread 2: Reading data[2] = 2 for transaction #458
+Thread 0: Writing data[8] = 1 for transaction #436
+Thread 1: Writing data[9] = 1 for transaction #421
+Thread 3: Writing data[0] = 1 for transaction #431
+Thread 0: Committed transaction #436 successfully
+Thread 3: Writing data[8] = 3 for transaction #431
+Thread 1: Aborted transaction #421 due to conflict with transaction #431
+Thread 0 beginning transaction 440
+Thread 3: Aborted transaction #431 due to conflict with transaction #458
+Thread 1 beginning transaction 425
+Thread 3 beginning transaction 435
+Thread 3: Reading data[1] = 5 for transaction #435
+Thread 3: Reading data[6] = 4 for transaction #435
+Thread 3: Reading data[6] = 4 for transaction #435
+Thread 2: Writing data[4] = 1 for transaction #458
+Thread 3: Reading data[7] = 3 for transaction #435
+Thread 2: Writing data[8] = 9 for transaction #458
+Thread 2: Committed transaction #458 successfully
+Thread 2 beginning transaction 462
+Thread 3: Writing data[3] = 7 for transaction #435
+Thread 3: Writing data[4] = 8 for transaction #435
+Thread 3: Committed transaction #435 successfully
+Thread 3 beginning transaction 439
+Thread 1: Reading data[7] = 3 for transaction #425
+Thread 1: Reading data[8] = 9 for transaction #425
+Thread 1: Reading data[0] = 9 for transaction #425
+Thread 1: Reading data[0] = 9 for transaction #425
+Thread 0: Reading data[0] = 9 for transaction #440
+Thread 0: Reading data[6] = 4 for transaction #440
+Thread 0: Reading data[6] = 4 for transaction #440
+Thread 0: Reading data[1] = 5 for transaction #440
+Thread 3: Reading data[5] = 8 for transaction #439
+Thread 3: Reading data[1] = 5 for transaction #439
+Thread 3: Reading data[3] = 7 for transaction #439
+Thread 3: Reading data[9] = 2 for transaction #439
+Thread 1: Writing data[7] = 3 for transaction #425
+Thread 1: Writing data[0] = 5 for transaction #425
+Thread 1: Aborted transaction #425 due to conflict with transaction #440
+Thread 1 beginning transaction 429
+Thread 2: Reading data[0] = 9 for transaction #462
+Thread 2: Reading data[3] = 7 for transaction #462
+Thread 2: Reading data[4] = 8 for transaction #462
+Thread 2: Reading data[4] = 8 for transaction #462
+Thread 3: Writing data[3] = 9 for transaction #439
+Thread 3: Aborted transaction #439 due to conflict with transaction #462
+Thread 3 beginning transaction 443
+Thread 0: Writing data[8] = 3 for transaction #440
+Thread 0: Writing data[5] = 4 for transaction #440
+Thread 0: Committed transaction #440 successfully
+Thread 0 beginning transaction 444
+Thread 2: Writing data[7] = 6 for transaction #462
+Thread 2: Committed transaction #462 successfully
+Thread 2 beginning transaction 466
+Thread 3: Reading data[9] = 2 for transaction #443
+Thread 3: Reading data[2] = 2 for transaction #443
+Thread 3: Reading data[8] = 3 for transaction #443
+Thread 3: Reading data[6] = 4 for transaction #443
+Thread 1: Reading data[3] = 7 for transaction #429
+Thread 1: Reading data[6] = 4 for transaction #429
+Thread 1: Reading data[6] = 4 for transaction #429
+Thread 0: Reading data[0] = 9 for transaction #444
+Thread 0: Reading data[7] = 6 for transaction #444
+Thread 0: Reading data[9] = 2 for transaction #444
+Thread 0: Reading data[8] = 3 for transaction #444
+Thread 0: Writing data[0] = 1 for transaction #444
+Thread 0: Writing data[3] = 8 for transaction #444
+Thread 0: Aborted transaction #444 due to conflict with transaction #429
+Thread 0 beginning transaction 448
+Thread 1: Writing data[3] = 4 for transaction #429
+Thread 1: Committed transaction #429 successfully
+Thread 1 beginning transaction 433
+Thread 2: Reading data[2] = 2 for transaction #466
+Thread 2: Reading data[3] = 4 for transaction #466
+Thread 2: Reading data[5] = 4 for transaction #466
+Thread 2: Reading data[4] = 8 for transaction #466
+Thread 3: Writing data[7] = 5 for transaction #443
+Thread 3: Writing data[9] = 5 for transaction #443
+Thread 3: Committed transaction #443 successfully
+Thread 3 beginning transaction 447
+Thread 0: Reading data[2] = 2 for transaction #448
+Thread 0: Reading data[3] = 4 for transaction #448
+Thread 0: Reading data[2] = 2 for transaction #448
+Thread 3: Reading data[3] = 4 for transaction #447
+Thread 3: Reading data[4] = 8 for transaction #447
+Thread 3: Reading data[3] = 4 for transaction #447
+Thread 3: Reading data[1] = 5 for transaction #447
+Thread 2: Writing data[8] = 8 for transaction #466
+Thread 2: Writing data[3] = 3 for transaction #466
+Thread 2: Aborted transaction #466 due to conflict with transaction #448
+Thread 2 beginning transaction 470
+Thread 1: Reading data[3] = 4 for transaction #433
+Thread 1: Reading data[3] = 4 for transaction #433
+Thread 1: Reading data[0] = 9 for transaction #433
+Thread 1: Reading data[1] = 5 for transaction #433
+Thread 1: Writing data[7] = 8 for transaction #433
+Thread 1: Committed transaction #433 successfully
+Thread 1 beginning transaction 437
+Thread 3: Writing data[5] = 1 for transaction #447
+Thread 3: Committed transaction #447 successfully
+Thread 3 beginning transaction 451
+Thread 1: Reading data[1] = 5 for transaction #437
+Thread 1: Reading data[1] = 5 for transaction #437
+Thread 1: Reading data[3] = 4 for transaction #437
+Thread 1: Reading data[1] = 5 for transaction #437
+Thread 3: Reading data[9] = 5 for transaction #451
+Thread 3: Reading data[3] = 4 for transaction #451
+Thread 3: Reading data[2] = 2 for transaction #451
+Thread 3: Reading data[1] = 5 for transaction #451
+Thread 2: Reading data[4] = 8 for transaction #470
+Thread 2: Reading data[2] = 2 for transaction #470
+Thread 2: Reading data[5] = 1 for transaction #470
+Thread 0: Writing data[4] = 10 for transaction #448
+Thread 0: Aborted transaction #448 due to conflict with transaction #470
+Thread 0 beginning transaction 452
+Thread 2: Writing data[8] = 7 for transaction #470
+Thread 2: Committed transaction #470 successfully
+Thread 2 beginning transaction 474
+Thread 0: Reading data[5] = 1 for transaction #452
+Thread 0: Reading data[5] = 1 for transaction #452
+Thread 0: Reading data[2] = 2 for transaction #452
+Thread 0: Reading data[0] = 9 for transaction #452
+Thread 3: Writing data[5] = 8 for transaction #451
+Thread 2: Reading data[7] = 8 for transaction #474
+Thread 3: Aborted transaction #451 due to conflict with transaction #452
+Thread 3 beginning transaction 455
+Thread 2: Reading data[2] = 2 for transaction #474
+Thread 2: Reading data[6] = 4 for transaction #474
+Thread 1: Writing data[7] = 2 for transaction #437
+Thread 1: Aborted transaction #437 due to conflict with transaction #474
+Thread 1 beginning transaction 441
+Thread 2: Writing data[7] = 4 for transaction #474
+Thread 2: Committed transaction #474 successfully
+Thread 2 beginning transaction 478
+Thread 0: Writing data[6] = 8 for transaction #452
+Thread 0: Committed transaction #452 successfully
+Thread 0 beginning transaction 456
+Thread 3: Reading data[5] = 1 for transaction #455
+Thread 3: Reading data[7] = 4 for transaction #455
+Thread 3: Reading data[5] = 1 for transaction #455
+Thread 3: Reading data[9] = 5 for transaction #455
+Thread 2: Reading data[5] = 1 for transaction #478
+Thread 2: Reading data[4] = 8 for transaction #478
+Thread 2: Reading data[8] = 7 for transaction #478
+Thread 2: Reading data[2] = 2 for transaction #478
+Thread 1: Reading data[1] = 5 for transaction #441
+Thread 1: Reading data[6] = 8 for transaction #441
+Thread 1: Reading data[6] = 8 for transaction #441
+Thread 2: Writing data[0] = 5 for transaction #478
+Thread 2: Writing data[1] = 8 for transaction #478
+Thread 2: Aborted transaction #478 due to conflict with transaction #441
+Thread 2 beginning transaction 482
+Thread 0: Reading data[2] = 2 for transaction #456
+Thread 3: Writing data[1] = 8 for transaction #455
+Thread 1: Writing data[3] = 8 for transaction #441
+Thread 0: Reading data[7] = 4 for transaction #456
+Thread 3: Aborted transaction #455 due to conflict with transaction #441
+Thread 1: Committed transaction #441 successfully
+Thread 3 beginning transaction 459
+Thread 1 beginning transaction 445
+Thread 0: Reading data[4] = 8 for transaction #456
+Thread 0: Reading data[8] = 7 for transaction #456
+Thread 1: Reading data[3] = 8 for transaction #445
+Thread 1: Reading data[0] = 9 for transaction #445
+Thread 1: Reading data[6] = 8 for transaction #445
+Thread 1: Reading data[4] = 8 for transaction #445
+Thread 2: Reading data[9] = 5 for transaction #482
+Thread 2: Reading data[1] = 5 for transaction #482
+Thread 2: Reading data[5] = 1 for transaction #482
+Thread 0: Writing data[6] = 8 for transaction #456
+Thread 0: Aborted transaction #456 due to conflict with transaction #445
+Thread 0 beginning transaction 460
+Thread 3: Reading data[0] = 9 for transaction #459
+Thread 3: Reading data[3] = 8 for transaction #459
+Thread 3: Reading data[7] = 4 for transaction #459
+Thread 2: Writing data[3] = 6 for transaction #482
+Thread 1: Writing data[9] = 5 for transaction #445
+Thread 1: Aborted transaction #445 due to conflict with transaction #482
+Thread 2: Aborted transaction #482 due to conflict with transaction #459
+Thread 1 beginning transaction 449
+Thread 2 beginning transaction 486
+Thread 0: Reading data[9] = 5 for transaction #460
+Thread 0: Reading data[5] = 1 for transaction #460
+Thread 0: Reading data[7] = 4 for transaction #460
+Thread 0: Reading data[1] = 5 for transaction #460
+Thread 3: Writing data[4] = 7 for transaction #459
+Thread 3: Committed transaction #459 successfully
+Thread 3 beginning transaction 463
+Thread 0: Writing data[9] = 5 for transaction #460
+Thread 0: Committed transaction #460 successfully
+Thread 0 beginning transaction 464
+Thread 3: Reading data[5] = 1 for transaction #463
+Thread 3: Reading data[5] = 1 for transaction #463
+Thread 3: Reading data[3] = 8 for transaction #463
+Thread 2: Reading data[9] = 5 for transaction #486
+Thread 2: Reading data[2] = 2 for transaction #486
+Thread 2: Reading data[0] = 9 for transaction #486
+Thread 2: Reading data[5] = 1 for transaction #486
+Thread 2: Writing data[6] = 7 for transaction #486
+Thread 1: Reading data[0] = 9 for transaction #449
+Thread 2: Writing data[2] = 9 for transaction #486
+Thread 1: Reading data[2] = 2 for transaction #449
+Thread 2: Aborted transaction #486 due to conflict with transaction #449
+Thread 2 beginning transaction 490
+Thread 1: Reading data[1] = 5 for transaction #449
+Thread 0: Reading data[1] = 5 for transaction #464
+Thread 0: Reading data[8] = 7 for transaction #464
+Thread 0: Reading data[8] = 7 for transaction #464
+Thread 0: Reading data[3] = 8 for transaction #464
+Thread 3: Writing data[7] = 8 for transaction #463
+Thread 2: Reading data[2] = 2 for transaction #490
+Thread 3: Committed transaction #463 successfully
+Thread 2: Reading data[8] = 7 for transaction #490
+Thread 3 beginning transaction 467
+Thread 2: Reading data[2] = 2 for transaction #490
+Thread 2: Reading data[4] = 7 for transaction #490
+Thread 3: Reading data[9] = 5 for transaction #467
+Thread 3: Reading data[0] = 9 for transaction #467
+Thread 3: Reading data[2] = 2 for transaction #467
+Thread 3: Reading data[9] = 5 for transaction #467
+Thread 0: Writing data[4] = 6 for transaction #464
+Thread 1: Writing data[1] = 6 for transaction #449
+Thread 2: Writing data[3] = 3 for transaction #490
+Thread 0: Aborted transaction #464 due to conflict with transaction #490
+Thread 1: Aborted transaction #449 due to conflict with transaction #464
+Thread 2: Writing data[6] = 1 for transaction #490
+Thread 0 beginning transaction 468
+Thread 1 beginning transaction 453
+Thread 2: Committed transaction #490 successfully
+Thread 2 beginning transaction 494
+Thread 3: Writing data[0] = 10 for transaction #467
+Thread 3: Writing data[4] = 8 for transaction #467
+Thread 3: Committed transaction #467 successfully
+Thread 3 beginning transaction 471
+Thread 1: Reading data[4] = 8 for transaction #453
+Thread 1: Reading data[6] = 1 for transaction #453
+Thread 1: Reading data[2] = 2 for transaction #453
+Thread 1: Reading data[1] = 5 for transaction #453
+Thread 0: Reading data[5] = 1 for transaction #468
+Thread 0: Reading data[7] = 8 for transaction #468
+Thread 0: Reading data[9] = 5 for transaction #468
+Thread 0: Reading data[0] = 10 for transaction #468
+Thread 1: Writing data[4] = 10 for transaction #453
+Thread 1: Writing data[3] = 8 for transaction #453
+Thread 1: Committed transaction #453 successfully
+Thread 1 beginning transaction 457
+Thread 1: Reading data[0] = 10 for transaction #457
+Thread 1: Reading data[3] = 8 for transaction #457
+Thread 1: Reading data[8] = 7 for transaction #457
+Thread 1: Reading data[4] = 10 for transaction #457
+Thread 2: Reading data[4] = 10 for transaction #494
+Thread 2: Reading data[2] = 2 for transaction #494
+Thread 2: Reading data[0] = 10 for transaction #494
+Thread 2: Reading data[9] = 5 for transaction #494
+Thread 2: Writing data[3] = 8 for transaction #494
+Thread 2: Writing data[0] = 6 for transaction #494
+Thread 2: Aborted transaction #494 due to conflict with transaction #468
+Thread 2 beginning transaction 498
+Thread 3: Reading data[7] = 8 for transaction #471
+Thread 3: Reading data[6] = 1 for transaction #471
+Thread 3: Reading data[7] = 8 for transaction #471
+Thread 3: Reading data[4] = 10 for transaction #471
+Thread 3: Writing data[1] = 2 for transaction #471
+Thread 3: Committed transaction #471 successfully
+Thread 3 beginning transaction 475
+Thread 0: Writing data[4] = 1 for transaction #468
+Thread 0: Writing data[8] = 3 for transaction #468
+Thread 0: Aborted transaction #468 due to conflict with transaction #457
+Thread 0 beginning transaction 472
+Thread 1: Writing data[7] = 6 for transaction #457
+Thread 1: Committed transaction #457 successfully
+Thread 1 beginning transaction 461
+Thread 2: Reading data[4] = 10 for transaction #498
+Thread 2: Reading data[1] = 2 for transaction #498
+Thread 2: Reading data[3] = 8 for transaction #498
+Thread 2: Reading data[9] = 5 for transaction #498
+Thread 0: Reading data[0] = 10 for transaction #472
+Thread 3: Reading data[6] = 1 for transaction #475
+Thread 0: Reading data[1] = 2 for transaction #472
+Thread 3: Reading data[2] = 2 for transaction #475
+Thread 0: Reading data[0] = 10 for transaction #472
+Thread 3: Reading data[9] = 5 for transaction #475
+Thread 2: Writing data[8] = 10 for transaction #498
+Thread 2: Committed transaction #498 successfully
+Thread 3: Writing data[4] = 10 for transaction #475
+Thread 3: Committed transaction #475 successfully
+Thread 3 beginning transaction 479
+Thread 1: Reading data[5] = 1 for transaction #461
+Thread 1: Reading data[8] = 10 for transaction #461
+Thread 1: Reading data[4] = 10 for transaction #461
+Thread 1: Reading data[5] = 1 for transaction #461
+Thread 0: Writing data[2] = 5 for transaction #472
+Thread 0: Committed transaction #472 successfully
+Thread 0 beginning transaction 476
+Thread 1: Writing data[4] = 6 for transaction #461
+Thread 3: Reading data[5] = 1 for transaction #479
+Thread 1: Committed transaction #461 successfully
+Thread 3: Reading data[5] = 1 for transaction #479
+Thread 1 beginning transaction 465
+Thread 3: Reading data[2] = 5 for transaction #479
+Thread 3: Reading data[7] = 6 for transaction #479
+Thread 0: Reading data[4] = 6 for transaction #476
+Thread 0: Reading data[7] = 6 for transaction #476
+Thread 0: Reading data[4] = 6 for transaction #476
+Thread 1: Reading data[0] = 10 for transaction #465
+Thread 1: Reading data[3] = 8 for transaction #465
+Thread 1: Reading data[3] = 8 for transaction #465
+Thread 3: Writing data[2] = 10 for transaction #479
+Thread 3: Writing data[7] = 6 for transaction #479
+Thread 3: Aborted transaction #479 due to conflict with transaction #476
+Thread 3 beginning transaction 483
+Thread 3: Reading data[3] = 8 for transaction #483
+Thread 3: Reading data[6] = 1 for transaction #483
+Thread 3: Reading data[1] = 2 for transaction #483
+Thread 0: Writing data[1] = 10 for transaction #476
+Thread 1: Writing data[2] = 10 for transaction #465
+Thread 0: Aborted transaction #476 due to conflict with transaction #483
+Thread 1: Committed transaction #465 successfully
+Thread 0 beginning transaction 480
+Thread 1 beginning transaction 469
+Thread 0: Reading data[2] = 10 for transaction #480
+Thread 0: Reading data[9] = 5 for transaction #480
+Thread 0: Reading data[8] = 10 for transaction #480
+Thread 0: Reading data[2] = 10 for transaction #480
+Thread 1: Reading data[9] = 5 for transaction #469
+Thread 1: Reading data[2] = 10 for transaction #469
+Thread 1: Reading data[0] = 10 for transaction #469
+Thread 1: Reading data[7] = 6 for transaction #469
+Thread 0: Writing data[9] = 3 for transaction #480
+Thread 0: Aborted transaction #480 due to conflict with transaction #469
+Thread 0 beginning transaction 484
+Thread 3: Writing data[1] = 6 for transaction #483
+Thread 3: Committed transaction #483 successfully
+Thread 3 beginning transaction 487
+Thread 0: Reading data[8] = 10 for transaction #484
+Thread 0: Reading data[5] = 1 for transaction #484
+Thread 0: Reading data[7] = 6 for transaction #484
+Thread 0: Reading data[6] = 1 for transaction #484
+Thread 3: Reading data[5] = 1 for transaction #487
+Thread 3: Reading data[3] = 8 for transaction #487
+Thread 3: Reading data[7] = 6 for transaction #487
+Thread 1: Writing data[8] = 10 for transaction #469
+Thread 1: Aborted transaction #469 due to conflict with transaction #484
+Thread 1 beginning transaction 473
+Thread 0: Writing data[7] = 10 for transaction #484
+Thread 0: Aborted transaction #484 due to conflict with transaction #487
+Thread 0 beginning transaction 488
+Thread 3: Writing data[2] = 10 for transaction #487
+Thread 3: Committed transaction #487 successfully
+Thread 3 beginning transaction 491
+Thread 1: Reading data[1] = 6 for transaction #473
+Thread 1: Reading data[3] = 8 for transaction #473
+Thread 1: Reading data[1] = 6 for transaction #473
+Thread 1: Reading data[1] = 6 for transaction #473
+Thread 0: Reading data[8] = 10 for transaction #488
+Thread 0: Reading data[4] = 6 for transaction #488
+Thread 0: Reading data[8] = 10 for transaction #488
+Thread 1: Writing data[0] = 1 for transaction #473
+Thread 1: Writing data[3] = 1 for transaction #473
+Thread 1: Committed transaction #473 successfully
+Thread 1 beginning transaction 477
+Thread 3: Reading data[1] = 6 for transaction #491
+Thread 3: Reading data[8] = 10 for transaction #491
+Thread 3: Reading data[0] = 1 for transaction #491
+Thread 3: Reading data[7] = 6 for transaction #491
+Thread 3: Writing data[8] = 10 for transaction #491
+Thread 3: Aborted transaction #491 due to conflict with transaction #488
+Thread 3 beginning transaction 495
+Thread 1: Reading data[9] = 5 for transaction #477
+Thread 1: Reading data[4] = 6 for transaction #477
+Thread 1: Reading data[5] = 1 for transaction #477
+Thread 1: Reading data[4] = 6 for transaction #477
+Thread 0: Writing data[9] = 9 for transaction #488
+Thread 0: Aborted transaction #488 due to conflict with transaction #477
+Thread 0 beginning transaction 492
+Thread 3: Reading data[9] = 5 for transaction #495
+Thread 3: Reading data[0] = 1 for transaction #495
+Thread 3: Reading data[0] = 1 for transaction #495
+Thread 3: Reading data[5] = 1 for transaction #495
+Thread 1: Writing data[8] = 9 for transaction #477
+Thread 1: Writing data[3] = 1 for transaction #477
+Thread 1: Committed transaction #477 successfully
+Thread 1 beginning transaction 481
+Thread 3: Writing data[0] = 2 for transaction #495
+Thread 3: Committed transaction #495 successfully
+Thread 3 beginning transaction 499
+Thread 0: Reading data[3] = 1 for transaction #492
+Thread 0: Reading data[4] = 6 for transaction #492
+Thread 0: Reading data[0] = 2 for transaction #492
+Thread 0: Reading data[0] = 2 for transaction #492
+Thread 1: Reading data[7] = 6 for transaction #481
+Thread 1: Reading data[8] = 9 for transaction #481
+Thread 3: Reading data[2] = 10 for transaction #499
+Thread 1: Reading data[8] = 9 for transaction #481
+Thread 3: Reading data[6] = 1 for transaction #499
+Thread 1: Reading data[9] = 5 for transaction #481
+Thread 3: Reading data[5] = 1 for transaction #499
+Thread 0: Writing data[9] = 2 for transaction #492
+Thread 1: Writing data[7] = 1 for transaction #481
+Thread 0: Aborted transaction #492 due to conflict with transaction #481
+Thread 0 beginning transaction 496
+Thread 1: Committed transaction #481 successfully
+Thread 1 beginning transaction 485
+Thread 3: Writing data[9] = 5 for transaction #499
+Thread 3: Committed transaction #499 successfully
+Thread 1: Reading data[2] = 10 for transaction #485
+Thread 1: Reading data[8] = 9 for transaction #485
+Thread 1: Reading data[6] = 1 for transaction #485
+Thread 1: Writing data[5] = 8 for transaction #485
+Thread 1: Committed transaction #485 successfully
+Thread 1 beginning transaction 489
+Thread 0: Reading data[9] = 5 for transaction #496
+Thread 0: Reading data[2] = 10 for transaction #496
+Thread 0: Reading data[9] = 5 for transaction #496
+Thread 0: Reading data[8] = 9 for transaction #496
+Thread 0: Writing data[6] = 7 for transaction #496
+Thread 0: Committed transaction #496 successfully
+Thread 1: Reading data[2] = 10 for transaction #489
+Thread 1: Reading data[3] = 1 for transaction #489
+Thread 1: Reading data[1] = 6 for transaction #489
+Thread 1: Reading data[9] = 5 for transaction #489
+Thread 1: Writing data[4] = 9 for transaction #489
+Thread 1: Committed transaction #489 successfully
+Thread 1 beginning transaction 493
+Thread 1: Reading data[6] = 7 for transaction #493
+Thread 1: Reading data[8] = 9 for transaction #493
+Thread 1: Reading data[7] = 1 for transaction #493
+Thread 1: Writing data[1] = 9 for transaction #493
+Thread 1: Committed transaction #493 successfully
+Thread 1 beginning transaction 497
+Thread 1: Reading data[1] = 9 for transaction #497
+Thread 1: Reading data[3] = 1 for transaction #497
+Thread 1: Reading data[8] = 9 for transaction #497
+Thread 1: Writing data[2] = 4 for transaction #497
+Thread 1: Committed transaction #497 successfully
+Total time taken to commit 240 transactions is 3091 milliseconds
+Average time for a transaction to commit is 12.879167 milliseconds
